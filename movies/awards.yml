@@ -1,0 +1,164 @@
+# Prefixes for Movie Collections:
+#   +01_ = Charts
+#   +02_ = Holidays
+#   +03_ = Studios or Network
+#   +04_ = Collection
+#   +05_ = Countries
+#   +06_ = Genres
+#   +07_ = Awards
+#   +08_ = Decades
+#   +09_ = People
+#   +10_ = Movies
+# https://github.com/meisnate12/Plex-Meta-Manager                                      
+######################################################
+#                Movie Collections                   #
+######################################################
+#                Templates                           #
+# Refered from un-luncky on PMM Discord              #
+######################################################
+templates:
+  Award:
+    url_poster: <<poster>>
+    sort_title: ++07_<<num>>_<<collection_name>>
+    collection_order: release.desc
+    sync_mode: sync
+collections:
+###########################
+#     Award Winners       #
+########################### 
+  Golden Globe Winners:
+    template:
+      name: Award
+      num: 5
+      poster: https://www.goldenglobes.com/sites/default/files/articles/cover_images/new_golden_globe_trophy.jpg
+    summary: Golden Globe winning movies sorted by most recent release.
+    imdb_list: 
+      url: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=golden_globe_winner
+  Oscar Winners:
+    template:
+      name: Award
+      num: 5
+      poster: 'https://theposterdb.com/api/assets/98024'
+    imdb_list: 
+      url: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
+      limit: 200
+    summary: Oscar Winning Movies sorted by most recent release.
+  Oscar - Best Picture:
+    template:
+      name: Award
+      num: 5
+      poster: 'https://theposterdb.com/api/assets/98024'
+    summary: Best Picture Oscar winning movies.
+    imdb_list: 
+      url: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=best_picture_winner
+      limit: 200
+  Oscar - Best Director:
+    template:
+      name: Award
+      num: 5
+      poster: 'https://theposterdb.com/api/assets/98024'
+    summary: Best Picture Oscar winning movies.
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie&groups=best_director_winner&sort=release_date,desc
+      limit: 200
+  Oscar Nominees:
+    template:
+      name: Award
+      num: 5
+      poster: 'https://theposterdb.com/api/assets/98024'
+    imdb_list:
+      url:  https://www.imdb.com/search/title/?title_type=feature,tv_movie&groups=oscar_nominee&sort=release_date,desc
+      limit: 200
+    summary: Oscar Winning Movies sorted by most recent release.
+  Razzie Winners:
+    template:
+      name: Award
+      num: 5
+      poster: https://upload.wikimedia.org/wikipedia/en/3/35/Golden_Raspberry_Award.jpg
+    summary: The Golden Raspberry Awards (also known as the Razzies and Razzie Awards) is a parody award show honoring the worst of cinematic under-achievements. Co-founded by UCLA film graduates and film industry veterans John J. B. Wilson and Mo Murphy, the Razzie Awards' satirical annual ceremony has preceded its opposite, the Academy Awards, for four decades.
+    imdb_list: 
+      url: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=razzie_winner
+###############################################
+# Refered from un-luncky on PMM Discord       #
+###############################################
+  BAFTA Winners:
+    template:
+      name: Award
+      num: 5
+      poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Awards/BAFTA.png
+    letterboxd_list: https://letterboxd.com/rantonucci/list/baftas-best-film-outstanding-british-film/
+    
+  Berlinale Winners:
+    template:
+      name: Award
+      num: 5
+      poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Awards/Berlinale.png
+    letterboxd_list: https://letterboxd.com/hassan1/list/berlinale/
+    
+  Cannes Film Festival Winners:
+    template:
+      name: Award
+      num: 5
+      poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Awards/Cannes.png
+    letterboxd_list: 
+    - https://letterboxd.com/moviewithus/list/cannes-winners/
+    - https://letterboxd.com/deepbluefunk/list/short-film-winners-cannes/
+    
+  Emmy Movie Winners:
+    template:
+      name: Award
+      num: 5
+      poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Awards/Emmy.png
+    imdb_list: 
+      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short&groups=emmy_winner&sort=alpha,asc
+      
+  European Film Award Winners:
+    template:
+      name: Award
+      num: 5
+      poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Awards/European%20Film%20Awards.png
+    letterboxd_list: 
+    - https://letterboxd.com/ra_pha/list/european-film-awards/
+    - https://letterboxd.com/moviedoc/list/european-film-award-best-documentary-winners/
+    - https://letterboxd.com/moviedoc/list/european-film-award-best-animated-feature/
+    - https://letterboxd.com/moviedoc/list/european-film-award-best-comedy-winners-2013/
+    - https://letterboxd.com/moviedoc/list/european-film-awards-best-film-winners-1988/
+    trakt_list: https://trakt.tv/users/maxwelldeux/lists/european-film-award-best-film
+    
+  Filmfare Winners:
+    template:
+      name: Award
+      num: 5
+      poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Awards/Filmfare.png
+    letterboxd_list: 
+    - https://letterboxd.com/moviejohn/list/filmfare-awards-hindi-every-film-ever-to/
+    - https://letterboxd.com/rukhaiyaaramrit/list/filmfare-critics-award-for-best-film/
+    
+  Locarno Film Festival Winners:
+    template:
+      name: Award
+      num: 5
+      poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Awards/Locarno%20Film%20Festival.png
+    letterboxd_list: 
+    - https://letterboxd.com/drwade42/list/golden-leopard-winners-ranked/
+    - https://letterboxd.com/drwade42/list/locarno-special-jury-prize-winners-ranked/
+    - https://letterboxd.com/drwade42/list/locarno-best-director-winners-ranked/
+    - https://letterboxd.com/drwade42/list/locarno-best-actor-winners-ranked/
+    - https://letterboxd.com/drwade42/list/locarno-best-actress-winners-ranked/
+         
+  Sundance Winners:
+    template:
+      name: Award
+      num: 5
+      poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Awards/Sundance.png
+    letterboxd_list: 
+    - https://letterboxd.com/neperfectionist/list/sundance-film-festival-winners-us-dramatic/
+    - https://letterboxd.com/deepbluefunk/list/sundance-short-film-winners/
+    - https://letterboxd.com/glicose/list/winners-of-sundance/
+    
+  Venice Film Festival Winners:
+    template:
+      name: Award
+      num: 5
+      poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Awards/Venice%20Film%20Festival.png
+    letterboxd_list: https://letterboxd.com/moviewithus/list/venice-winners/

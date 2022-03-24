@@ -1,0 +1,86 @@
+# Prefixes for Movie Collections:
+#   +01_ = Charts
+#   +02_ = Holidays
+#   +03_ = Studios or Network
+#   +04_ = Collection
+#   +05_ = Countries
+#   +06_ = Genres
+#   +07_ = Awards
+#   +08_ = Decades
+#   +09_ = People
+#   alpha = Movies/tv/anime/etc.
+# PMM: https://github.com/meisnate12/Plex-Meta-Manager
+# PMM Wiki: https://github.com/meisnate12/Plex-Meta-Manager/wiki/
+# PMM Configs: https://github.com/meisnate12/Plex-Meta-Manager-Configs 
+# The Poster DB: https://theposterdb.com (https://theposterdb.com/api/assets/xxxxxx)
+# YAML Validator: http://www.yamllint.com/
+######################################################
+#                Movie Collections                   #
+######################################################
+#                Templates                           #
+######################################################
+templates:
+  Collection:
+    sort_title: ++04_<<collection_name>>
+collections:
+###########################
+#   Special Collections   #
+###########################
+#  Collectionless:
+#    plex_collectionless:
+#      exclude_prefix:
+#        - +
+#        - ~
+#      exclude: Marvel Cinematic Universe
+#    sort_title: 末_Collectionless
+#    collection_order: alpha
+#    sync_mode: append
+# Other Collections
+  Tarantino Collection:
+    template:
+      name: Collection
+    tmdb_director: 138
+    url_poster: https://theposterdb.com/api/assets/49975
+    collection_order: release.desc
+    summary: Movies directed by Quentin Tarantino
+  Manly Men Movies:
+    template:
+      name: Collection
+    tmdb_actor: 62, 976, 16483, 16644, 1336, 3, 1100, 10814, 51576, 15111, 57207, 12835, 23880
+    smart_label: title.asc
+    url_poster: http://kayhos.hoard.ca/poster_not_found.png
+  Legos:
+    template:
+      name: Collection
+    smart_filter:
+      any:
+        title: Lego
+      sort_by: title.asc
+    url_poster: http://kayhos.hoard.ca/poster_not_found.png
+  Quick Fixes:
+    template:
+      name: Collection
+    sort_title: '+04_Good Films, 90 minutes or Less'
+    summary: Films with a duration of 90 minutes or less with Critics rating of 50%+ and Audience rating of 70%+
+    url_poster: http://kayhos.hoard.ca/poster_not_found.png
+    plex_search:
+      all:
+        duration.lte: 90
+        critic_rating.gte: 5
+        audience_rating.gte: 7
+      limit: 100
+      sort_by: title.asc
+###########################
+#   French available      #
+###########################
+    "Films en français":
+        sort_title: +04_999_Films en francais
+        plex_search:
+            any:
+                label: 
+                    - Audio_fr
+                audio_language: 
+                    - fr
+        collection_order: title.desc
+        url_poster: http://kayhos.hoard.ca/poster_not_found.png
+        

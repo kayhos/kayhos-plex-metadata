@@ -1,0 +1,918 @@
+######################################################
+#                  TV    Metadata                    #
+######################################################
+metadata:
+    "Marvel's Agent Carter":
+        alt_title: Agent Carter
+        url_poster: https://theposterdb.com/api/assets/199104
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/199105
+            2:
+                url_poster: https://theposterdb.com/api/assets/199106
+    "Marvel's Agents of S.H.I.E.L.D.":
+        alt_title: Agents of S.H.I.E.L.D.
+        url_poster: https://theposterdb.com/api/assets/200247
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/200248
+            2:
+                url_poster: https://theposterdb.com/api/assets/200249
+            3:
+                url_poster: https://theposterdb.com/api/assets/200250
+            4:
+                url_poster: https://theposterdb.com/api/assets/200251
+            5:
+                url_poster: https://theposterdb.com/api/assets/200252
+            6:
+                url_poster: https://theposterdb.com/api/assets/200253
+            7:
+                url_poster: https://theposterdb.com/api/assets/200254
+    "Marvel's Agents of S.H.I.E.L.D.: Slingshot":
+        url_poster: https://theposterdb.com/api/assets/201996
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/201997
+    American Horrow Story:
+        alt_title: AHS
+        url_poster: https://theposterdb.com/api/assets/7881/download?performed_by=kayhos
+        seasons:
+            1:
+                title: Murder House
+                url_poster: https://theposterdb.com/api/assets/7882/download?performed_by=kayhos
+            2:
+                title: Asylum
+                url_poster: https://theposterdb.com/api/assets/7883/download?performed_by=kayhos
+            3:
+                title: Coven
+                url_poster: https://theposterdb.com/api/assets/7884/download?performed_by=kayhos
+            4:
+                title: Freak Show
+                url_poster: https://theposterdb.com/api/assets/7885/download?performed_by=kayhos
+            5:
+                title: Hotel
+                url_poster: https://theposterdb.com/api/assets/7886/download?performed_by=kayhos
+            6:
+                title: Roanoke
+                url_poster: https://theposterdb.com/api/assets/7887/download?performed_by=kayhos
+            7:
+                title: Cult
+                url_poster: https://theposterdb.com/api/assets/7888/download?performed_by=kayhos
+            8:
+                title: Apocalypse
+                url_poster: https://theposterdb.com/api/assets/7889/download?performed_by=kayhos
+    American Horror Stories:
+        url_poster: https://theposterdb.com/api/assets/182029/download?performed_by=kayhos
+        background: https://image.tmdb.org/t/p/original/9DWaEelUxiNLSyMguX9feklNWyH.jpg
+        
+  # Arrowverse (https://theposterdb.com/set/25671)
+    Arrow:
+        url_poster: https://theposterdb.com/api/assets/31990/download?performed_by=kayhos
+        seasons:
+            0:
+                url_poster: https://theposterdb.com/api/assets/31991/download?performed_by=kayhos
+            1:
+                url_poster: https://theposterdb.com/api/assets/31992/download?performed_by=kayhos
+            2:
+                url_poster: https://theposterdb.com/api/assets/31993/download?performed_by=kayhos
+            3:
+                url_poster: https://theposterdb.com/api/assets/31994/download?performed_by=kayhos
+            4:
+                url_poster: https://theposterdb.com/api/assets/31995/download?performed_by=kayhos
+            5:
+                url_poster: https://theposterdb.com/api/assets/31996/download?performed_by=kayhos
+            6:
+                url_poster: https://theposterdb.com/api/assets/31997/download?performed_by=kayhos
+            7:
+                url_poster: https://theposterdb.com/api/assets/31998/download?performed_by=kayhos
+            8:
+                url_poster: https://theposterdb.com/api/assets/31999/download?performed_by=kayhos
+
+    "The Bad Batch":
+        url_poster: https://theposterdb.com/api/assets/150117
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/169460
+    Batman:
+        alt_title: Batman The Series
+        url_poster: https://theposterdb.com/api/assets/177511/download?performed_by=kayhos
+        seasons:
+            0:
+                url_poster: https://theposterdb.com/api/assets/177512/download?performed_by=kayhos
+            1: 
+                url_poster: https://theposterdb.com/api/assets/177513/download?performed_by=kayhos
+            2: 
+                url_poster: https://theposterdb.com/api/assets/177514/download?performed_by=kayhos
+            3: 
+                url_poster: https://theposterdb.com/api/assets/177515/download?performed_by=kayhos
+    Batwoman:
+        url_poster: https://theposterdb.com/api/assets/32016
+        seasons:
+            1: 
+                url_poster: https://theposterdb.com/api/assets/32017/download?performed_by=kayhos
+            2: 
+                url_poster: https://theposterdb.com/api/assets/123732/download?performed_by=kayhos
+            3: 
+                url_poster: https://theposterdb.com/api/assets/183880/download?performed_by=kayhos
+
+    The Big Bang Theory:
+        url_poster: https://theposterdb.com/api/assets/36303
+        seasons:
+            1: 
+                url_poster: https://theposterdb.com/api/assets/36305
+            2: 
+                url_poster: https://theposterdb.com/api/assets/36306
+            3: 
+                url_poster: https://theposterdb.com/api/assets/36307
+            4: 
+                url_poster: https://theposterdb.com/api/assets/36308
+            5: 
+                url_poster: https://theposterdb.com/api/assets/36309
+            6: 
+                url_poster: https://theposterdb.com/api/assets/36310
+            7: 
+                url_poster: https://theposterdb.com/api/assets/36311
+            8: 
+                url_poster: https://theposterdb.com/api/assets/36312
+            9: 
+                url_poster: https://theposterdb.com/api/assets/36313
+            10:  
+                url_poster: https://theposterdb.com/api/assets/36314
+            11:  
+                url_poster: https://theposterdb.com/api/assets/36315
+            12:  
+                url_poster: https://theposterdb.com/api/assets/36316
+    Billions:  # https://theposterdb.com/set/105818
+        url_poster: https://theposterdb.com/api/assets/173624/download?performed_by=kayhos
+    Birds of Prey:
+        url_poster: https://theposterdb.com/api/assets/33178
+        seasons:
+            0:
+                url_poster: https://theposterdb.com/api/assets/33179/download?performed_by=kayhos
+            1:
+                url_poster: https://theposterdb.com/api/assets/33180/download?performed_by=kayhos
+    "Black Lightning":
+        url_poster: https://theposterdb.com/api/assets/32024
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/32025/download?performed_by=kayhos
+            2:
+                url_poster: https://theposterdb.com/api/assets/32026/download?performed_by=kayhos
+            3: 
+                url_poster: https://theposterdb.com/api/assets/32027/download?performed_by=kayhos
+            4:
+                url_poster: https://theposterdb.com/api/assets/131467/download?performed_by=kayhos
+    Breaking Bad:
+        url_poster: https://theposterdb.com/api/assets/66405/download?performed_by=kayhos
+        seasons:
+            0:
+                url_poster: https://theposterdb.com/api/assets/66406/download?performed_by=kayhos
+            1: 
+                url_poster: https://theposterdb.com/api/assets/66407/download?performed_by=kayhos
+            2: 
+                url_poster: https://theposterdb.com/api/assets/66408/download?performed_by=kayhos
+            3: 
+                url_poster: https://theposterdb.com/api/assets/66409/download?performed_by=kayhos
+            4: 
+                url_poster: https://theposterdb.com/api/assets/66410/download?performed_by=kayhos
+            5: 
+                url_poster: https://theposterdb.com/api/assets/66411/download?performed_by=kayhos
+
+    "Marvel's Cloak & Dagger":
+        url_poster: https://theposterdb.com/api/assets/201098
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/201099
+            2:
+                url_poster: https://theposterdb.com/api/assets/201100
+    Constantine:
+        url_poster: https://theposterdb.com/api/assets/32014/download?performed_by=kayhos
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/32015/download?performed_by=kayhos
+    Daredevil:
+        url_poster: https://theposterdb.com/api/assets/199107
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/199108
+            2:
+                url_poster: https://theposterdb.com/api/assets/199109
+            3:
+                url_poster: https://theposterdb.com/api/assets/199110
+                
+    Marvel's The Defenders:
+        alt_title: Defenders
+        url_poster: https://theposterdb.com/api/assets/201103
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/201104
+    Doctor Who:
+        url_poster: https://theposterdb.com/api/assets/8135/download?performed_by=kayhos
+        seasons:
+            0:
+                url_poster: https://theposterdb.com/api/assets/8157/download?performed_by=kayhos
+            1:
+                url_poster: https://theposterdb.com/api/assets/8124/download?performed_by=kayhos
+            2:
+                url_poster: https://theposterdb.com/api/assets/8125/download?performed_by=kayhos
+            3:
+                url_poster: https://theposterdb.com/api/assets/8126/download?performed_by=kayhos
+            4:
+                url_poster: https://theposterdb.com/api/assets/8127/download?performed_by=kayhos
+            5:
+                url_poster: https://theposterdb.com/api/assets/8128/download?performed_by=kayhos
+            6:
+                url_poster: https://theposterdb.com/api/assets/8129/download?performed_by=kayhos
+            7:
+                url_poster: https://theposterdb.com/api/assets/8130/download?performed_by=kayhos
+            8:
+                url_poster: https://theposterdb.com/api/assets/8131/download?performed_by=kayhos
+            9:
+                url_poster: https://theposterdb.com/api/assets/8132/download?performed_by=kayhos
+            10:
+                url_poster: https://theposterdb.com/api/assets/8133/download?performed_by=kayhos
+            11:
+                url_poster: https://theposterdb.com/api/assets/8137/download?performed_by=kayhos
+    Doom Patrol:
+        alt_title: "DC's Doom Patrol"
+        url_poster: https://theposterdb.com/api/assets/36138/download?performed_by=kayhos
+            seasons:
+                1:
+                    url_poster: https://theposterdb.com/api/assets/36139/download?performed_by=kayhos
+                2:
+                    url_poster: https://theposterdb.com/api/assets/84664/download?performed_by=kayhos
+                3:
+                    url_poster: https://theposterdb.com/api/assets/176773/download?performed_by=kayhos
+    "Eureka":
+        url_poster: https://theposterdb.com/api/assets/90691
+
+    The Falcon and the Winter Soldier:
+        url_poster: https://theposterdb.com/api/assets/199096
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/199097
+    Fear the Walking Dead:
+        url_poster: https://theposterdb.com/api/assets/17491/download?performed_by=kayhos
+            seasons:
+                0:
+                    url_poster: https://theposterdb.com/api/assets/120928/download?performed_by=kayhos
+                1:
+                    url_poster: https://theposterdb.com/api/assets/120929/download?performed_by=kayhos
+                2:
+                    url_poster: https://theposterdb.com/api/assets/120930/download?performed_by=kayhos
+                3:
+                    url_poster: https://theposterdb.com/api/assets/120931/download?performed_by=kayhos
+                4:
+                    url_poster: https://theposterdb.com/api/assets/120932/download?performed_by=kayhos
+                5:
+                    url_poster: https://theposterdb.com/api/assets/120933/download?performed_by=kayhos
+                6:
+                    url_poster: https://theposterdb.com/api/assets/120934/download?performed_by=kayhos
+                7:
+                    url_poster: https://theposterdb.com/api/assets/181666/download?performed_by=kayhos
+    The Flash:
+        alt_title: The Flash (2014)
+        year: 2014
+        url_poster: https://theposterdb.com/api/assets/32000/download?performed_by=kayhos
+        seasons:
+            0:
+                url_poster: https://theposterdb.com/api/assets/32001/download?performed_by=kayhos
+            1:
+                url_poster: https://theposterdb.com/api/assets/32002/download?performed_by=kayhos
+            2:
+                url_poster: https://theposterdb.com/api/assets/32003/download?performed_by=kayhos
+            3:
+                url_poster: https://theposterdb.com/api/assets/32004/download?performed_by=kayhos
+            4:
+                url_poster: https://theposterdb.com/api/assets/32005/download?performed_by=kayhos
+            5:
+                url_poster: https://theposterdb.com/api/assets/32006/download?performed_by=kayhos
+            6:
+                url_poster: https://theposterdb.com/api/assets/32007/download?performed_by=kayhos
+            7:
+                url_poster: https://theposterdb.com/api/assets/134187/download?performed_by=kayhos
+            8:
+                url_poster: https://theposterdb.com/api/assets/190479/download?performed_by=kayhos
+
+    "Frank Herbert's Dune":
+        alt_title: Dune
+        url_poster: https://theposterdb.com/api/assets/119049
+        seasons:
+            0:
+                url_poster: https://theposterdb.com/api/assets/119050
+            1:
+                url_poster: https://theposterdb.com/api/assets/119051
+    "Frank Herbert's Children of Dune":
+        alt_title: Children of Dune
+        url_poster: https://theposterdb.com/api/assets/119052
+        seasons:
+            0:
+                url_poster: https://theposterdb.com/api/assets/119053
+            1:
+                url_poster: https://theposterdb.com/api/assets/119054
+    "Freedom Fighters: The Ray":
+        url_poster: https://theposterdb.com/api/assets/34635/download?performed_by=kayhos
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/34636/download?performed_by=kayhos
+            2:
+                url_poster: https://theposterdb.com/api/assets/34637/download?performed_by=kayhos
+    "The Gifted":
+        url_poster: https://theposterdb.com/api/assets/201985
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/201986
+            2:
+                url_poster: https://theposterdb.com/api/assets/201987
+    Game of Thrones:
+        url_poster: https://theposterdb.com/api/assets/8196/download?performed_by=kayhos
+        seasons:
+            0:
+                url_poster: https://theposterdb.com/api/assets/8186/download?performed_by=kayhos
+            1:
+                url_poster: https://theposterdb.com/api/assets/8187/download?performed_by=kayhos
+            2:
+                url_poster: https://theposterdb.com/api/assets/8188/download?performed_by=kayhos
+            3:
+                url_poster: https://theposterdb.com/api/assets/8189/download?performed_by=kayhos
+            4:
+                url_poster: https://theposterdb.com/api/assets/8190/download?performed_by=kayhos
+            5:
+                url_poster: https://theposterdb.com/api/assets/8191/download?performed_by=kayhos
+            6:
+                url_poster: https://theposterdb.com/api/assets/8192/download?performed_by=kayhos
+            7:
+                url_poster: https://theposterdb.com/api/assets/8193/download?performed_by=kayhos
+            8:
+                url_poster: https://theposterdb.com/api/assets/8194/download?performed_by=kayhos
+    "The Handmaid's Tale":
+      url_poster: https://theposterdb.com/api/assets/121802/download?performed_by=kayhos
+      seasons:
+        1:
+          url_poster: https://theposterdb.com/api/assets/121803/download?performed_by=kayhos
+        2: 
+          url_poster: https://theposterdb.com/api/assets/121804/download?performed_by=kayhos
+        3:
+          url_poster: https://theposterdb.com/api/assets/121805/download?performed_by=kayhos
+        4:
+          url_poster: https://theposterdb.com/api/assets/151735/download?performed_by=kayhos
+    Hannibal:
+        url_poster: https://theposterdb.com/api/assets/8225/download?performed_by=kayhos
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/8226/download?performed_by=kayhos
+            2:
+                url_poster: https://theposterdb.com/api/assets/8227/download?performed_by=kayhos
+            3:
+                url_poster: https://theposterdb.com/api/assets/8228/download?performed_by=kayhos
+    Hawkeye:
+        url_poster: https://theposterdb.com/api/assets/199092
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/199093
+    Helstrom:
+        url_poster: https://theposterdb.com/api/assets/201682
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/201683                
+    "Marvel's Hit Monkey":
+        url_poster: https://theposterdb.com/api/assets/201679
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/201680  
+    "Hogwarts Tournament of Houses":
+        alt_title: "Harry Potter: Hogwarts Tournament of Houses"
+        url_poster: https://theposterdb.com/api/assets/201229/download?performed_by=kayhos
+    Inhumans:
+        url_poster: https://theposterdb.com/api/assets/201679
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/201680
+    "Marvel's Iron Fist":
+        alt_title: Iron Fist
+        url_poster: https://theposterdb.com/api/assets/200648
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/200649
+            2:
+                url_poster: https://theposterdb.com/api/assets/200650
+    "Marvel's Jessica Jones":
+        alt_title: Jessica Jones
+        url_poster: https://theposterdb.com/api/assets/199111
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/199112
+            2:
+                url_poster: https://theposterdb.com/api/assets/199113
+            3:
+                url_poster: https://theposterdb.com/api/assets/199114
+    Killing Eve:
+        url_poster: https://theposterdb.com/api/assets/150849/download?performed_by=kayhos
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/150850/download?performed_by=kayhos
+            2:
+                url_poster: https://theposterdb.com/api/assets/150851/download?performed_by=kayhos
+            3:
+                url_poster: https://theposterdb.com/api/assets/150852/download?performed_by=kayhos
+    The Last Kingdom:
+        url_poster: https://theposterdb.com/api/assets/139503/download?performed_by=kayhos
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/139504/download?performed_by=kayhos
+            2:
+                url_poster: https://theposterdb.com/api/assets/139505/download?performed_by=kayhos
+            3:
+                url_poster: https://theposterdb.com/api/assets/139506/download?performed_by=kayhos
+            4:
+                url_poster: https://theposterdb.com/api/assets/139507/download?performed_by=kayhos
+            5:
+                url_poster: https://theposterdb.com/api/assets/216431/download?performed_by=kayhos
+    "DC's Legends of Tomorrow":
+        alt_title: Legends of Tomorrow
+        url_poster: https://theposterdb.com/api/assets/32018
+        seasons:
+            0:
+                url_poster: https://theposterdb.com/api/assets/32019/download?performed_by=kayhos
+            1:
+                url_poster: https://theposterdb.com/api/assets/32020/download?performed_by=kayhos
+            2:
+                url_poster: https://theposterdb.com/api/assets/32021/download?performed_by=kayhos
+            3:
+                url_poster: https://theposterdb.com/api/assets/32022/download?performed_by=kayhos
+            4:
+                url_poster: https://theposterdb.com/api/assets/32023/download?performed_by=kayhos
+            5:
+                url_poster: https://theposterdb.com/api/assets/49573/download?performed_by=kayhos
+            6:
+                url_poster: https://theposterdb.com/api/assets/149783/download?performed_by=kayhos
+            7:
+                url_poster: https://theposterdb.com/api/assets/183879/download?performed_by=kayhos
+    Legion:
+        url_poster: https://theposterdb.com/api/assets/200576
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/200577
+            2:
+                url_poster: https://theposterdb.com/api/assets/200578
+            3:
+                url_poster: https://theposterdb.com/api/assets/200579
+    Loki:
+        url_poster: https://theposterdb.com/api/assets/199095
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/199094
+    Lost Girl:
+        url_poster: https://theposterdb.com/api/assets/124274/download?performed_by=kayhos
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/124276/download?performed_by=kayhos
+            2:
+                url_poster: https://theposterdb.com/api/assets/124277/download?performed_by=kayhos
+            3:
+                url_poster: https://theposterdb.com/api/assets/124278/download?performed_by=kayhos
+            4:
+                url_poster: https://theposterdb.com/api/assets/124279/download?performed_by=kayhos
+            5:
+                url_poster: https://theposterdb.com/api/assets/124280/download?performed_by=kayhos
+    Lucifer:
+        url_poster: https://theposterdb.com/api/assets/96747/download?performed_by=kayhos
+        seasons:
+            0:
+                url_poster: https://theposterdb.com/api/assets/96748/download?performed_by=kayhos
+            1:
+                url_poster: https://theposterdb.com/api/assets/96749/download?performed_by=kayhos
+            2:
+                url_poster: https://theposterdb.com/api/assets/96750/download?performed_by=kayhos
+            3:
+                url_poster: https://theposterdb.com/api/assets/96751/download?performed_by=kayhos
+            4:
+                url_poster: https://theposterdb.com/api/assets/96752/download?performed_by=kayhos
+            5:
+                url_poster: https://theposterdb.com/api/assets/96753/download?performed_by=kayhos
+            6:
+                url_poster: https://theposterdb.com/api/assets/175806/download?performed_by=kayhos
+    "Marvel's Luke Cage":
+        alt_title: Luke Cage
+        url_poster: https://theposterdb.com/api/assets/200652
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/200653
+            2:
+                url_poster: https://theposterdb.com/api/assets/200654
+
+    # Star Wars (https://theposterdb.com/set/15879)
+    "The Mandalorian":
+        url_poster: https://theposterdb.com/api/assets/150110
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/169380
+            2:
+                url_poster: https://theposterdb.com/api/assets/169381               
+
+    "Marvel's Moon Knight":
+        alt_title: Moon Knight
+        url_poster: https://theposterdb.com/api/assets/218738/download?performed_by=kayhos
+        seasons:
+            0:
+                url_poster: https://theposterdb.com/api/assets/218740/download?performed_by=kayhos
+            1:
+                url_poster: https://theposterdb.com/api/assets/218739/download?performed_by=kayhos
+
+    Murderville:
+        url_poster: https://theposterdb.com/api/assets/210450/download?performed_by=kayhos
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/210451/download?performed_by=kayhos
+    Naomi:
+        url_poster: https://theposterdb.com/api/assets/204281/download?performed_by=kayhos
+        seasons:
+            1: https://theposterdb.com/api/assets/204282/download?performed_by=kayhos
+    Our Flag means Death:
+        url_poster: https://theposterdb.com/api/assets/214908/download?performed_by=kayhos
+        seasons:
+            1:
+                url_poster: 
+    Narcos:
+        url_poster: https://theposterdb.com/api/assets/44816/download?performed_by=kayhos
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/44817/download?performed_by=kayhos
+            2:
+                url_poster: https://theposterdb.com/api/assets/44818/download?performed_by=kayhos
+            3:
+                url_poster: https://theposterdb.com/api/assets/44819/download?performed_by=kayhos
+    "Narcos: Mexico":
+        url_poster: https://theposterdb.com/api/assets/200355/download?performed_by=kayhos
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/200356/download?performed_by=kayhos
+            2:
+                url_poster: https://theposterdb.com/api/assets/200357/download?performed_by=kayhos
+            3:
+                url_poster: https://theposterdb.com/api/assets/200358/download?performed_by=kayhos
+    Our Flag means Death:
+        url_poster: https://theposterdb.com/api/assets/214908/download?performed_by=kayhos
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/214909/download?performed_by=kayhos
+
+    Ozark:
+        url_poster: https://theposterdb.com/api/assets/162138/download?performed_by=kayhos
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/162139/download?performed_by=kayhos
+            2:
+                url_poster: https://theposterdb.com/api/assets/162140/download?performed_by=kayhos
+            3:
+                url_poster: https://theposterdb.com/api/assets/162141/download?performed_by=kayhos
+            4:
+                url_poster: https://theposterdb.com/api/assets/206539/download?performed_by=kayhos
+
+    Peacemaker:
+        url_poster: https://theposterdb.com/api/assets/204283/download?performed_by=kayhos
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/204284/download?performed_by=kayhos
+ 
+    "Marvel's The Punisher":
+        alt_title: The Punisher
+        url_poster: https://theposterdb.com/api/assets/199115
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/199116
+            2:
+                url_poster: https://theposterdb.com/api/assets/199117
+    "Marvel's Runaways":
+        url_poster: https://theposterdb.com/api/assets/200679
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/200681
+            2:
+                url_poster: https://theposterdb.com/api/assets/200681
+            3:
+                url_poster: https://theposterdb.com/api/assets/200682
+    
+    Raised by Wolves:
+        url_poster: https://theposterdb.com/api/assets/205633/download?performed_by=kayhos
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/205634/download?performed_by=kayhos
+            2: 
+                url_poster: https://theposterdb.com/api/assets/205635/download?performed_by=kayhos
+    
+    "Smallville":
+        url_poster: https://theposterdb.com/api/assets/32413
+    South Park: # TFBone set https://theposterdb.com/set/21978
+      url_poster: https://theposterdb.com/api/assets/36001/download?performed_by=kayhos
+      seasons:
+        0:
+          url_poster: https://theposterdb.com/api/assets/36002/download?performed_by=kayhos
+        1:
+          url_poster: https://theposterdb.com/api/assets/36003/download?performed_by=kayhos
+        2:
+          url_poster: https://theposterdb.com/api/assets/36004/download?performed_by=kayhos
+        3:
+          url_poster: https://theposterdb.com/api/assets/36005/download?performed_by=kayhos
+        4:
+          url_poster: https://theposterdb.com/api/assets/36006/download?performed_by=kayhos
+        5:
+          url_poster: https://theposterdb.com/api/assets/36007/download?performed_by=kayhos
+        6:
+          url_poster: https://theposterdb.com/api/assets/36008/download?performed_by=kayhos
+        7:
+          url_poster: https://theposterdb.com/api/assets/36009/download?performed_by=kayhos
+        8:
+          url_poster: https://theposterdb.com/api/assets/36010/download?performed_by=kayhos
+        9:
+          url_poster: https://theposterdb.com/api/assets/36011/download?performed_by=kayhos
+        10:
+          url_poster: https://theposterdb.com/api/assets/36012/download?performed_by=kayhos
+        11:
+          url_poster: https://theposterdb.com/api/assets/36013/download?performed_by=kayhos
+        12:
+          url_poster: https://theposterdb.com/api/assets/36014/download?performed_by=kayhos
+        13:
+          url_poster: https://theposterdb.com/api/assets/36015/download?performed_by=kayhos
+        14:
+          url_poster: https://theposterdb.com/api/assets/36016/download?performed_by=kayhos
+        15:
+          url_poster: https://theposterdb.com/api/assets/36017/download?performed_by=kayhos
+        16:
+          url_poster: https://theposterdb.com/api/assets/36018/download?performed_by=kayhos
+        17:
+          url_poster: https://theposterdb.com/api/assets/36019/download?performed_by=kayhos
+        18:
+          url_poster: https://theposterdb.com/api/assets/36020/download?performed_by=kayhos
+        19:
+          url_poster: https://theposterdb.com/api/assets/36021/download?performed_by=kayhos
+        20:
+          url_poster: https://theposterdb.com/api/assets/36022/download?performed_by=kayhos
+        21:
+          url_poster: https://theposterdb.com/api/assets/36023/download?performed_by=kayhos
+        22:
+          url_poster: https://theposterdb.com/api/assets/36024/download?performed_by=kayhos
+        23:
+          url_poster: https://theposterdb.com/api/assets/36025/download?performed_by=kayhos
+        24:
+          url_poster: https://theposterdb.com/api/assets/105039/download?performed_by=kayhos
+        25:
+          url_poster: https://theposterdb.com/api/assets/209817/download?performed_by=kayhos
+    # Star Trek (https://theposterdb.com/set/119442)
+    "Star Trek":
+        url_poster: https://theposterdb.com/api/assets/198292
+    "Star Trek: Lower Decks":
+        url_poster: https://theposterdb.com/api/assets/198296
+    "Star Trek: Deep Space Nine":
+        url_poster: https://theposterdb.com/api/assets/198293
+    "Star Trek: Discovery":
+        url_poster: https://theposterdb.com/api/assets/198294
+    "Star Trek: Enterprise":
+        url_poster: https://theposterdb.com/api/assets/198295
+    "Star Trek: Picard":
+        url_poster: https://theposterdb.com/api/assets/198297
+    "Star Trek: Short Treks":
+        url_poster: https://theposterdb.com/api/assets/198298
+    "Star Trek: The Animated Series":
+        url_poster: https://theposterdb.com/api/assets/198299
+    "Star Trek: The Next Generation":
+        url_poster: https://theposterdb.com/api/assets/198300
+    "Star Trek: Voyager":
+        url_poster: https://theposterdb.com/api/assets/198301
+    "Star Trek: Prodigy":
+        url_poster: https://theposterdb.com/api/assets/199029
+    "GalaxyQuest":
+        url_poster: https://theposterdb.com/api/assets/207673
+    "The Orville":
+        url_poster: https://theposterdb.com/api/assets/207672
+
+    # Star Wars
+    "Star Wars The Clone Wars (2008)":
+        url_poster: https://theposterdb.com/api/assets/150120
+    "Star Wars The Clone Wars (2003)":
+        url_poster: https://theposterdb.com/api/assets/150139
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/169348
+            2:
+                url_poster: https://theposterdb.com/api/assets/169349
+    "Star Wars Resistance": 
+        url_poster: https://theposterdb.com/api/assets/150125 
+    "Star Wars Rebels":
+        url_poster: https://theposterdb.com/api/assets/150130 
+    "Star Wars Forces of Destiny":
+        url_poster: https://theposterdb.com/api/assets/150136 
+    "Star Wars Droids":
+        url_poster: https://theposterdb.com/api/assets/152220
+    "The Book of Boba Fett":
+        url_poster: https://theposterdb.com/api/assets/187143 
+    "Star Wars Visions":
+        url_poster: https://theposterdb.com/api/assets/177588 
+    "Star Wars Lego Terrifying Tales":
+        url_poster: https://theposterdb.com/api/assets/189029 
+    "Star Wars Galaxy of Adventures":
+        url_poster: https://theposterdb.com/api/assets/152329 
+    "Star Wars Lego Holiday Special":
+        url_poster: https://theposterdb.com/api/assets/150282 
+ 
+    # Stargate (https://theposterdb.com/set/89032)
+    "Stargate SG-1":
+        url_poster: https://theposterdb.com/api/assets/210314
+        seasons:
+            0:
+                url_poster: https://theposterdb.com/api/assets/211595
+            1:
+                url_poster: https://theposterdb.com/api/assets/211596
+            2:
+                url_poster: https://theposterdb.com/api/assets/211597
+            3:
+                url_poster: https://theposterdb.com/api/assets/211598
+            4:
+                url_poster: https://theposterdb.com/api/assets/211599
+            5:
+                url_poster: https://theposterdb.com/api/assets/211600
+            6:
+                url_poster: https://theposterdb.com/api/assets/211601
+            7:
+                url_poster: https://theposterdb.com/api/assets/211602
+            8:
+                url_poster: https://theposterdb.com/api/assets/211603
+            9:
+                url_poster: https://theposterdb.com/api/assets/211604
+            10:
+                url_poster: https://theposterdb.com/api/assets/211605
+    "Stargate Atlantis":
+        url_poster: https://theposterdb.com/api/assets/210312
+        seasons:
+            0:
+                url_poster: https://theposterdb.com/api/assets/211586
+            1:
+                url_poster: https://theposterdb.com/api/assets/211587
+            2:
+                url_poster: https://theposterdb.com/api/assets/211588
+            3:
+                url_poster: https://theposterdb.com/api/assets/211589
+            4:
+                url_poster: https://theposterdb.com/api/assets/211590
+            5:
+                url_poster: https://theposterdb.com/api/assets/211591
+    Stargate Infinity:
+        url_poster: https://theposterdb.com/api/assets/210418
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/211592
+    Stargate Universe:
+        alt_title: Stargate SGU
+        url_poster: https://theposterdb.com/api/assets/210315
+        seasons:
+            0:
+                url_poster: https://theposterdb.com/api/assets/211606
+            1:
+                url_poster: https://theposterdb.com/api/assets/211607
+            2:
+                url_poster: https://theposterdb.com/api/assets/211608
+    Stargate Origins:
+        url_poster: https://theposterdb.com/api/assets/210313
+        seasons:
+            0:
+                url_poster: https://theposterdb.com/api/assets/211593
+            1:
+                url_poster: https://theposterdb.com/api/assets/211594
+
+    Stargirl:
+        url_poster: https://theposterdb.com/api/assets/74964/download?performed_by=kayhos
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/74965/download?performed_by=kayhos
+            2:
+                url_poster: https://theposterdb.com/api/assets/168165/download?performed_by=kayhos
+    Supergirl:
+        url_poster: https://theposterdb.com/api/assets/32008/download?performed_by=kayhos
+        seasons:
+            0:
+                url_poster: https://theposterdb.com/api/assets/40433/download?performed_by=kayhos
+            1:
+                url_poster: https://theposterdb.com/api/assets/32009/download?performed_by=kayhos
+            2:
+                url_poster: https://theposterdb.com/api/assets/32010/download?performed_by=kayhos
+            3:
+                url_poster: https://theposterdb.com/api/assets/32011/download?performed_by=kayhos
+            4:
+                url_poster: https://theposterdb.com/api/assets/32012/download?performed_by=kayhos
+            5:
+                url_poster: https://theposterdb.com/api/assets/32013/download?performed_by=kayhos
+            6:
+                url_poster: https://theposterdb.com/api/assets/142894/download?performed_by=kayhos
+    "Superman & Lois":
+        url_poster: https://theposterdb.com/api/assets/133127
+        seasons:
+            0:
+                url_poster: https://theposterdb.com/api/assets/134572/download?performed_by=kayhos
+            1:
+                url_poster: https://theposterdb.com/api/assets/133128/download?performed_by=kayhos
+            2:
+                url_poster: https://theposterdb.com/api/assets/203375/download?performed_by=kayhos
+    Ted Lasso:
+        url_poster: https://theposterdb.com/api/assets/204796/download?performed_by=kayhos
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/204797/download?performed_by=kayhos
+            2:
+                url_poster: https://theposterdb.com/api/assets/204798/download?performed_by=kayhos
+    "Terminator: The Sarah Connor Chronicles":
+        url_poster: https://theposterdb.com/api/assets/215290/view?performed_by=kayhos
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/215291/download?performed_by=kayhos
+            2:
+                url_poster: https://theposterdb.com/api/assets/215292/download?performed_by=kayhos  
+    Titans:
+        url_poster: https://theposterdb.com/api/assets/36135/download?performed_by=kayhos
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/36136/download?performed_by=kayhos
+            2:
+                url_poster: https://theposterdb.com/api/assets/36137/download?performed_by=kayhos
+            3:
+                url_poster: https://theposterdb.com/api/assets/168834/download?performed_by=kayhos
+    True Blood:
+        url_poster: https://theposterdb.com/api/assets/89507/download?performed_by=kayhos
+        seasons:
+            0:
+                url_poster: https://theposterdb.com/api/assets/89508/download?performed_by=kayhos
+            1: 
+                url_poster: https://theposterdb.com/api/assets/89509/download?performed_by=kayhos
+            2: 
+                url_poster: https://theposterdb.com/api/assets/89510/download?performed_by=kayhos
+            3: 
+                url_poster: https://theposterdb.com/api/assets/89511/download?performed_by=kayhos
+            4: 
+                url_poster: https://theposterdb.com/api/assets/89512/download?performed_by=kayhos
+            5: 
+                url_poster: https://theposterdb.com/api/assets/89513/download?performed_by=kayhos
+            6: 
+                url_poster: https://theposterdb.com/api/assets/89514/download?performed_by=kayhos
+            7: 
+                url_poster: https://theposterdb.com/api/assets/89515/download?performed_by=kayhos
+    Vixen:
+        url_poster: https://theposterdb.com/api/assets/34628/download?performed_by=kayhos
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/34629/download?performed_by=kayhos
+            2:
+                url_poster: https://theposterdb.com/api/assets/34630/download?performed_by=kayhos
+
+    The Walking Dead:
+        url_poster: https://theposterdb.com/api/assets/70254
+        seasons:
+            0:
+                url_poster: https://theposterdb.com/api/assets/70255/download?performed_by=kayhos
+            1: 
+                url_poster: https://theposterdb.com/api/assets/70256
+            2: 
+                url_poster: https://theposterdb.com/api/assets/70257
+            3: 
+                url_poster: https://theposterdb.com/api/assets/70258
+            4: 
+                url_poster: https://theposterdb.com/api/assets/70259
+            5: 
+                url_poster: https://theposterdb.com/api/assets/70260
+            6: 
+                url_poster: https://theposterdb.com/api/assets/70261
+            7: 
+                url_poster: https://theposterdb.com/api/assets/70262
+            8: 
+                url_poster: https://theposterdb.com/api/assets/70263
+            9: 
+                url_poster: https://theposterdb.com/api/assets/70264
+            10:  
+                url_poster: https://theposterdb.com/api/assets/70265
+            11:
+                url_poster: https://theposterdb.com/api/assets/169590/download?performed_by=kayhos
+    The Walking Dead World Beyond:
+        url_poster: https://theposterdb.com/api/assets/120935/download?performed_by=kayhos
+        seasons:
+            1: 
+                url_poster: https://theposterdb.com/api/assets/120936/download?performed_by=kayhos
+            2: 
+                url_poster: https://theposterdb.com/api/assets/181667/download?performed_by=kayhos
+    WandaVision:
+        alt_title: Wandavision
+        url_poster: https://theposterdb.com/api/assets/199098
+        seasons:
+            1:
+                title: Miniseries
+                url_poster: https://theposterdb.com/api/assets/199099
+    "What If...?":
+        alt_title: What If?
+        url_poster: https://theposterdb.com/api/assets/199100
+        seasons:
+            1:
+                title: Miniseries
+                url_poster: https://theposterdb.com/api/assets/199101
+                
+    Watchmen:
+        url_poster: https://theposterdb.com/api/assets/196983
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/196984

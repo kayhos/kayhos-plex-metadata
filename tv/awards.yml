@@ -1,0 +1,58 @@
+# Prefixes for TV Collections:
+#   +01_ = Charts
+#   +02_ = Holidays
+#   +03_ = Studios or Network
+#   +04_ = Collection
+#   +05_ = Countries
+#   +06_ = Genres
+#   +07_ = Awards
+#   +08_ = Decades
+#   +09_ = People
+#   +10_ = TV
+# https://github.com/meisnate12/Plex-Meta-Manager  
+######################################################
+#                TV Collections                      #
+######################################################
+#                Templates                           #
+######################################################
+templates:
+  Award:
+    url_poster: <<poster>>
+    sort_title: +07_<<num>>_<<collection_name>>
+    collection_order: release.desc
+    sync_mode: sync
+    schedule: monthly(15)   # Doing only on the 15th of the month to reduce amount of processing
+collections:
+######################################
+#          AWARDS                    #
+######################################
+  Emmy Winners:
+    template:
+      name: Award
+      num: 5
+      poster: https://theposterdb.com/api/assets/214681
+    imdb_list: 
+      - https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&groups=emmy_winner
+    summary: Emmy Winning Shows
+  BAFTA Winners:
+    template:
+      name: Award
+      num: 5
+      poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Awards/BAFTA.png
+    imdb_list: https://www.imdb.com/list/ls538625886/?sort=alpha
+    
+  Critics Choice Award Winners:
+    template:
+      name: Award
+      num: 5
+      poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Awards/Critics%20Choice%20Awards.png
+    trakt_list: https://trakt.tv/users/fdamico/lists/critics-choice-series?sort=title,asc
+    imdb_list: https://www.imdb.com/list/ls538625146/?sort=alpha
+        
+  Golden Globe TV Shows:
+    template:
+      name: Award
+      num: 5
+      poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Awards/Golden%20Globe.png
+    imdb_list: 
+      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&groups=golden_globe_winner&sort=alpha,asc

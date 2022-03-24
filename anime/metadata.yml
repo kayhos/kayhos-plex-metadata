@@ -1,0 +1,11 @@
+
+######################################################
+#                Anime   Metadata                    #
+######################################################
+metadata:
+  # Star Trek (https://theposterdb.com/set/119442)
+  "Test":
+    url_poster: https://theposterdb.com/api/assets/198292
+    seasons:
+      1:
+        url_poster: https://theposterdb.com/api/assets/

@@ -1,0 +1,62 @@
+playlists:
+  Arrowverse Timeline:
+    libraries: Films, TV, Anime
+    sync_to_users: all
+    sync_mode: sync
+    trakt_list: https://trakt.tv/users/donxy/lists/arrowverse?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/75792
+    summary: This is the simplified list for easy viewing order for Arrowverse!
+  Alien v Predator Timeline:
+    libraries: Films, TV, Anime
+    sync_to_users: all
+    sync_mode: sync
+    letterboxd_list: https://letterboxd.com/mook/list/alien-predator-viewing-order/
+    url_poster: https://theposterdb.com/api/assets/50990/download?performed_by=kayhos
+  Harry Potter Timeline:
+    libraries: Films, TV, Anime
+    sync_to_users: all
+    sync_mode: sync
+    trakt_list: https://trakt.tv/users/goldveia/lists/harry-potter?sort=rank,asc  
+    url_poster: https://theposterdb.com/api/assets/5833/download?performed_by=kayhos
+  Marvel Cinematic Universe Timeline:
+    libraries: Films, TV, Anime
+    sync_to_users: all
+    sync_mode: sync
+    trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe?sort=rank,asc
+    summary: Marvel Cinematic Universe In Order of events.
+    url_poster: https://theposterdb.com/api/assets/6897
+  James Bond:
+    libraries: Films, TV, Anime
+    sync_to_users: all
+    sync_mode: sync
+    trakt_list: https://trakt.tv/users/any/lists/james-bond?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/4876/download?performed_by=kayhos
+  Stargate Timeline:
+    libraries: Films, TV, Anime
+    sync_to_users: all
+    sync_mode: sync
+    trakt_list: https://trakt.tv/users/wdvhucb/lists/stargate-universe?sort=rank,asc
+  Star Trek Timeline:
+    libraries: Films, TV, Anime
+    sync_to_users: all
+    sync_mode: sync
+    trakt_list: https://trakt.tv/users/dgw/lists/star-trek-canon?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/30112
+  Star Wars Canon Timeline:
+    libraries: Films, TV, Anime
+    sync_to_users: all
+    sync_mode: sync
+    trakt_list: https://trakt.tv/users/ruben_vw_/lists/star-wars-canon-timeline?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/437
+  Worlds of DC Timeline:
+    libraries: Films, TV, Anime
+    sync_to_users: all
+    sync_mode: sync
+    trakt_list: https://trakt.tv/users/tetharion/lists/worlds-of-dc?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/26760/download?performed_by=kayhos    
+  X-Men Timeline:
+    libraries: Films, TV, Anime
+    sync_to_users: all
+    sync_mode: sync
+    trakt_list: https://trakt.tv/users/donxy/lists/x-men-universe?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/97702/download?performed_by=kayhos

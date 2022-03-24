@@ -1,0 +1,146 @@
+# Prefixes for Anime Collections:
+#   +01_ = Charts
+#   +02_ = Holidays
+#   +03_ = Studios or Network
+#   +04_ = Collection
+#   +05_ = Countries
+#   +06_ = Genres/Themes
+#   +07_ = Awards
+#   +08_ = Decades
+#   +09_ = People
+#   +10_ = Anime
+# https://github.com/meisnate12/Plex-Meta-Manager  
+######################################################
+#                Anime Collections                   #
+######################################################
+#                Templates                           #
+######################################################
+templates:
+  Chart:
+    sort_title: +01_<<num>><<collection_name>>
+    sync_mode: sync
+  Collection:
+    optional:
+      - poster_id
+    url_poster: <<poster_id>>
+    sort_title: <<collection_name>>
+    collection_order: release.asc
+    anidb_relation: <<anidb>>
+    anilist_relations: <<anilist>>
+  Theme:
+    optional:
+      - al-tag
+      - al-genre
+    sort_title: +06_<<collection_name>>
+    anidb_tag: 
+      tag: <<anidb>>
+    sync_mode: sync
+    collection_order: title.asc
+collections:
+######################################################
+#                Chart Collections                   #
+######################################################
+  Current Season:
+    template: 
+      name: Chart
+      num: 3
+    anilist_search:
+      season:
+      year:
+      sort_by: popular
+    collection_order: alpha
+    sync_mode: sync
+#  Suggested:
+#    template:
+#      name: Chart
+#      num: 9
+#    mal_suggested: 50
+#    summary: Suggested Anime on MyAnimeList
+#    collection_order: custom
+  Trending:
+    template:
+      name: Chart
+      num: 1
+    mal_airing: 30
+    anilist_trending: 30
+    summary: Trending anime on AniList and MyAnimeList.
+    collection_order: alpha
+    url_poster: https://theposterdb.com/api/assets/213570
+  Popular:
+    template:
+      name: Chart
+      num: 2
+    mal_popular: 30
+    anidb_popular: 30
+    anilist_popular: 30
+    collection_order: alpha
+    summary: 'Popular Anime on AniDB, AniList and MyAnimeList.'
+    url_poster: https://theposterdb.com/api/assets/213575
+  Top Rated Anime:
+    template:
+      name: Chart
+      num: 4
+    anilist_top_rated: 30
+    mal_all: 30
+    summary: Top Rated Anime on AniList and MyAnimeList.
+    collection_order: audience_rating.desc
+    url_poster: https://theposterdb.com/api/assets/213605
+######################################################
+#              Anime   Collections                   #
+######################################################
+  Naruto:
+    template:
+      name: Collection
+      poster_id: 'https://theposterdb.com/api/assets/204653'
+      anidb: 239
+      anilist: 20
+  Berserk:
+    template:
+      name: Collection
+      poster_id: 'https://theposterdb.com/api/assets/182149'
+      anidb: 11851
+      anilist: 33
+  Beyblade:
+    template:
+      name: Collection
+      poster_id: 'https://theposterdb.com/api/assets/73773'
+      anidb: 595
+      anilist: 288
+  Dragonball:
+    template:
+      name: Collection
+      poster_id: 'https://theposterdb.com/api/assets/67333'
+      anidb: 231
+      anilist: 223
+  Pokémon:
+    template:
+      name: Collection
+      poster_id: 'https://theposterdb.com/api/assets/29902'
+      anidb: 230
+      anilist: 527
+  Saiyuki:
+    template:
+      name: Collection
+      poster_id: 'https://theposterdb.com/api/assets/204287'
+      anidb: 2446
+      anilist: 129
+  Rage of Bahamut:
+    template:
+      name: Collection
+      poster_id: 'https://theposterdb.com/api/assets/94496'
+      anidb: 10373
+      anilist: 20590
+  Ghost in the Shell:
+    template:
+      name: Collection
+      poster_id: 'https://theposterdb.com/api/assets/77171'
+      anidb: 61
+      anilist: 43
+  Danganronpa:
+    template:
+      name: Collection
+      poster_id: 'https://theposterdb.com/api/assets/159826'
+      anidb: 9355
+      anilist: 16592
+
+

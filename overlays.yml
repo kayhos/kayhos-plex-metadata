@@ -1,0 +1,75 @@
+### ISO-Language codes (https://www.loc.gov/standards/iso639-2/php/code_list.php) in my library:
+# zh  |  Chinese
+# da  |  Danish
+# nl  |  Dutch
+# en  |  English
+# fr  |  French
+# de  |  German
+# hi  |  Indian (Hindi)
+# te  |  Indian (Telugu)
+# fa  |  Iranian (Farsi)
+# it  |  Italian
+# ja  |  Japanese
+# ko  |  Korean
+# ru  |  Russian
+# es  |  Spanish
+# th  |  Thai
+### Flags for Overlays -> https://www.countries-ofthe-world.com/flags-of-the-world.html
+
+templates:
+  dl_overlay:
+    default:
+      overlay_name: <<collection_name>>
+      meta_lang: en-US
+    plex_search:
+      all:
+        audio_language:
+          - <<english>>
+          - <<french>>
+          - <<japanese>>
+    build_collection: false
+    item_overlay: <<overlay_name>>
+    item_metadata_language: <<meta_lang>>
+#    sort_title: 末_<<collection_name>>
+    collection_order: alpha
+    overlay:
+        optional:
+          - english
+          - french
+          - japanese
+          - audio_override
+        default:
+          english_not: en
+          french_not: fr
+          japanese_not: ja
+          overlay_name: <<collection_name>>
+          meta_lang: en-US
+        plex_search:
+          any:
+              label: <<audio_override>>
+              all:
+                audio_language:
+                      - <<english>>
+                      - <<french>>
+                      - <<japanese>>
+                audio_language.not:
+                      - <<english_not>>
+                      - <<french_not>>
+                      - <<japanese_not>>
+        build_collection: false
+        item_overlay: <<overlay_name>>
+        item_metadata_language: <<meta_lang>>
+    #    sort_title: 末_<<collection_name>>
+#        collection_order: alpha
+collections:
+    dl_english_french:
+        template: {name: dl_overlay, english: en, french: fr}
+    dl_english_japanese:
+        template: {name: dl_overlay, english: en, japanese: ja}
+
+    english:
+        template: {name: overlay, english: en, english_not: null, audio_override: Audio_en}
+    french:
+        template: {name: overlay, french: fr, french_not: null, audio_override: Audio_fr, meta_lang: fr-FR}
+    japanese:
+        template: {name: overlay, japanese: ja, japanese_not: null, audio_override: Audio_ja} 

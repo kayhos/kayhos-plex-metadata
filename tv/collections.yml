@@ -1,0 +1,59 @@
+# Prefixes for TV Collections:
+#   +01_ = Charts
+#   +02_ = Holidays
+#   +03_ = Studios or Network
+#   +04_ = Collection
+#   +05_ = Countries
+#   +06_ = Genres
+#   +07_ = Awards
+#   +08_ = Decades
+#   +09_ = People
+#   +10_ = TV
+# https://github.com/meisnate12/Plex-Meta-Manager  
+######################################################
+#                TV Collections                      #
+######################################################
+#                Templates                           #
+######################################################
+templates:
+  Collection:
+    sort_title: +04_<<collection_name>>
+    collection_order: custom
+    sync_mode: sync
+####################################
+#     Universes    Collections     #
+####################################
+collections:
+  Arrowverse:
+    template:
+      name: Collection
+    tvdb_list: https://www.thetvdb.com/lists/arrowverse
+    url_poster: https://theposterdb.com/api/assets/32030/download?performed_by=kayhos
+  Marvel Television:
+    template:
+      name: Collection
+    tvdb_list: https://thetvdb.com/lists/marvel-cinematic-universe
+    url_poster: https://theposterdb.com/api/assets/201425/download?performed_by=kayhos
+  Stargate:
+    template:
+      name: Collection
+    tvdb_list: https://thetvdb.com/lists/stargate
+    url_poster: https://theposterdb.com/api/assets/210311
+  Star Trek:
+    template:
+      name: Collection
+    tvdb_list: https://thetvdb.com/lists/star-trek
+    url_poster: https://theposterdb.com/api/assets/198291
+  Star Wars:
+    template:
+      name: Collection
+    tvdb_list: https://thetvdb.com/lists/star-wars
+    collection_order: custom
+    url_poster: https://theposterdb.com/api/assets/26625
+  The Walking Dead:
+    template:
+      name: Collection
+    tvdb_list: https://thetvdb.com/lists/the-walking-dead
+    collection_order: custom
+    url_poster: https://theposterdb.com/api/assets/176383/download?performed_by=kayhos
+

@@ -1,0 +1,113 @@
+# Prefixes for Movie Collections:
+#   +01_ = Charts
+#   +02_ = Holidays
+#   +03_ = Studios or Network
+#   +04_ = Collection
+#   +05_ = Countries
+#   +06_ = Genres
+#   +07_ = Awards
+#   +08_ = Decades
+#   +09_ = People
+#   +10_ = Movies
+# https://github.com/meisnate12/Plex-Meta-Manager                                      
+######################################################
+#                Movie Collections                   #
+######################################################
+#                Templates                           #
+######################################################
+templates:
+  Holiday:
+    url_poster: <<poster>>
+    collection_order: release
+    summary: "A timed collection of <<holiday>> movies and other movies that may relate to the holiday. NOTE: this collection will automatically disappear once the holiday period is over."
+    delete_not_scheduled: true
+    sort_title: +++000_<<collection_name>>
+    visible_home: true
+    visible_shared: true
+    sync_mode: sync
+collections:
+###########################
+#  Holiday Collections   #
+###########################  
+  "Valentine's Love":
+    schedule: range(02/01-02/14)
+    visible_home: range(02/01-02/14)
+    template:
+      name: Holiday
+      holiday: Valentine's Day
+    imdb_list:
+      - 'https://www.imdb.com/list/ls000094398/'
+      - 'https://www.imdb.com/list/ls057783436/'
+      - 'https://www.imdb.com/list/ls064427905/'
+  "St. Patrick's Shenanigans":
+    schedule: range(03/01-03/17)
+    visible_home: range(03/01-03/17)
+    template:
+      name: Holiday
+      holiday: St. Patrick's Day
+    imdb_list: 
+      - https://www.imdb.com/list/ls063934595/
+      - https://www.imdb.com/list/ls062229912/
+  "Easter's Resurrection":
+    schedule: range(3/22-4/25)
+    visible_home: range(03/22-04/25)
+    template:
+      name: Holiday
+      holiday: Easter
+      poster: https://theposterdb.com/api/assets/60970
+    imdb_list:
+      - 'https://www.imdb.com/list/ls062665509/'
+      - 'https://www.imdb.com/list/ls051733651/'
+  Halloween Fright:
+    schedule: range(10/01-10/31)
+    visible_home: range(10/01-10/31)
+    template:
+      name: Holiday
+      poster: https://theposterdb.com/api/assets/111218
+    trakt_list:
+      - 'https://trakt.tv/users/kairbear08/lists/halloween'
+      - 'https://trakt.tv/users/mybicycle/lists/halloween'
+      - 'https://trakt.tv/users/jayinftl/lists/halloween'
+      - 'https://trakt.tv/users/roswellgeek/lists/halloween'
+    tmdb_collection:
+      - 91361    # Halloween Collection
+      - 8581     # A Nightmare on Elm Street Collection
+      - 1733     # The Mummy Collection
+      - 8091     # Alien Collection
+    tmdb_movie:
+      - 23437    # A Nightmare on Elm Street (2010)
+  Thanksgiving Turkeys:
+    schedule: range(10/01-11/31)
+    visible_home: range(10/01-11/31)
+    template:
+      name: Holiday
+      holiday: Thanksgiving
+      poster: https://theposterdb.com/api/assets/112251
+    imdb_list:
+      - 'https://www.imdb.com/list/ls000835734/'
+      - 'https://www.imdb.com/list/ls091597850/'
+  Christmas Cheer:
+    schedule: range(12/01-12/31)
+    visible_home: range(12/01-12-31)
+    template:
+      name: Holiday
+      poster: https://theposterdb.com/api/assets/69443
+    url_background: https://wallpapercave.com/wp/wp4972414.jpg
+    trakt_list:
+      - 'https://trakt.tv/users/movistapp/lists/christmas-movies'
+      - 'https://trakt.tv/users/2borno2b/lists/christmas-movies-extravanganza'
+      - 'https://trakt.tv/users/pualani78/lists/christmas-2020'
+      - 'https://trakt.tv/users/veninjak/lists/complete-christmas-2021-copy'
+    imdb_list:
+      - 'https://www.imdb.com/list/ls025976544/'
+      - 'https://www.imdb.com/list/ls003863000/'
+      - 'https://www.imdb.com/list/ls027454200/'
+      - 'https://www.imdb.com/list/ls027886673/'
+      - 'https://www.imdb.com/list/ls097998599/'
+  New Year Renewal:
+    schedule: range(12/26-01/05)
+    visible_home: range(12/26-01/05)
+    template:
+      name: Holiday
+      holiday: New Year's Eve
+    imdb_list: https://www.imdb.com/list/ls066838460/

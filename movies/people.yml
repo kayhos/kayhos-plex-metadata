@@ -1,0 +1,174 @@
+# Prefixes for Movie Collections:
+#   +01_ = Charts
+#   +02_ = Holidays
+#   +03_ = Studios or Network
+#   +04_ = Collection
+#   +05_ = Countries
+#   +06_ = Genres
+#   +07_ = Awards
+#   +08_ = Decades
+#   +09_ = People
+#   +10_ = Movies
+# https://github.com/meisnate12/Plex-Meta-Manager                                      
+######################################################
+#                Movie Collections                   #
+######################################################
+#                Templates                           #
+######################################################
+templates:
+  people:
+    tmdb_director: <<person>>
+    tmdb_director_details: <<person>>
+    sort_title: +09_<<collection_name>>
+    collection_order: release.desc
+    sync_mode: sync
+collections:
+###########################
+#    People Collections   #
+###########################
+  Alfred Hitchcock:
+    template:
+      name: people
+      person: 2636
+    trakt_list: 'https://trakt.tv/users/movistapp/lists/hitchcock'
+  Christopher Nolan:
+    template:
+      name: people
+      person: 525
+  Clint Eastwood:
+    template:
+      name: people
+      person: 190
+  Coen Brothers:
+    template:
+      name: people
+      person: 1223, 1224
+    summary: >-
+      Joel Coen and Ethan Coen, collectively referred to as the Coen Brothers,
+      are American film directors, producers, screenwriters, and editors. Their
+      films span many genres and styles, which they frequently subvert or
+      parody. Their most acclaimed works include: Raising Arizona (1987),
+      Miller's Crossing (1990), Fargo (1996), The Big Lebowski (1998), O
+      Brother, Where Art Thou? (2000), No Country for Old Men (2007), Burn After
+      Reading (2008), A Serious Man (2009), True Grit (2010), Inside Llewyn
+      Davis (2013), and The Ballad of Buster Scruggs (2018).
+  Denis Villeneuve:
+    template:
+      name: people
+      person: 137427
+  Francis Ford Coppola:
+    template:
+      name: people
+      person: 1776
+  Hayao Miyazaki:
+    template:
+      name: people
+      person: 608
+  J.J. Abrams:
+    template:
+      name: people
+      person: 15344
+  James Cameron:
+    template:
+      name: people
+      person: 2710
+  James Gunn:
+    template:
+      name: people
+      person: 15218
+  Joss Whedon:
+    template:
+      name: people
+      person: 12891 
+  Luc Besson:
+    template:
+      name: people
+      person: 59
+  M. Night Shyamalan:
+    template:
+      name: people
+      person: 11614
+  Martin Scorsese:
+    template:
+      name: people
+      person: 1032
+  Mel Brooks:
+    template:
+      name: people
+      person: 14639
+  Mel Gibson:
+    template:
+      name: people
+      person: 2461
+  Michael Bay:
+    template:
+      name: people
+      person: 865
+  Mike Myers:
+    template:
+      name: people
+      person: 12073
+  Peter Jackson:
+    template:
+      name: people
+      person: 108
+  Quentin Tarantino:
+    template:
+      name: people
+      person: 138
+  Roman Polanski:
+    template:
+      name: people
+      person: 3556
+  Ridley Scott:
+    template:
+      name: people
+      person: 578
+  Sam Raimi:
+    template:
+      name: people
+      person: 7623
+  Sacha Baron Cohen:
+    template:
+      name: people
+      person: 6730
+  Seth Rogen:
+    template:
+      name: people
+      person: 19274
+  Sidney Lumet:
+    template:
+      name: people
+      person: 39996
+  Stanley Kubrick:
+    template:
+      name: people
+      person: 240
+  Steven Spielberg:
+    template:
+      name: people
+      person: 488
+  Sylvester Stallone:
+    template:
+      name: people
+      person: 16483
+  Taika Waititi:
+    template:
+      name: people
+      person: 55934
+  Tim Burton:
+    template:
+      name: people
+      person: 510
+  Wachowskis sisters:
+    template:
+      name: people
+      person: 9340, 9339
+  Woody Allen:
+    template:
+      name: people
+      person: 1243
+  Zack Snyder:
+    template:
+      name: people
+      person: 15217

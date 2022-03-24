@@ -1,0 +1,387 @@
+# Prefixes for Movie Collections:
+#   ++01_ = Charts
+#   ++02_ = Holidays
+#   ++03_ = Studios or Network
+#   ++04_ = Collection
+#   ++05_ = Countries
+#   ++06_ = Genres
+#   ++07_ = Awards
+#   ++08_ = Decades
+#   ++09_ = People
+#   ++10_ = movie/tv/anime collection
+#   alpha = Movies/tv/anime/etc.
+# PMM: https://github.com/meisnate12/Plex-Meta-Manager
+# PMM Wiki: https://github.com/meisnate12/Plex-Meta-Manager/wiki/
+# PMM Configs: https://github.com/meisnate12/Plex-Meta-Manager-Configs 
+# The Poster DB: https://theposterdb.com (https://theposterdb.com/api/assets/xxxxxx)
+# YAML Validator: http://www.yamllint.com/
+######################################################
+#                Movie Collections                   #
+#                    Dynamic                         #
+######################################################
+templates:
+  ## MOVIE TEMPLATE
+  movie_collections:
+    optional:
+      - collection_poster
+      - collection_movies
+    sort_title: ++10_<<collection_name>>
+    tmdb_collection_details: <<tmdb_collection>>
+    tmdb_movie: <<collection_movies>>
+    collection_order: release.asc
+    url_poster: <<collection_poster>>
+    sync_mode: sync
+  extra_collections:
+    optional:
+      - extra_collection_poster
+      - movies
+      - collections
+    sort_title: ++10_<<collection_name>>
+    tmdb_collection: <<collections>>
+    tmdb_movie: <<movies>>
+    tmdb_collection_details: <<collections>>
+    collection_order: release.asc
+    url_poster: <<extra_collection_poster>>
+    sync_mode: sync
+dynamic_collections:
+# Create movie linked collections as TMDB links Movies with 
+# only 1 collection at a time (the correct way to do in Plex)
+# We'll only need to create specific collections for collection aggregates 
+# like Middle Earth, Wizarding World or all the Halloween timelines.
+# The rest should be smart collections.
+  TMDb_DynamicCollections:          # This name is the mapping name
+    type: tmdb_collection
+    template: movie_collections
+    remove_suffix: "Collection"
+    remove_prefix: "The"
+    template_variables:
+      collection_poster:
+        386534: https://theposterdb.com/api/assets/130396 # ... has fallen
+        125570: https://theposterdb.com/api/assets/5575 # 300
+        3167: https://theposterdb.com/api/assets/24335 # Ace Ventura
+        11716: https://theposterdb.com/api/assets/53152 # Addams Family
+        86027: https://theposterdb.com/api/assets/89795 # Aladdin
+        261307: https://theposterdb.com/api/assets/72185 # Alice in Wonderland
+        115762: https://theposterdb.com/api/assets/43455 # Alien vs Predator
+        124949: https://theposterdb.com/api/assets/51450 # Almighty
+        397842: https://theposterdb.com/api/assets/160775 # Amityville
+        125574: https://theposterdb.com/api/assets/107621 # Amazing Spider-Man
+        91945: https://theposterdb.com/api/assets/205835 # American Ninja 
+        86105: https://theposterdb.com/api/assets/153799 # American Psycho
+        93791: https://theposterdb.com/api/assets/17931 # Anchorman
+        508334: https://theposterdb.com/api/assets/94121 # Angels in the ...
+        531315: https://theposterdb.com/api/assets/23354 # Angry Birds
+        422834: https://theposterdb.com/api/assets/4818 # Ant-Man
+        # Astérix & Obélix Animation
+        # Astérix & Obélix Live-Action
+        1006: https://theposterdb.com/api/assets/163540 # Austin Powers
+        531241: https://theposterdb.com/api/assets/4813 # Avenger's Spider-Man
+        86311: https://theposterdb.com/api/assets/4816 # The Avengers
+        264: https://theposterdb.com/api/assets/163128 # Back to the Future
+        14890: https://theposterdb.com/api/assets/163544 # Bad Boys
+        423173: https://theposterdb.com/api/assets/32569 # Bad Santa
+        120794: https://theposterdb.com/api/assets/27394 # Batman
+        263: https://theposterdb.com/api/assets/8489 # Batman The Dark Knight
+        153010: https://theposterdb.com/api/assets/22418 # Beauty and the Beast
+        168880: https://theposterdb.com/api/assets/78599 # Beethoven
+        85861: https://theposterdb.com/api/assets/163980 # Beverly Hills Cop
+        91746: https://theposterdb.com/api/assets/163640 # Bill & Ted Most Excellent
+        735: https://theposterdb.com/api/assets/162380 # Blade
+        422837: https://theposterdb.com/api/assets/6081 # Blade Runner
+        112636: https://theposterdb.com/api/assets/12496 # Blues Brothers
+        87186: https://theposterdb.com/api/assets/80255 # Boondock Saints
+        31562: https://theposterdb.com/api/assets/5420 # Bourne
+        747168: https://theposterdb.com/api/assets/139170 # Borat MovieFilms
+        442352: https://theposterdb.com/api/assets/195499 # Brice de Nice
+        98580: https://theposterdb.com/api/assets/163641 # Candyman
+        131295: https://theposterdb.com/api/assets/4814 # Captain America
+        257053: https://theposterdb.com/api/assets/160796 # Carrie
+        87118: https://theposterdb.com/api/assets/132 # Cars
+        114783: https://theposterdb.com/api/assets/163134 # Cheaper by the dozen
+        10455: https://theposterdb.com/api/assets/176031 # Child's Play
+        420: https://theposterdb.com/api/assets/162017 # Chronicles of Narnia
+        2794: https://theposterdb.com/api/assets/163647 # Chronicles of Riddick
+        86780: https://theposterdb.com/api/assets/34933 # Clash of titans
+        177467: https://theposterdb.com/api/assets/37354 # Cloudy with a chane of meatballs
+        10893: https://theposterdb.com/api/assets/160849 # Critters
+        9332: https://theposterdb.com/api/assets/908 # Crocodile Dundee
+        9436: https://theposterdb.com/api/assets/111879 # The Crow
+        448150: https://theposterdb.com/api/assets/6464 # Deadpool
+        86116: https://theposterdb.com/api/assets/160936 # Death Race
+        1570: https://theposterdb.com/api/assets/164773 # Die Hard
+        10456: https://theposterdb.com/api/assets/850 # Dirty Harry
+        315595: https://theposterdb.com/api/assets/167996 # Disney Fairies
+        283579: https://theposterdb.com/api/assets/163697 # Divergent
+        748919: https://theposterdb.com/api/assets/173568 # Don'T breathe
+        # Dracula (Hammer)
+        # Dracula (Universal)
+        96665: https://theposterdb.com/api/assets/12114 # Dumb and dumber
+        726871: https://theposterdb.com/api/assets/197348 # Dune
+        106498: https://theposterdb.com/api/assets/73505 # Dungeons and Dragons
+        330555: https://theposterdb.com/api/assets/163384 # Ernest ...
+        525891: https://theposterdb.com/api/assets/164779 # Escape Plan
+        115838: https://theposterdb.com/api/assets/96947 # Escape from ...
+        1960: https://theposterdb.com/api/assets/160866 # Evil Dead
+        126125: https://theposterdb.com/api/assets/164780 # The Expandables
+        8864: https://theposterdb.com/api/assets/160873 # Final Destination
+        435259: https://theposterdb.com/api/assets/27620 # Frantastic Beasts
+        9485: https://theposterdb.com/api/assets/10036 # Fast & Furious
+        137697: https://theposterdb.com/api/assets/22630 # Finding Nemo
+        43563: https://theposterdb.com/api/assets/166239 # Friday
+        9735: https://theposterdb.com/api/assets/161007 # Friday the 13th
+        2980: https://theposterdb.com/api/assets/174560 # Ghostbusters
+        44913: https://theposterdb.com/api/assets/161009 # Ghoulies
+        23026: https://theposterdb.com/api/assets/69316 # Ghost in the Shell
+        135468: https://theposterdb.com/api/assets/42723 # GI Joe
+        575987: https://theposterdb.com/api/assets/87828 # The Girl - Millenium
+        230: https://theposterdb.com/api/assets/164789 # The Godfather
+        535313: https://theposterdb.com/api/assets/160971 # Godzilla // Monsterverse
+        89151: https://theposterdb.com/api/assets/161052 # Gremlins
+        284433: https://theposterdb.com/api/assets/4815 # Guardians of the galaxy
+        91361: https://theposterdb.com/api/assets/8202 # Halloween
+        126209: https://theposterdb.com/api/assets/187135 # Halloween by Rob Zombie
+        9743: https://theposterdb.com/api/assets/164790 # Hannibal Lecter
+        1241: https://theposterdb.com/api/assets/162216 # Harry Potter
+        17235: https://theposterdb.com/api/assets/5160 # Hellboy
+        8917: https://theposterdb.com/api/assets/8229 # Hellraiser
+        8050: https://theposterdb.com/api/assets/63711 # Highlander
+        121938: https://theposterdb.com/api/assets/191452 # The Hobbit
+        9888: https://theposterdb.com/api/assets/68729 # Home Alone
+        185103: https://theposterdb.com/api/assets/64833 # Hotel Transilvania
+        105625: https://theposterdb.com/api/assets/161041 # House of a 1000 Corpse
+        89137: https://theposterdb.com/api/assets/57147 # How to train your dragon
+        131635: https://theposterdb.com/api/assets/163851 # Hunger Games
+        393379: https://theposterdb.com/api/assets/54033 # the huntsman
+        8354: https://theposterdb.com/api/assets/42959 # Ice Age
+        468222: https://theposterdb.com/api/assets/28557 # Incredibles
+        84: https://theposterdb.com/api/assets/163391 # Indiana Jones
+        3601: https://theposterdb.com/api/assets/161060 # I know what you did last summer
+        70068: https://theposterdb.com/api/assets/52647 # Ip Man
+        296429: https://theposterdb.com/api/assets/162457 # I Spit on your grave
+        17178: https://image.tmdb.org/t/p/w1280/tLga6buvaRSBcFJT03WgSBZ1wAa.jpg # Jackass
+        645: https://theposterdb.com/api/assets/67529 # James Bond
+        2366: https://theposterdb.com/api/assets/161117 # Jaws
+        404609: https://theposterdb.com/api/assets/13285 # John Wick
+        495527: https://theposterdb.com/api/assets/54112 # Jumanji
+        328: https://theposterdb.com/api/assets/162511 # Jurassic Park
+        391860: https://theposterdb.com/api/assets/6651 # Kingmen
+        945: https://theposterdb.com/api/assets/82654 # Lethal Weapons
+        19285: https://theposterdb.com/api/assets/161112 # Leprechaum
+        119: https://theposterdb.com/api/assets/191471 # Lord of the Rings
+        8945: https://theposterdb.com/api/assets/134425 # Mad Max
+        # Marvel Cinematic Universe in custom collection
+        2344: https://theposterdb.com/api/assets/65273 # Matrix
+        295130: https://theposterdb.com/api/assets/8511 # Maze Runner
+        51509: https://theposterdb.com/api/assets/166252 # Meet the parents
+        86055: https://theposterdb.com/api/assets/103970 # Men in Black
+        87359: https://theposterdb.com/api/assets/2705 # Mission Impossible
+        # MonsterVerse under Godzilla
+        9818: https://theposterdb.com/api/assets/160972 # Mortal Kombat
+        1733: https://theposterdb.com/api/assets/69966 # The Mummy
+        108693: https://theposterdb.com/api/assets/165424 # National Lampoon
+        52984: https://theposterdb.com/api/assets/71196 # National Tresure
+        8581: https://theposterdb.com/api/assets/115952 # Nightmare on Elm Street, add movies 6466, 23437
+        382685: https://theposterdb.com/api/assets/10165 # Now you see me 
+        304: https://theposterdb.com/api/assets/102581 # Ocean's 
+        94589: https://theposterdb.com/api/assets/77089  # Ong Bak
+        488924: https://theposterdb.com/api/assets/1231 # Paddington
+        179919: https://theposterdb.com/api/assets/52875 # Percy Jackson
+        55422: https://theposterdb.com/api/assets/59448 # Peter Pan
+        47770: https://theposterdb.com/api/assets/161301 # Phantasm
+        295: https://theposterdb.com/api/assets/49933 # Pirates of the Caribbean
+        212279: https://theposterdb.com/api/assets/161300 # Piranha 212279, 104830
+        9338: https://theposterdb.com/api/assets/5162 # Police Academy
+        269098: https://theposterdb.com/api/assets/92122 # Police Story
+        399: https://theposterdb.com/api/assets/43442 # Predator
+        107949: https://theposterdb.com/api/assets/8393 # Puppet Master
+        107674: https://theposterdb.com/api/assets/51483 # Princess Diaries
+        256322: https://theposterdb.com/api/assets/8515 # The Purge
+        5039: https://theposterdb.com/api/assets/2611 # Rambo
+        98036: https://theposterdb.com/api/assets/161291 # Re-Animator
+        163902: https://theposterdb.com/api/assets/7154 # RED
+        17255: https://theposterdb.com/api/assets/11303 # Resident Evil
+        133352, poster: https://theposterdb.com/api/assets/95488 # Resident Evil Biohazard
+        115776: https://theposterdb.com/api/assets/841 # Robert Langdon by Dan Brown
+        5547: https://theposterdb.com/api/assets/75745 # RoboCop
+        1575: https://theposterdb.com/api/assets/40086 # Rocky
+        247028: https://theposterdb.com/api/assets/166493 # Rurouni Kenshin
+        53159: https://theposterdb.com/api/assets/130697 # Santa Clause
+        4246: https://theposterdb.com/api/assets/993 # Scary Movie
+        2602: https://theposterdb.com/api/assets/804 # Scream
+        427084: https://theposterdb.com/api/assets/65774 # The Secret Life of Pets
+        286023: https://theposterdb.com/api/assets/9124# Sharknado
+        2150: https://theposterdb.com/api/assets/6997 # Shrek
+        47391: https://theposterdb.com/api/assets/161870 # Sleepaway Camp
+        9887: https://theposterdb.com/api/assets/160993 # Species
+        556: https://theposterdb.com/api/assets/107424 # Spider-Man 
+        151: https://theposterdb.com/api/assets/146208 # Star Trek - The Original Series
+        115575: https://theposterdb.com/api/assets/146213 # Star Trek - Alternate Reality
+        115570: https://theposterdb.com/api/assets/146211 # Star Trek - The Next Generation
+        10: https://theposterdb.com/api/assets/28741 # Star Wars - The Skywalker Saga in Timeline order
+        10522: https://theposterdb.com/api/assets/160994 # Starship Troopers
+        531242: https://theposterdb.com/api/assets/206381 # Suicide Squad
+        8537: https://theposterdb.com/api/assets/76661 # Superman
+        135483: https://theposterdb.com/api/assets/112816 # Taken
+        528: https://theposterdb.com/api/assets/42442 # Terminator
+        111751: https://theposterdb.com/api/assets/27153 # Texas Chainsaw Massacre
+        425175: https://theposterdb.com/api/assets/110133 # Texas Chainsaw Massacre Reboot
+        32135: https://theposterdb.com/api/assets/160995 # Toxic Avenger
+        # Toy Story is custom collection
+        8650: https://theposterdb.com/api/assets/13251 # Transformers
+        9518: https://theposterdb.com/api/assets/795 # The Transporter
+        91799: https://theposterdb.com/api/assets/73821 # Tremors
+        131: https://theposterdb.com/api/assets/32073 # Trois Couleurs
+        2326: https://theposterdb.com/api/assets/65244 # Underworld
+        # Unbreakable is custom collection
+        # Worlds of DC (DCEU) is custom collection
+        453993: https://theposterdb.com/api/assets/21933 # Wolverine
+        404825: https://theposterdb.com/api/assets/31281 # Wreck-It Ralph
+        # X-Men is custom collection
+        52785: https://theposterdb.com/api/assets/164850 # XXX
+      collection_movies:
+        11716: 481084, 639721 # Addams Family
+        448150: 567604 # Deadpool
+        9735: 6466, 222724 # friday 13th
+        2980: 43074 # ghostbusters
+        535313: 293167 # godzilla monsterverse
+        9743: 11454 # hanibal lecter
+        17235: 456740, 16774, 13204, 154207, 789978 # Hellboy
+        70068: 658009, 643413, 450001, 751391, 44249, 182127, 44865 # Ip Man
+        296429: 43947, 207768, 357096 # I spit on your grave 162457
+        328: 630322 # Jurassic Park
+        9818: 664767, 460465 # Mortal Kombat
+        8581: 6466, 23437 # Nightmare on elm street
+        212279: 43593, 71668  # Piranha 3D
+collections:
+######################################################
+#                Movie Collections                   #
+#               non-smart like above                 #
+######################################################
+  Alien: # Alien
+    template:
+      name: extra_collections
+      extra_collection_poster: https://theposterdb.com/api/assets/168446
+      collections: 8091, 135416, 115762
+  American Pie:
+    template:
+      name: extra_collections
+      extra_collection_poster: https://theposterdb.com/api/assets/166224
+      collections: 2806, 298820   
+  Cornetto Trilogy:
+    template: 
+      name: extra_collections
+      extra_collection_poster: https://theposterdb.com/api/assets/234
+    imdb_list: https://www.imdb.com/list/ls068623110/
+    summary: An anthology series of British comedic genre films directed by Edgar Wright, written by Wright and Simon Pegg, produced by Nira Park, and starring Pegg and Nick Frost. The trilogy consists of Shaun of the Dead (2004), Hot Fuzz (2007), and The World's End (2013).
+  DC Universe:
+    template:
+      name: extra_collections
+      extra_collection_poster: https://theposterdb.com/api/assets/162412
+    imdb_list: https://www.imdb.com/list/ls538267100/
+    summary: The DC Universe (DCU) is the shared universe where most of the comic stories published by DC Comics take place. Superman, Batman, and Wonder 
+  DC Super Hero Girls:
+    template: 
+      name: extra_collections
+      collections: 477208, 557495
+      extra_collection_poster: https://theposterdb.com/api/assets/33060
+  Despicable Me:
+    template: 
+      name: extra_collections
+      collections: 86066, 544669
+      extra_collection_poster: https://theposterdb.com/api/assets/6468
+  Disney Live-Action:   # Disney Live-Action
+    template: 
+      name: extra_collections
+      extra_collection_poster: https://theposterdb.com/api/assets/68410 
+    imdb_list: https://www.imdb.com/list/ls083312980/
+  # Manly men
+  The Man with No Name:
+    template: 
+      name: extra_collections
+      extra_collection_poster: https://theposterdb.com/api/assets/54596
+      movies: 391, 938, 429
+    summary: An Italian film series consisting of three Spaghetti Western films directed by Sergio Leone. The films are titled A Fistful of Dollars (1964), For a Few Dollars More (1965) and The Good, the Bad and the Ugly (1966). The series has become known for establishing the Spaghetti Western genre, and inspiring the creation of many more Spaghetti Western films. The three films are consistently listed among the best rated Western films in history.
+  Marvel Cinematic Universe:
+    template:
+      name: extra_collections
+      extra_collection_poster: https://theposterdb.com/api/assets/879
+    trakt_list: https://trakt.tv/users/movistapp/lists/marvel?sort=rank,asc
+    summary: "The Marvel Cinematic Universe (MCU) is an American media franchise and shared universe centered on a series of superhero films produced by Marvel Studios. The films are based on characters that appear in American comic books published by Marvel Comics. The franchise also includes television series, short films, digital series, and literature. The shared universe, much like the original Marvel Universe in comic books, was established by crossing over common plot elements, settings, cast, and characters."
+  Marvel Comics: # Marvel Comics
+    template:
+      name: extra_collections
+      extra_collection_poster: https://theposterdb.com/api/assets/162417
+    imdb_list: https://www.imdb.com/list/ls031310794/
+    summary: The Marvel Cinematic Universe is a collection of movies and television series that tell a singular narrative related to Marvel characters, settings and stories. The MCU is a product from Disney and Marvel that brings us heroes from Black Panther and Doctor Strange to Spider-Man and Iron Man
+  Middle Earth: # Middle Earth
+    template: 
+      name: extra_collections
+      collection: 121938, 119
+      extra_collection_poster: https://theposterdb.com/api/assets/191469
+  Monty Python:
+    template: 
+      name: extra_collections
+      extra_collection_poster: https://theposterdb.com/api/assets/148489
+    imdb_list: https://www.imdb.com/list/ls072012494/
+    summary: Monty Python is a British surreal comedy troupe who created sketch comedy television shows and movies
+  The Muppets:
+    template: 
+      name: extra_collections
+      extra_collection_poster: https://theposterdb.com/api/assets/205
+    summary: "The Muppets Movies"
+    imdb_list:
+      - https://www.imdb.com/list/ls068314869/
+  Power Rangers:
+    template: 
+      name: extra_collections
+      collections: 708816
+      movies: 305470, 306264
+      extra_collection_poster: https://theposterdb.com/api/assets/13867
+  "Star Trek: Complete Collection":
+    template: 
+      name: extra_collections
+      collections: 115575, 115570, 151
+      extra_collection_poster: https://theposterdb.com/api/assets/146184
+    summary: "Star Trek is an American media franchise based on the science fiction television series created by Gene Roddenberry. The first television series, simply called Star Trek and now referred to as The Original Series, debuted in 1966 and aired for three seasons on NBC. The Star Trek canon includes the original series, seven spin-off television series, two animated series, and thirteen films.", 
+    imdb_list: https://www.imdb.com/list/ls062347197/
+  "Star Wars: The Complete Collection":   # Star Wars - The Complete Collection
+    template:
+      name: extra_collections
+      collections: 10
+      movies: 348350, 330459
+      extra_collection_poster: https://theposterdb.com/api/assets/39679
+  # Star Wars - The Original Trilogy
+  # Star Wars - The Prequel Trilogy
+  # Star Wars - The Sequel Trilogy
+  Toy Story:
+    template:
+      name: extra_collections
+      collections: 10194
+      movies: 130925
+      extra_collection_poster: https://theposterdb.com/api/assets/17798
+  Unbreakable:
+    template: 
+      name: extra_collections
+      extra_collection_poster: https://theposterdb.com/api/assets/56425
+      movies: 9741, 381288, 450465
+      #collections: 
+    summary: The Unbreakable trilogy, officially known as the Eastrail 177 Trilogy, is an American superhero thriller and psychological horror film series. The films were written, produced, and directed by M. Night Shyamalan. The trilogy consists of Unbreakable (2000), Split (2016), and Glass (2019).
+  The Wizarding World: # Wizarding World
+    template: 
+      name: extra_collections
+      extra_collection_poster: https://theposterdb.com/api/assets/151007
+    summary: "The Wizarding World"
+    imdb_list:
+      - https://www.imdb.com/list/ls060991914/
+  Worlds of DC (DCEU):   # DC Comics
+    template:
+      name: extra_collections
+      extra_collection_poster: https://theposterdb.com/api/assets/140760
+    tmdb_keyword: 229266
+    imdb_list: https://www.imdb.com/list/ls077827588/
+  X-Men:
+    template:
+      name: extra_collections
+      collections: 748, 453993, 448150
+      movies: 567604
+      extra_collection_poster: https://theposterdb.com/api/assets/18380

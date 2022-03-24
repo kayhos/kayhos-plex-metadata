@@ -1,0 +1,95 @@
+# Prefixes for TV Collections:
+#   +01_ = Charts
+#   +02_ = Holidays
+#   +03_ = Studios or Network
+#   +04_ = Collection
+#   +05_ = Countries
+#   +06_ = Genres
+#   +07_ = Awards
+#   +08_ = Decades
+#   +09_ = People
+#   +10_ = TV
+# https://github.com/meisnate12/Plex-Meta-Manager  
+######################################################
+#                TV Collections                      #
+######################################################
+#                Templates                           #
+######################################################
+templates:
+  Chart:
+    sort_title: ++01_<<num>><<collection_name>>
+    sync_mode: sync
+    smart_label: release.desc
+collections:
+######################################################
+#                Chart Collections                   #
+######################################################
+  Trending Shows:
+    template:
+      name: Chart
+      num: 1
+    trakt_trending: 10
+    tmdb_trending_daily: 10
+    summary: Shows Trending today across the internet on TheMovieDB and Trakt
+    collection_order: audience_rating.desc
+    url_poster: https://theposterdb.com/api/assets/213570
+  Popular Shows:
+    template:
+      name: Chart
+      num: 2
+    tmdb_top_rated: 30
+    trakt_popular: 30
+    imdb_chart: popular_shows
+    summary: The most popular tv shows of all time as reported by TheMovieDB and Trakt.
+    collection_order: audience_rating.desc
+    url_poster: https://theposterdb.com/api/assets/213575
+    schedule: daily
+  Top Rated Shows:
+    template:
+      name: Chart
+      num: 4
+    trakt_recommended_monthly: 10
+    tmdb_top_rated: 10
+    summary: Top Rated Movies across the internet on IMDB, TheMovieDB and Trakt.
+    collection_order: audience_rating.desc
+    url_poster: https://theposterdb.com/api/assets/213605
+    schedule: daily
+  IMDb Top 250:
+    template:
+      name: Chart
+      num: 41
+    imdb_list: 
+      url: https://www.imdb.com/search/title/?groups=top_250&count=250&sort=user_rating,desc
+    collection_order: custom
+    url_poster: https://theposterdb.com/api/assets/213613
+    schedule: monthly(1), monthly(15)
+  Top 100 Simpsons Episodes:
+    template:
+      name: Chart
+      num: 7
+    collection_level: episode
+    plex_search:
+      type: episodes
+      sort_by: audience_rating.desc
+      limit: 100
+      all:
+        title.ends: Simpsons
+    summary: A collection of the highest rated simpsons episodes.
+    schedule: monthly(28)
+  Now Streaming:
+    template:
+      name: Chart
+      num: 5
+    trakt_watched_daily: 10
+    summary: Most watched TV shows today according to Trakt.
+    : custom
+
+
+####################################
+#     Functional   Collections     #
+####################################
+  TV Pilots:
+    collection_level: episode
+    sort_title: +04_Unseen Pilots
+    plex_pilots: true
+
