@@ -1,15 +1,24 @@
-# Prefixes for Anime Collections:
-#   +01_ = Charts
-#   +02_ = Holidays
-#   +03_ = Studios or Network
-#   +04_ = Collection
-#   +05_ = Countries
-#   +06_ = Genres/Themes
-#   +07_ = Awards
-#   +08_ = Decades
-#   +09_ = People
-#   +10_ = Anime
-# https://github.com/meisnate12/Plex-Meta-Manager  
+# Prefixes for Collections:
+# !! to ensure top of sort_title in Plex
+# 终终 (end in Chinese Simplified) to ensure bottom of sort_tile in plex
+#   !!!01_ = Holidays
+#   !!01_ = Charts (Trending, Popular, Top Rated, etc.)
+#   !!02_ = Collection (i.e. Best Family Movies)
+#   !!03_ = Genres
+#   !!04_ = Awards
+#   !!05_ = People
+#   !!06_ = Decades
+#   !!07_ = movie/tv/anime collection
+#   alpha = Movies/tv/anime/etc.
+#   终终01_ = Countries
+#   终终02_ = Studios or Network
+#   终终A_ = Administrative
+# Kayhos PMM metadata: https://github.com/kayhos/kayhos-plex-metadata
+# PMM: https://github.com/meisnate12/Plex-Meta-Manager
+# PMM Wiki: https://metamanager.wiki/en/latest/
+# PMM Configs: https://github.com/meisnate12/Plex-Meta-Manager-Configs
+# The Poster DB: https://theposterdb.com (https://theposterdb.com/api/assets/xxxxxx)
+# YAML Validator: http://www.yamllint.com/
 ######################################################
 #                Anime Collections                   #
 ######################################################
@@ -17,7 +26,7 @@
 ######################################################
 templates:
   Chart:
-    sort_title: +01_<<num>><<collection_name>>
+    sort_title: "!!01_<<num>><<collection_name>>"
     sync_mode: sync
   Collection:
     optional:
@@ -31,17 +40,17 @@ templates:
     optional:
       - al-tag
       - al-genre
-    sort_title: +06_<<collection_name>>
-    anidb_tag: 
+    sort_title: "!!03_<<collection_name>>"
+    anidb_tag:
       tag: <<anidb>>
     sync_mode: sync
     collection_order: title.asc
 collections:
-######################################################
-#                Chart Collections                   #
-######################################################
+  ######################################################
+  #                Chart Collections                   #
+  ######################################################
   Current Season:
-    template: 
+    template:
       name: Chart
       num: 3
     anilist_search:
@@ -50,13 +59,13 @@ collections:
       sort_by: popular
     collection_order: alpha
     sync_mode: sync
-#  Suggested:
-#    template:
-#      name: Chart
-#      num: 9
-#    mal_suggested: 50
-#    summary: Suggested Anime on MyAnimeList
-#    collection_order: custom
+  #  Suggested:
+  #    template:
+  #      name: Chart
+  #      num: 9
+  #    mal_suggested: 50
+  #    summary: Suggested Anime on MyAnimeList
+  #    collection_order: custom
   Trending:
     template:
       name: Chart
@@ -74,7 +83,7 @@ collections:
     anidb_popular: 30
     anilist_popular: 30
     collection_order: alpha
-    summary: 'Popular Anime on AniDB, AniList and MyAnimeList.'
+    summary: "Popular Anime on AniDB, AniList and MyAnimeList."
     url_poster: https://theposterdb.com/api/assets/213575
   Top Rated Anime:
     template:
@@ -85,62 +94,60 @@ collections:
     summary: Top Rated Anime on AniList and MyAnimeList.
     collection_order: audience_rating.desc
     url_poster: https://theposterdb.com/api/assets/213605
-######################################################
-#              Anime   Collections                   #
-######################################################
+  ######################################################
+  #              Anime   Collections                   #
+  ######################################################
   Naruto:
     template:
       name: Collection
-      poster_id: 'https://theposterdb.com/api/assets/204653'
+      poster_id: "https://theposterdb.com/api/assets/204653"
       anidb: 239
       anilist: 20
   Berserk:
     template:
       name: Collection
-      poster_id: 'https://theposterdb.com/api/assets/182149'
+      poster_id: "https://theposterdb.com/api/assets/182149"
       anidb: 11851
       anilist: 33
   Beyblade:
     template:
       name: Collection
-      poster_id: 'https://theposterdb.com/api/assets/73773'
+      poster_id: "https://theposterdb.com/api/assets/73773"
       anidb: 595
       anilist: 288
   Dragonball:
     template:
       name: Collection
-      poster_id: 'https://theposterdb.com/api/assets/67333'
+      poster_id: "https://theposterdb.com/api/assets/67333"
       anidb: 231
       anilist: 223
   Pokémon:
     template:
       name: Collection
-      poster_id: 'https://theposterdb.com/api/assets/29902'
+      poster_id: "https://theposterdb.com/api/assets/29902"
       anidb: 230
       anilist: 527
   Saiyuki:
     template:
       name: Collection
-      poster_id: 'https://theposterdb.com/api/assets/204287'
+      poster_id: "https://theposterdb.com/api/assets/204287"
       anidb: 2446
       anilist: 129
   Rage of Bahamut:
     template:
       name: Collection
-      poster_id: 'https://theposterdb.com/api/assets/94496'
+      poster_id: "https://theposterdb.com/api/assets/94496"
       anidb: 10373
       anilist: 20590
   Ghost in the Shell:
     template:
       name: Collection
-      poster_id: 'https://theposterdb.com/api/assets/77171'
+      poster_id: "https://theposterdb.com/api/assets/77171"
       anidb: 61
       anilist: 43
   Danganronpa:
     template:
       name: Collection
-      poster_id: 'https://theposterdb.com/api/assets/159826'
+      poster_id: "https://theposterdb.com/api/assets/159826"
       anidb: 9355
       anilist: 16592
-
-

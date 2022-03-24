@@ -1,3 +1,9 @@
+# Kayhos PMM metadata: https://github.com/kayhos/kayhos-plex-metadata
+# PMM: https://github.com/meisnate12/Plex-Meta-Manager
+# PMM Wiki: https://metamanager.wiki/en/latest/
+# PMM Configs: https://github.com/meisnate12/Plex-Meta-Manager-Configs
+# The Poster DB: https://theposterdb.com (https://theposterdb.com/api/assets/xxxxxx)
+# YAML Validator: http://www.yamllint.com/
 playlists:
   Arrowverse Timeline:
     libraries: Films, TV, Anime
@@ -6,7 +12,7 @@ playlists:
     trakt_list: https://trakt.tv/users/donxy/lists/arrowverse?sort=rank,asc
     url_poster: https://theposterdb.com/api/assets/75792
     summary: This is the simplified list for easy viewing order for Arrowverse!
-  Alien v Predator Timeline:
+  Alien vs Predator Timeline:
     libraries: Films, TV, Anime
     sync_to_users: all
     sync_mode: sync
@@ -16,7 +22,7 @@ playlists:
     libraries: Films, TV, Anime
     sync_to_users: all
     sync_mode: sync
-    trakt_list: https://trakt.tv/users/goldveia/lists/harry-potter?sort=rank,asc  
+    trakt_list: https://trakt.tv/users/goldveia/lists/harry-potter?sort=rank,asc
     url_poster: https://theposterdb.com/api/assets/5833/download?performed_by=kayhos
   Marvel Cinematic Universe Timeline:
     libraries: Films, TV, Anime
@@ -53,7 +59,7 @@ playlists:
     sync_to_users: all
     sync_mode: sync
     trakt_list: https://trakt.tv/users/tetharion/lists/worlds-of-dc?sort=rank,asc
-    url_poster: https://theposterdb.com/api/assets/26760/download?performed_by=kayhos    
+    url_poster: https://theposterdb.com/api/assets/26760/download?performed_by=kayhos
   X-Men Timeline:
     libraries: Films, TV, Anime
     sync_to_users: all

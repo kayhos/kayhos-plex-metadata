@@ -1,3 +1,25 @@
+# Prefixes for Collections:
+# !! to ensure top of sort_title in Plex
+# 终终 (end in Chinese Simplified) to ensure bottom of sort_tile in plex
+#   !!!01_ = Holidays
+#   !!01_ = Charts (Trending, Popular, Top Rated, etc.)
+#   !!02_ = Collection (i.e. Best Family Movies)
+#   !!03_ = Genres
+#   !!04_ = Awards
+#   !!05_ = People
+#   !!06_ = Decades
+#   !!07_ = movie/tv/anime collection
+#   alpha = Movies/tv/anime/etc.
+#   终终01_ = Countries
+#   终终02_ = Studios or Network
+#   终终A_ = Administrative
+# Kayhos PMM metadata: https://github.com/kayhos/kayhos-plex-metadata
+# PMM: https://github.com/meisnate12/Plex-Meta-Manager
+# PMM Wiki: https://metamanager.wiki/en/latest/
+# PMM Configs: https://github.com/meisnate12/Plex-Meta-Manager-Configs
+# The Poster DB: https://theposterdb.com (https://theposterdb.com/api/assets/xxxxxx)
+# YAML Validator: http://www.yamllint.com/
+
 ### ISO-Language codes (https://www.loc.gov/standards/iso639-2/php/code_list.php) in my library:
 # zh  |  Chinese
 # da  |  Danish
@@ -15,7 +37,6 @@
 # es  |  Spanish
 # th  |  Thai
 ### Flags for Overlays -> https://www.countries-ofthe-world.com/flags-of-the-world.html
-
 templates:
   dl_overlay:
     default:
@@ -30,46 +51,65 @@ templates:
     build_collection: false
     item_overlay: <<overlay_name>>
     item_metadata_language: <<meta_lang>>
-#    sort_title: 末_<<collection_name>>
+    #    sort_title: 末_<<collection_name>>
     collection_order: alpha
     overlay:
-        optional:
-          - english
-          - french
-          - japanese
-          - audio_override
-        default:
-          english_not: en
-          french_not: fr
-          japanese_not: ja
-          overlay_name: <<collection_name>>
-          meta_lang: en-US
-        plex_search:
-          any:
-              label: <<audio_override>>
-              all:
-                audio_language:
-                      - <<english>>
-                      - <<french>>
-                      - <<japanese>>
-                audio_language.not:
-                      - <<english_not>>
-                      - <<french_not>>
-                      - <<japanese_not>>
-        build_collection: false
-        item_overlay: <<overlay_name>>
-        item_metadata_language: <<meta_lang>>
+      optional:
+        - english
+        - french
+        - japanese
+        - audio_override
+      default:
+        english_not: en
+        french_not: fr
+        japanese_not: ja
+        overlay_name: <<collection_name>>
+        meta_lang: en-US
+      plex_search:
+        any:
+          label: <<audio_override>>
+          all:
+            audio_language:
+              - <<english>>
+              - <<french>>
+              - <<japanese>>
+            audio_language.not:
+              - <<english_not>>
+              - <<french_not>>
+              - <<japanese_not>>
+      build_collection: false
+      item_overlay: <<overlay_name>>
+      item_metadata_language: <<meta_lang>>
     #    sort_title: 末_<<collection_name>>
 #        collection_order: alpha
 collections:
-    dl_english_french:
-        template: {name: dl_overlay, english: en, french: fr}
-    dl_english_japanese:
-        template: {name: dl_overlay, english: en, japanese: ja}
+  dl_english_french:
+    template: { name: dl_overlay, english: en, french: fr }
+  dl_english_japanese:
+    template: { name: dl_overlay, english: en, japanese: ja }
 
-    english:
-        template: {name: overlay, english: en, english_not: null, audio_override: Audio_en}
-    french:
-        template: {name: overlay, french: fr, french_not: null, audio_override: Audio_fr, meta_lang: fr-FR}
-    japanese:
-        template: {name: overlay, japanese: ja, japanese_not: null, audio_override: Audio_ja} 
+  english:
+    template:
+      {
+        name: overlay,
+        english: en,
+        english_not: null,
+        audio_override: Audio_en,
+      }
+  french:
+    template:
+      {
+        name: overlay,
+        french: fr,
+        french_not: null,
+        audio_override: Audio_fr,
+        meta_lang: fr-FR,
+      }
+  japanese:
+    template:
+      {
+        name: overlay,
+        japanese: ja,
+        japanese_not: null,
+        audio_override: Audio_ja,
+      }

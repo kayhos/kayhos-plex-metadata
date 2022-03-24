@@ -1,18 +1,22 @@
-# Prefixes for Movie Collections:
-#   ++01_ = Charts
-#   ++02_ = Holidays
-#   ++03_ = Studios or Network
-#   ++04_ = Collection
-#   ++05_ = Countries
-#   ++06_ = Genres
-#   ++07_ = Awards
-#   ++08_ = Decades
-#   ++09_ = People
-#   ++10_ = movie/tv/anime collection
+# Prefixes for Collections:
+# !! to ensure top of sort_title in Plex
+# 终终 (end in Chinese Simplified) to ensure bottom of sort_tile in plex
+#   !!!01_ = Holidays
+#   !!01_ = Charts (Trending, Popular, Top Rated, etc.)
+#   !!02_ = Collection (i.e. Best Family Movies)
+#   !!03_ = Genres
+#   !!04_ = Awards
+#   !!05_ = People
+#   !!06_ = Decades
+#   !!07_ = movie/tv/anime collection
 #   alpha = Movies/tv/anime/etc.
+#   终终01_ = Countries
+#   终终02_ = Studios or Network
+#   终终A_ = Administrative
+# Kayhos PMM metadata: https://github.com/kayhos/kayhos-plex-metadata
 # PMM: https://github.com/meisnate12/Plex-Meta-Manager
-# PMM Wiki: https://github.com/meisnate12/Plex-Meta-Manager/wiki/
-# PMM Configs: https://github.com/meisnate12/Plex-Meta-Manager-Configs 
+# PMM Wiki: https://metamanager.wiki/en/latest/
+# PMM Configs: https://github.com/meisnate12/Plex-Meta-Manager-Configs
 # The Poster DB: https://theposterdb.com (https://theposterdb.com/api/assets/xxxxxx)
 # YAML Validator: http://www.yamllint.com/
 ######################################################
@@ -25,7 +29,7 @@ templates:
     optional:
       - collection_poster
       - collection_movies
-    sort_title: ++10_<<collection_name>>
+    sort_title: "!!07_<<collection_name>>"
     tmdb_collection_details: <<tmdb_collection>>
     tmdb_movie: <<collection_movies>>
     collection_order: release.asc
@@ -36,7 +40,7 @@ templates:
       - extra_collection_poster
       - movies
       - collections
-    sort_title: ++10_<<collection_name>>
+    sort_title: "!!07_<<collection_name>>"
     tmdb_collection: <<collections>>
     tmdb_movie: <<movies>>
     tmdb_collection_details: <<collections>>

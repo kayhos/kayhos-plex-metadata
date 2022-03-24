@@ -1,15 +1,24 @@
-# Prefixes for TV Collections:
-#   +01_ = Charts
-#   +02_ = Holidays
-#   +03_ = Studios or Network
-#   +04_ = Collection
-#   +05_ = Countries
-#   +06_ = Genres
-#   +07_ = Awards
-#   +08_ = Decades
-#   +09_ = People
-#   +10_ = TV
-# https://github.com/meisnate12/Plex-Meta-Manager  
+# Prefixes for Collections:
+# !! to ensure top of sort_title in Plex
+# 终终 (end in Chinese Simplified) to ensure bottom of sort_tile in plex
+#   !!!01_ = Holidays
+#   !!01_ = Charts (Trending, Popular, Top Rated, etc.)
+#   !!02_ = Collection (i.e. Best Family Movies)
+#   !!03_ = Genres
+#   !!04_ = Awards
+#   !!05_ = People
+#   !!06_ = Decades
+#   !!07_ = movie/tv/anime collection
+#   alpha = Movies/tv/anime/etc.
+#   终终01_ = Countries
+#   终终02_ = Studios or Network
+#   终终A_ = Administrative
+# Kayhos PMM metadata: https://github.com/kayhos/kayhos-plex-metadata
+# PMM: https://github.com/meisnate12/Plex-Meta-Manager
+# PMM Wiki: https://metamanager.wiki/en/latest/
+# PMM Configs: https://github.com/meisnate12/Plex-Meta-Manager-Configs
+# The Poster DB: https://theposterdb.com (https://theposterdb.com/api/assets/xxxxxx)
+# YAML Validator: http://www.yamllint.com/
 ######################################################
 #                TV Collections                      #
 ######################################################
@@ -21,17 +30,17 @@ templates:
     sort_title: +07_<<num>>_<<collection_name>>
     collection_order: release.desc
     sync_mode: sync
-    schedule: monthly(15)   # Doing only on the 15th of the month to reduce amount of processing
+    schedule: monthly(15) # Doing only on the 15th of the month to reduce amount of processing
 collections:
-######################################
-#          AWARDS                    #
-######################################
+  ######################################
+  #          AWARDS                    #
+  ######################################
   Emmy Winners:
     template:
       name: Award
       num: 5
       poster: https://theposterdb.com/api/assets/214681
-    imdb_list: 
+    imdb_list:
       - https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&groups=emmy_winner
     summary: Emmy Winning Shows
   BAFTA Winners:
@@ -40,7 +49,7 @@ collections:
       num: 5
       poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Awards/BAFTA.png
     imdb_list: https://www.imdb.com/list/ls538625886/?sort=alpha
-    
+
   Critics Choice Award Winners:
     template:
       name: Award
@@ -48,11 +57,11 @@ collections:
       poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Awards/Critics%20Choice%20Awards.png
     trakt_list: https://trakt.tv/users/fdamico/lists/critics-choice-series?sort=title,asc
     imdb_list: https://www.imdb.com/list/ls538625146/?sort=alpha
-        
+
   Golden Globe TV Shows:
     template:
       name: Award
       num: 5
       poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Awards/Golden%20Globe.png
-    imdb_list: 
+    imdb_list:
       url: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&groups=golden_globe_winner&sort=alpha,asc

@@ -9,7 +9,7 @@
 #   +08_ = Decades
 #   +09_ = People
 #   +10_ = Movies
-# https://github.com/meisnate12/Plex-Meta-Manager                                      
+# https://github.com/meisnate12/Plex-Meta-Manager
 ######################################################
 #                Movie Collections                   #
 ######################################################
@@ -17,83 +17,83 @@
 ######################################################
 templates:
   Chart:
-    sort_title: ++01_<<num>>_<<collection_name>>
+    optional:
+      - poster
+    sort_title: "!!01_<<num>>_<<collection_name>>"
     sync_mode: sync
-    collection_order: custom
-  Decade:  ## See Dynamic.yml Collections
-    plex_search:
-      decade: <<year>>
-    sort_title: ++08_<<collection_name>>
-    collection_order: alpha
-    sync_mode: sync
+    url_poster: <<poster>>
 collections:
-###########################
-#     Charts Trending      #
-###########################
+  ###########################
+  #     Charts Trending      #
+  ###########################
   Trending Movies:
     template:
       name: Chart
       num: 1
+      poster: https://theposterdb.com/api/assets/213570
     trakt_trending: 15
     tmdb_trending_daily: 15
     tmdb_trending_weekly: 15
-    summary: 'Top trending movies from TheMovieDB, Trakt.'
-    collection_order: audience_rating.desc
-    url_poster: https://theposterdb.com/api/assets/213570
+    summary: "Top trending movies from TheMovieDB, Trakt."
+    smart_label: audience_rating.desc
   Now Playing:
     template:
       name: Chart
       num: 2
+      poster: https://theposterdb.com/api/assets/213603
     tmdb_now_playing: 15
     trakt_watched_daily: 15
     imdb_chart: box_office
-    collection_order: audience_rating.desc
-    url_poster: https://theposterdb.com/api/assets/213603
+    smart_label: audience_rating.desc
   Popular Movies:
     template:
       name: Chart
       num: 3
+      poster: https://theposterdb.com/api/assets/213575
     tmdb_popular: 15
     imdb_chart: popular_movies
     trakt_popular: 15
     stevenlu_popular: true
-    summary: 'Popular movies from IMDB, StevenLu, TheMovieDB and Trakt.'
-    collection_order: audience_rating.desc
-    url_poster: https://theposterdb.com/api/assets/213575
+    summary: "Popular movies from IMDB, StevenLu, TheMovieDB and Trakt."
+    smart_label: audience_rating.desc
   Box Office:
     template:
       name: Chart
       num: 4
     trakt_boxoffice: true
     summary: Top of the weekly Box Office according to Trakt.
-###########################
-#      Internet Tops      #
-###########################
+    smart_label: title.asc
+  ###########################
+  #      Internet Tops      #
+  ###########################
   Most Pirated:
     template:
       name: Chart
       num: 5
+      poster: https://theposterdb.com/api/assets/213613
     trakt_collected_weekly: 10
     trakt_list: https://trakt.tv/users/hdlists/lists/top-ten-pirated-movies-of-the-week-torrent-freak-com
+    smart_label: release.desc
   IMDb Top 250:
     template:
       name: Chart
       num: 61
-    url_poster: https://theposterdb.com/api/assets/213613
-    imdb_list: 
+    imdb_list:
       url: https://www.imdb.com/search/title/?groups=top_250&count=250&sort=user_rating,desc
   Vulture’s 101 Best Movie Endings:
     template:
       name: Chart
       num: 7
-    letterboxd_list: 'https://letterboxd.com/brianformo/list/vultures-101-best-movie-endings/'
-    letterboxd_list_details: 'https://letterboxd.com/brianformo/list/vultures-101-best-movie-endings/'
-    collection_order: title.asc
+      poster: https://github.com/kayhos/kayhos-plex-metadata/raw/main/assets/collections/best%20endings.jpg
+    letterboxd_list: "https://letterboxd.com/brianformo/list/vultures-101-best-movie-endings/"
+    letterboxd_list_details: "https://letterboxd.com/brianformo/list/vultures-101-best-movie-endings/"
+    smart_label: title.asc
     schedule: weekly
   1001 Movies You Must See Before You Die:
     template:
       name: Chart
       num: 8
+      poster: https://github.com/kayhos/kayhos-plex-metadata/raw/main/assets/collections/before%20you%20die.jpg
     letterboxd_list: https://letterboxd.com/peterstanley/list/1001-movies-you-must-see-before-you-die/
     letterboxd_list_details: https://letterboxd.com/peterstanley/list/1001-movies-you-must-see-before-you-die/
     collection_order: alpha

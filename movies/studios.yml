@@ -1,15 +1,24 @@
-# Prefixes for Movie Collections:
-#   +01_ = Charts
-#   +02_ = Holidays
-#   +03_ = Studios or Network
-#   +04_ = Collection
-#   +05_ = Countries
-#   +06_ = Genres
-#   +07_ = Awards
-#   +08_ = Decades
-#   +09_ = People
-#   +10_ = Movies
-# https://github.com/meisnate12/Plex-Meta-Manager                                      
+# Prefixes for Collections:
+# !! to ensure top of sort_title in Plex
+# 终终 (end in Chinese Simplified) to ensure bottom of sort_tile in plex
+#   !!!01_ = Holidays
+#   !!01_ = Charts (Trending, Popular, Top Rated, etc.)
+#   !!02_ = Collection (i.e. Best Family Movies)
+#   !!03_ = Genres
+#   !!04_ = Awards
+#   !!05_ = People
+#   !!06_ = Decades
+#   !!07_ = movie/tv/anime collection
+#   alpha = Movies/tv/anime/etc.
+#   终终01_ = Countries
+#   终终02_ = Studios or Network
+#   终终A_ = Administrative
+# Kayhos PMM metadata: https://github.com/kayhos/kayhos-plex-metadata
+# PMM: https://github.com/meisnate12/Plex-Meta-Manager
+# PMM Wiki: https://metamanager.wiki/en/latest/
+# PMM Configs: https://github.com/meisnate12/Plex-Meta-Manager-Configs
+# The Poster DB: https://theposterdb.com (https://theposterdb.com/api/assets/xxxxxx)
+# YAML Validator: http://www.yamllint.com/
 ######################################################
 #                Movie Collections                   #
 ######################################################
@@ -24,16 +33,16 @@ templates:
     smart_label: release.asc
     sync_mode: sync
 collections:
-###########################
-#   Studio Collections    #
-###########################
+  ###########################
+  #   Studio Collections    #
+  ###########################
   Aardman:
     template:
       name: Studio
       studio: Aardman
       poster: https://theposterdb.com/api/assets/26074
     summary: Aardman Animations, Ltd. is a British animation studio based in Bristol, England. Aardman is known for films made using stop-motion clay animation techniques, particularly those featuring Plasticine characters Wallace and Gromit.
-  Studio Ghibli:   # https://theposterdb.com/set/14692
+  Studio Ghibli: # https://theposterdb.com/set/14692
     template:
       name: Studio
       studio: Studio Ghibli
@@ -49,7 +58,7 @@ collections:
   DreamWorks:
     template:
       name: Studio
-      studio: {DreamWorks Animation, DreamWorks Pictures}
+      studio: { DreamWorks Animation, DreamWorks Pictures }
       poster: https://theposterdb.com/api/assets/57647
     summary: DreamWorks Animation LLC (also simply known as DreamWorks) is an American animation studio and a subsidiary of Universal Pictures, itself a subsidiary of Comcast's NBCUniversal. It is based in Glendale, California, and produces animated feature films, television programs, and online virtual games.
   Illumination Entertainment:
@@ -67,7 +76,13 @@ collections:
   Sony Pictures Animation:
     template:
       name: Studio
-      studio: {Sony Pictures, Sony Pictures Home Entertainment, Sony Pictures Animation, Sony Pictures Television Studios}
+      studio:
+        {
+          Sony Pictures,
+          Sony Pictures Home Entertainment,
+          Sony Pictures Animation,
+          Sony Pictures Television Studios,
+        }
       poster: https://theposterdb.com/api/assets/131749
     summary: Sony Pictures Animation Inc. is an American animation studio owned by Sony Entertainment's Sony Pictures Entertainment through their Motion Picture Group division and founded on May 9, 2002. The studio's films are distributed worldwide by Sony Pictures Releasing under their Columbia Pictures label, while all direct-to-video releases are released by Sony Pictures Home Entertainment.
   Walt Disney Animation Studios:
@@ -85,8 +100,14 @@ collections:
   Warner Bros.:
     template:
       name: Studio
-      studio: {Warner Animation Group, Warner Bros. Cartoons, Warner Bros. Animation, Warner Bros. Pictures, Warner Independent Pictures (WIP), Warner Bros./Sevent Arts}
+      studio:
+        {
+          Warner Animation Group,
+          Warner Bros. Cartoons,
+          Warner Bros. Animation,
+          Warner Bros. Pictures,
+          Warner Independent Pictures (WIP),
+          Warner Bros./Sevent Arts,
+        }
       poster: https://theposterdb.com/api/assets/47604
     summary: Warner Bros.is the third-oldest American movie studio in continuous operation, after Paramount Pictures was founded on May 8, 1912 as Famous Players Film Corporation, and Universal Studios founded on June 8, 1912. Warner Bros. incorporated on April 4, 1923.
-
-
