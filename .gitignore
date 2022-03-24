@@ -1,3 +1,7 @@
+# Ignore System files
+
+.vscode
+
 # Ignore cache & logs
 
 logs/*
