@@ -26,21 +26,21 @@
 ######################################################
 templates:
   Collection:
-    sort_title: ++04_<<collection_name>>
+    sort_title: "!!02_<<collection_name>>"
 collections:
-  ###########################
-  #   Special Collections   #
-  ###########################
-  #  Collectionless:
-  #    plex_collectionless:
-  #      exclude_prefix:
-  #        - +
-  #        - ~
-  #      exclude: Marvel Cinematic Universe
-  #    sort_title: 末_Collectionless
-  #    collection_order: alpha
-  #    sync_mode: append
-  # Other Collections
+###########################
+#   Special Collections   #
+###########################
+#  Collectionless:
+#    plex_collectionless:
+#      exclude_prefix:
+#        - +
+#        - ~
+#      exclude: Marvel Cinematic Universe
+#    sort_title: 末_Collectionless
+#    collection_order: alpha
+#    sync_mode: append
+# Other Collections
   Tarantino Collection:
     template:
       name: Collection
@@ -51,8 +51,28 @@ collections:
   Manly Men Movies:
     template:
       name: Collection
-    tmdb_actor: 62, 976, 16483, 16644, 1336, 3, 1100, 10814, 51576, 15111, 57207, 12835, 23880
-    smart_label: title.asc
+    smart_filter:
+      sort_by: title.asc
+      and:
+        any:
+          actor:
+            - Bruce Willis
+            - Chuck Norris
+            - Arnold Schwarzenegger
+            - Steven Seagal
+            - Wesley Snipes
+            - Jet Li
+            - Sylvester Stallone
+            - Dolph Lundgren
+            - Jean-Claude Van Damme
+            - Vin Diesel
+            - Danny Trejo
+            - Tony Jaa
+        any:
+          decade:
+            - 1980s
+            - 1990s
+        Genre: Action
     url_poster: http://kayhos.hoard.ca/poster_not_found.png
   Legos:
     template:
@@ -65,7 +85,7 @@ collections:
   Quick Fixes:
     template:
       name: Collection
-    sort_title: "+04_Good Films, 90 minutes or Less"
+    sort_title: '+04_Good Films, 90 minutes or Less'
     summary: Films with a duration of 90 minutes or less with Critics rating of 50%+ and Audience rating of 70%+
     url_poster: http://kayhos.hoard.ca/poster_not_found.png
     plex_search:
@@ -75,16 +95,17 @@ collections:
         audience_rating.gte: 7
       limit: 100
       sort_by: title.asc
-    ###########################
-    #   French available      #
-    ###########################
+###########################
+#   French available      #
+###########################
     "Films en français":
-      sort_title: +04_999_Films en francais
-      plex_search:
-        any:
-          label:
-            - Audio_fr
-          audio_language:
-            - fr
-      collection_order: title.desc
-      url_poster: http://kayhos.hoard.ca/poster_not_found.png
+        sort_title: +04_999_Films en francais
+        plex_search:
+            any:
+                label: 
+                    - Audio_fr
+                audio_language: 
+                    - fr
+        collection_order: title.desc
+        url_poster: http://kayhos.hoard.ca/poster_not_found.png
+        

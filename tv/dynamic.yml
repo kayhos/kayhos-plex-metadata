@@ -30,7 +30,7 @@ templates:
       - genre_collection_poster
       - imdb_supplement_list
       - trakt_supplement_list
-    sort_title: ++06_<<collection_name>>
+    sort_title: "!!03_<<collection_name>>"
     smart_label: title.asc
     url_poster: <<genre_collection_poster>>
     plex_search:
@@ -45,7 +45,7 @@ templates:
       - theme_collection_poster
       - imdb_supplement_list
       - trakt_supplement_list
-    sort_title: ++06_<<collection_name>>
+    sort_title: "!!03_<<collection_name>>"
     smart_label: title.asc
     trakt_list: <<trakt_supplement_list>>
     imdb_list: <<imdb_supplement_list>>
@@ -53,7 +53,7 @@ templates:
   decade_collection:
     optional:
       - decade_collection_poster
-    sort_title: ++08_<<collection_name>>
+    sort_title: "!!06_<<collection_name>>"
     smart_filter:
       any:
         decade: <<decade>>

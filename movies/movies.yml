@@ -76,8 +76,8 @@ dynamic_collections:
         508334: https://theposterdb.com/api/assets/94121 # Angels in the ...
         531315: https://theposterdb.com/api/assets/23354 # Angry Birds
         422834: https://theposterdb.com/api/assets/4818 # Ant-Man
-        # Astérix & Obélix Animation
-        # Astérix & Obélix Live-Action
+        94039: https://theposterdb.com/api/assets/72089 # Astérix & Obélix Animation
+        2396: https://image.tmdb.org/t/p/original/69TxXhLZNfJoWn8ZCKDqBKWRfRD.jpg # Astérix & Obélix Live-Action
         1006: https://theposterdb.com/api/assets/163540 # Austin Powers
         531241: https://theposterdb.com/api/assets/4813 # Avenger's Spider-Man
         86311: https://theposterdb.com/api/assets/4816 # The Avengers
@@ -117,8 +117,9 @@ dynamic_collections:
         315595: https://theposterdb.com/api/assets/167996 # Disney Fairies
         283579: https://theposterdb.com/api/assets/163697 # Divergent
         748919: https://theposterdb.com/api/assets/173568 # Don'T breathe
-        # Dracula (Hammer)
-        # Dracula (Universal)
+        123724: https://theposterdb.com/api/assets/80247 # Dracula (Hammer)
+        221539: https://theposterdb.com/api/assets/106847 # Dracula (Universal)
+        115822: https://theposterdb.com/api/assets/50123 # Dracula 2000
         96665: https://theposterdb.com/api/assets/12114 # Dumb and dumber
         726871: https://theposterdb.com/api/assets/197348 # Dune
         106498: https://theposterdb.com/api/assets/73505 # Dungeons and Dragons
@@ -139,6 +140,11 @@ dynamic_collections:
         135468: https://theposterdb.com/api/assets/42723 # GI Joe
         575987: https://theposterdb.com/api/assets/87828 # The Girl - Millenium
         230: https://theposterdb.com/api/assets/164789 # The Godfather
+        
+        374509: https://theposterdb.com/api/assets/125926 # Godzilla Showa
+        374511: https://theposterdb.com/api/assets/171334 # Godzilla Heisei
+        374512: https://theposterdb.com/api/assets/136302 # Godzilla Millenium
+        813157:  # Americanized Godzilla (1950s)
         535313: https://theposterdb.com/api/assets/160971 # Godzilla // Monsterverse
         89151: https://theposterdb.com/api/assets/161052 # Gremlins
         284433: https://theposterdb.com/api/assets/4815 # Guardians of the galaxy
@@ -181,6 +187,7 @@ dynamic_collections:
         87359: https://theposterdb.com/api/assets/2705 # Mission Impossible
         # MonsterVerse under Godzilla
         9818: https://theposterdb.com/api/assets/160972 # Mortal Kombat
+        171732: https://theposterdb.com/api/assets/160933 # Rebirth of Mothra
         1733: https://theposterdb.com/api/assets/69966 # The Mummy
         108693: https://theposterdb.com/api/assets/165424 # National Lampoon
         52984: https://theposterdb.com/api/assets/71196 # National Tresure
@@ -204,7 +211,7 @@ dynamic_collections:
         98036: https://theposterdb.com/api/assets/161291 # Re-Animator
         163902: https://theposterdb.com/api/assets/7154 # RED
         17255: https://theposterdb.com/api/assets/11303 # Resident Evil
-        133352, poster: https://theposterdb.com/api/assets/95488 # Resident Evil Biohazard
+        133352: https://theposterdb.com/api/assets/95488 # Resident Evil Biohazard
         115776: https://theposterdb.com/api/assets/841 # Robert Langdon by Dan Brown
         5547: https://theposterdb.com/api/assets/75745 # RoboCop
         1575: https://theposterdb.com/api/assets/40086 # Rocky
@@ -213,7 +220,7 @@ dynamic_collections:
         4246: https://theposterdb.com/api/assets/993 # Scary Movie
         2602: https://theposterdb.com/api/assets/804 # Scream
         427084: https://theposterdb.com/api/assets/65774 # The Secret Life of Pets
-        286023: https://theposterdb.com/api/assets/9124# Sharknado
+        286023: https://theposterdb.com/api/assets/9124 #Sharknado
         2150: https://theposterdb.com/api/assets/6997 # Shrek
         47391: https://theposterdb.com/api/assets/161870 # Sleepaway Camp
         9887: https://theposterdb.com/api/assets/160993 # Species
@@ -248,7 +255,8 @@ dynamic_collections:
         9735: 6466, 222724 # friday 13th
         2980: 43074 # ghostbusters
         535313: 293167 # godzilla monsterverse
-        9743: 11454 # hanibal lecter
+        374512: 315011 # Godzilla Reiwa in Godzilla Millenium
+        9743: 11454 # hannibal lecter
         17235: 456740, 16774, 13204, 154207, 789978 # Hellboy
         70068: 658009, 643413, 450001, 751391, 44249, 182127, 44865 # Ip Man
         296429: 43947, 207768, 357096 # I spit on your grave 162457
@@ -256,6 +264,8 @@ dynamic_collections:
         9818: 664767, 460465 # Mortal Kombat
         8581: 6466, 23437 # Nightmare on elm street
         212279: 43593, 71668  # Piranha 3D
+        171732: 39410, 39465, 1682, 36243  # Mothra
+
 collections:
 ######################################################
 #                Movie Collections                   #
@@ -298,6 +308,11 @@ collections:
       name: extra_collections
       extra_collection_poster: https://theposterdb.com/api/assets/68410 
     imdb_list: https://www.imdb.com/list/ls083312980/
+  "Godzilla: The Complete Collection":
+    template:
+      name: extra_collection
+      collections: 374509, 374511, 374512, 813157, 535313
+      extra_collection_poster: https://theposterdb.com/api/assets/84843
   # Manly men
   The Man with No Name:
     template: 

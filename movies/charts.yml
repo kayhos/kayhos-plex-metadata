@@ -1,15 +1,24 @@
-# Prefixes for Movie Collections:
-#   +01_ = Charts
-#   +02_ = Holidays
-#   +03_ = Studios or Network
-#   +04_ = Collection
-#   +05_ = Countries
-#   +06_ = Genres
-#   +07_ = Awards
-#   +08_ = Decades
-#   +09_ = People
-#   +10_ = Movies
-# https://github.com/meisnate12/Plex-Meta-Manager
+# Prefixes for Collections:
+# !! to ensure top of sort_title in Plex
+# 终终 (end in Chinese Simplified) to ensure bottom of sort_tile in plex
+#   !!!01_ = Holidays
+#   !!01_ = Charts (Trending, Popular, Top Rated, etc.)
+#   !!02_ = Collection (i.e. Best Family Movies)
+#   !!03_ = Genres
+#   !!04_ = Awards
+#   !!05_ = People
+#   !!06_ = Decades
+#   !!07_ = movie/tv/anime collection
+#   alpha = Movies/tv/anime/etc.
+#   终终01_ = Countries
+#   终终02_ = Studios or Network
+#   终终A_ = Administrative
+# Kayhos PMM metadata: https://github.com/kayhos/kayhos-plex-metadata
+# PMM: https://github.com/meisnate12/Plex-Meta-Manager
+# PMM Wiki: https://metamanager.wiki/en/latest/
+# PMM Configs: https://github.com/meisnate12/Plex-Meta-Manager-Configs
+# The Poster DB: https://theposterdb.com (https://theposterdb.com/api/assets/xxxxxx)
+# YAML Validator: http://www.yamllint.com/
 ######################################################
 #                Movie Collections                   #
 ######################################################
@@ -22,6 +31,14 @@ templates:
     sort_title: "!!01_<<num>>_<<collection_name>>"
     sync_mode: sync
     url_poster: <<poster>>
+    smart_label: release.asc 
+  Collection:
+    optional:
+      - poster
+    sort_title: "!!02_<<num>>_<<collection_name>>"
+    sync_mode: sync
+    url_poster: <<poster>>
+    smart_label: release.asc 
 collections:
   ###########################
   #     Charts Trending      #
@@ -35,7 +52,6 @@ collections:
     tmdb_trending_daily: 15
     tmdb_trending_weekly: 15
     summary: "Top trending movies from TheMovieDB, Trakt."
-    smart_label: audience_rating.desc
   Now Playing:
     template:
       name: Chart
@@ -44,7 +60,6 @@ collections:
     tmdb_now_playing: 15
     trakt_watched_daily: 15
     imdb_chart: box_office
-    smart_label: audience_rating.desc
   Popular Movies:
     template:
       name: Chart
@@ -55,14 +70,12 @@ collections:
     trakt_popular: 15
     stevenlu_popular: true
     summary: "Popular movies from IMDB, StevenLu, TheMovieDB and Trakt."
-    smart_label: audience_rating.desc
   Box Office:
     template:
       name: Chart
       num: 4
     trakt_boxoffice: true
     summary: Top of the weekly Box Office according to Trakt.
-    smart_label: title.asc
   ###########################
   #      Internet Tops      #
   ###########################
@@ -73,35 +86,38 @@ collections:
       poster: https://theposterdb.com/api/assets/213613
     trakt_collected_weekly: 10
     trakt_list: https://trakt.tv/users/hdlists/lists/top-ten-pirated-movies-of-the-week-torrent-freak-com
-    smart_label: release.desc
+    schedule: weekly(monday)
   IMDb Top 250:
     template:
       name: Chart
       num: 61
+      poster: https://github.com/kayhos/kayhos-plex-metadata/raw/main/assets/common/imdb.jpg
     imdb_list:
       url: https://www.imdb.com/search/title/?groups=top_250&count=250&sort=user_rating,desc
+    schedule: weekly(monday)
   Vulture’s 101 Best Movie Endings:
     template:
-      name: Chart
+      name: Collection
       num: 7
-      poster: https://github.com/kayhos/kayhos-plex-metadata/raw/main/assets/collections/best%20endings.jpg
+      poster: https://github.com/kayhos/kayhos-plex-metadata/raw/main/assets/collections/best-endings.jpg
     letterboxd_list: "https://letterboxd.com/brianformo/list/vultures-101-best-movie-endings/"
     letterboxd_list_details: "https://letterboxd.com/brianformo/list/vultures-101-best-movie-endings/"
-    smart_label: title.asc
-    schedule: weekly
+    schedule: weekly(monday)
   1001 Movies You Must See Before You Die:
     template:
-      name: Chart
+      name: Collection
       num: 8
-      poster: https://github.com/kayhos/kayhos-plex-metadata/raw/main/assets/collections/before%20you%20die.jpg
+      poster: https://github.com/kayhos/kayhos-plex-metadata/raw/main/assets/collections/before-you-die.jpg
     letterboxd_list: https://letterboxd.com/peterstanley/list/1001-movies-you-must-see-before-you-die/
     letterboxd_list_details: https://letterboxd.com/peterstanley/list/1001-movies-you-must-see-before-you-die/
-    collection_order: alpha
-    sync_mode: sync
+    smart_label: release.asc
+    sync_mode: append
   Criterion Collection:
     template:
-      name: Chart
+      name: Collection
       num: 669
     imdb_list: https://www.imdb.com/list/ls024106029/
     letterboxd_list: https://letterboxd.com/jbutts15/list/the-complete-criterion-collection/
     smart_label: title.asc
+    sync_mode: append
+    schedule: weekly(monday)

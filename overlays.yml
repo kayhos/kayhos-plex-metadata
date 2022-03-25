@@ -80,8 +80,6 @@ templates:
       build_collection: false
       item_overlay: <<overlay_name>>
       item_metadata_language: <<meta_lang>>
-    #    sort_title: 末_<<collection_name>>
-#        collection_order: alpha
 collections:
   dl_english_french:
     template: { name: dl_overlay, english: en, french: fr }

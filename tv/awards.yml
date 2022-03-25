@@ -27,7 +27,7 @@
 templates:
   Award:
     url_poster: <<poster>>
-    sort_title: +07_<<num>>_<<collection_name>>
+    sort_title: "!!04_<<num>>_<<collection_name>>"
     collection_order: release.desc
     sync_mode: sync
     schedule: monthly(15) # Doing only on the 15th of the month to reduce amount of processing

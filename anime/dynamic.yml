@@ -38,7 +38,7 @@ templates:
       - genre_collection_poster
       - imdb_supplement_list
       - trakt_supplement_list
-    sort_title: ++06_<<collection_name>>
+    sort_title: "!!03_<<collection_name>>"
     smart_label: title.asc
     url_poster: <<genre_collection_poster>>
     plex_search:
@@ -54,7 +54,7 @@ templates:
       - imdb_supplement_list
       - trakt_supplement_list
       - anidb
-    sort_title: ++06_<<collection_name>>
+    sort_title: "!!03_<<collection_name>>"
     smart_label: title.asc
     anidb_tags: <<anidb>>
     trakt_list: <<trakt_supplement_list>>

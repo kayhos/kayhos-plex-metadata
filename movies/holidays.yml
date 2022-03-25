@@ -30,7 +30,7 @@ templates:
     collection_order: release
     summary: "A timed collection of <<holiday>> movies and other movies that may relate to the holiday. NOTE: this collection will automatically disappear once the holiday period is over."
     delete_not_scheduled: true
-    sort_title: +++000_<<collection_name>>
+    sort_title: "!!!001_<<collection_name>>"
     visible_home: true
     visible_shared: true
     sync_mode: sync
@@ -63,7 +63,7 @@ collections:
     template:
       name: Holiday
       holiday: Easter
-      poster: https://theposterdb.com/api/assets/60970
+      poster: https://theposterdb.com/api/assets/223113
     imdb_list:
       - "https://www.imdb.com/list/ls062665509/"
       - "https://www.imdb.com/list/ls051733651/"

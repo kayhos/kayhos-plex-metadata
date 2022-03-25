@@ -1,4 +1,9 @@
-# Prefixes for Collections:
+######################################################
+#                   UNUSED                           #
+######################################################
+######################################################
+#                   UNUSED                           #
+####################################################### Prefixes for Collections:
 # !! to ensure top of sort_title in Plex
 # 终终 (end in Chinese Simplified) to ensure bottom of sort_tile in plex
 #   !!!01_ = Holidays
@@ -33,7 +38,7 @@ templates:
         genre: <<genre>>
       sort_by: title.asc
     url_poster: <<poster>>
-    sort_title: +06_<<collection_name>>
+    sort_title: "!!03_<<collection_name>>"
     title: Genre: <<collection_name>>
   Theme:
     optional:
@@ -43,7 +48,7 @@ templates:
         tag: <<genre>>
       sort_by: title.asc
     url_poster: <<poster>>
-    sort_title: +06_<<collection_name>>
+    sort_title: "!!03_<<collection_name>>"
     title: Genre: <<collection_name>>
 collections:
 ###########################

@@ -19,10 +19,10 @@
 # PMM Configs: https://github.com/meisnate12/Plex-Meta-Manager-Configs
 # The Poster DB: https://theposterdb.com (https://theposterdb.com/api/assets/xxxxxx)
 # YAML Validator: http://www.yamllint.com/
-##################################################
-#                  Collections                   #
-#                   Dynamic                      #
-##################################################
+######################################################
+#                Movie Collections                   #
+#                    Dynamic                         #
+######################################################
 templates:
   ## DIRECTOR TEMPLATE
   director_collection:
@@ -36,7 +36,7 @@ templates:
       - genre_collection_poster
       - imdb_supplement_list
       - trakt_supplement_list
-    sort_title: "!!06_<<collection_name>>"
+    sort_title: "!!03_<<collection_name>>"
     smart_label: title.asc
     url_poster: <<genre_collection_poster>>
     plex_search:
@@ -51,7 +51,7 @@ templates:
       - theme_collection_poster
       - imdb_supplement_list
       - trakt_supplement_list
-    sort_title: "!!06_<<collection_name>>"
+    sort_title: "!!03_<<collection_name>>"
     smart_label: title.asc
     trakt_list: <<trakt_supplement_list>>
     imdb_list: <<imdb_supplement_list>>
@@ -59,7 +59,7 @@ templates:
   decade_collection:
     optional:
       - decade_collection_poster
-    sort_title: "!!08_<<collection_name>>"
+    sort_title: "!!06_<<collection_name>>"
     url_poster: <<decade_collection_poster>>
     smart_filter:
       any:
@@ -70,7 +70,7 @@ dynamic_collections:
   # only 1 collection at a time (the correct way to do in Plex)
   # The rest should be smart collections.
   # Create a director collection for each one found in movies
-  Movie Directors: # mapping name does not matter just needs to be unique
+  Dynamic_Directors: # mapping name does not matter just needs to be unique
     type: director
     template: director_collection
     remove_suffix: "Collection"
@@ -78,9 +78,8 @@ dynamic_collections:
     data:
       depth: 1
       minimum: 5
-
   # Create a decade collection for every decade that have movies
-  Decades: # mapping name does not matter just needs to be unique
+  Dynamic_Decades: # mapping name does not matter just needs to be unique
     type: decade
     template: decade_collection
     remove_suffix: "Collection"
@@ -106,7 +105,7 @@ dynamic_collections:
 
   # Create a genre collection for each and every genre mapping in Plex
   # We'll need to create more collections for themes to supplement the genres
-  Genres: # mapping name does not matter, just needs to be unique
+  Dynamic_Genres: # mapping name does not matter, just needs to be unique
     type: genre
     title_format: "Genre: <<key_name>>" #<<library_type>>s
     template: genre_collection
@@ -141,7 +140,6 @@ dynamic_collections:
         Music: https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=music
         Sports: https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=sport
 #      trakt_supplement_list:
-
 collections:
   "Genre: Apocalypse":
     template:

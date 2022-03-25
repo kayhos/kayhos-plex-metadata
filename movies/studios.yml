@@ -29,7 +29,7 @@ templates:
     plex_search:
       studio: <<studio>>
     url_poster: <<poster>>
-    sort_title: +03_<<collection_name>>
+    sort_title: 终终02_<<collection_name>>
     smart_label: release.asc
     sync_mode: sync
 collections:

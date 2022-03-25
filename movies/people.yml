@@ -1,3 +1,9 @@
+######################################################
+#                   UNUSED                           #
+######################################################
+######################################################
+#                   UNUSED                           #
+######################################################
 # Prefixes for Collections:
 # !! to ensure top of sort_title in Plex
 # 终终 (end in Chinese Simplified) to ensure bottom of sort_tile in plex
@@ -28,7 +34,7 @@ templates:
   people:
     tmdb_director: <<person>>
     tmdb_director_details: <<person>>
-    sort_title: +09_<<collection_name>>
+    sort_title: "!!05_<<collection_name>>"
     collection_order: release.desc
     sync_mode: sync
 collections:
