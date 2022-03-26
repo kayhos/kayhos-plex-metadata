@@ -83,6 +83,7 @@ dynamic_collections:
         Fantasy: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/fantasy.jpg
         History: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/history.jpg
         Horror: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/horror.jpg
+        Mini-Series: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/mini-serie.jpg
         Music: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/music.jpg
         Musical: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/musical.jpg
         Mystery: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/mystery.jpg
@@ -95,6 +96,7 @@ dynamic_collections:
         Sports: http://kayhos.hoard.ca/poster_not_found.png # https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/sports.jpg
         Talk: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/talk-show.jpg
         Thriller: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/thriller.jpg
+        TV Movie: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/tv-movie.jpg
         War: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/war.jpg
         Western: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/western.jpg
       imdb_supplement_list:
@@ -103,4 +105,4 @@ dynamic_collections:
         Sports: https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=sport
 #      trakt_supplement_list:
 
-collections:
+#collections:

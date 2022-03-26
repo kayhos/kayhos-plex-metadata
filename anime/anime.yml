@@ -28,6 +28,7 @@ templates:
   Chart:
     sort_title: "!!01_<<num>><<collection_name>>"
     sync_mode: sync
+    smart_label: audience_rating.desc
   Collection:
     optional:
       - poster_id
@@ -35,7 +36,7 @@ templates:
       - anilist
     url_poster: <<poster_id>>
     sort_title: <<collection_name>>
-    collection_order: release.asc
+    smart_label: release.asc
     anidb_relation: <<anidb>>
     anilist_relations: <<anilist>>
   Theme:
@@ -46,21 +47,17 @@ templates:
     anidb_tag:
       tag: <<anidb>>
     sync_mode: sync
-    collection_order: title.asc
+    smart_label: title.asc
 collections:
   ######################################################
   #                Chart Collections                   #
   ######################################################
-  Current Season:
+  New Releases:
     template:
       name: Chart
       num: 3
-    anilist_search:
-      season:
-      year:
-      sort_by: popular
-    collection_order: alpha
-    sync_mode: sync
+    mal_airing: 30
+    smart_label: title.asc
   #  Suggested:
   #    template:
   #      name: Chart
@@ -72,11 +69,9 @@ collections:
     template:
       name: Chart
       num: 1
-    mal_airing: 30
     anilist_trending: 30
     summary: Trending anime on AniList and MyAnimeList.
-    collection_order: alpha
-    url_poster: https://theposterdb.com/api/assets/213570
+    url_poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/trending.jpg
   Popular:
     template:
       name: Chart
@@ -84,9 +79,8 @@ collections:
     mal_popular: 30
     anidb_popular: 30
     anilist_popular: 30
-    collection_order: alpha
     summary: "Popular Anime on AniDB, AniList and MyAnimeList."
-    url_poster: https://theposterdb.com/api/assets/213575
+    url_poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/popular.jpg
   Top Rated Anime:
     template:
       name: Chart
@@ -94,8 +88,7 @@ collections:
     anilist_top_rated: 30
     mal_all: 30
     summary: Top Rated Anime on AniList and MyAnimeList.
-    collection_order: audience_rating.desc
-    url_poster: https://theposterdb.com/api/assets/213605
+    url_poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/top-rated.jpg
   ######################################################
   #              Anime   Collections                   #
   ######################################################

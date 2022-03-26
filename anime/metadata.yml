@@ -1,11 +1,12 @@
-
 ######################################################
 #                Anime   Metadata                    #
 ######################################################
 metadata:
   # Star Trek (https://theposterdb.com/set/119442)
-  "Test":
-    url_poster: https://theposterdb.com/api/assets/198292
+  "Arifureta: From Commonplace to World's Strongest":
+    url_poster: https://theposterdb.com/api/assets/204176
     seasons:
       1:
-        url_poster: https://theposterdb.com/api/assets/
+        url_poster: https://theposterdb.com/api/assets/204177
+      2:
+        url_postrer: https://theposterdb.com/api/assets/204178

@@ -31,14 +31,14 @@ templates:
     sort_title: "!!01_<<num>>_<<collection_name>>"
     sync_mode: sync
     url_poster: <<poster>>
-    smart_label: release.asc 
+    smart_label: release.asc
   Collection:
     optional:
       - poster
     sort_title: "!!02_<<num>>_<<collection_name>>"
     sync_mode: sync
     url_poster: <<poster>>
-    smart_label: release.asc 
+    smart_label: release.asc
 collections:
   ###########################
   #     Charts Trending      #
@@ -47,12 +47,12 @@ collections:
     template:
       name: Chart
       num: 1
-      poster: https://theposterdb.com/api/assets/213570
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/trending.jpg
     trakt_trending: 15
     tmdb_trending_daily: 15
     tmdb_trending_weekly: 15
     summary: "Top trending movies from TheMovieDB, Trakt."
-  Now Playing:
+  New Releases:
     template:
       name: Chart
       num: 2
@@ -64,18 +64,20 @@ collections:
     template:
       name: Chart
       num: 3
-      poster: https://theposterdb.com/api/assets/213575
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/popular.jpg
     tmdb_popular: 15
     imdb_chart: popular_movies
     trakt_popular: 15
     stevenlu_popular: true
     summary: "Popular movies from IMDB, StevenLu, TheMovieDB and Trakt."
-  Box Office:
-    template:
-      name: Chart
-      num: 4
-    trakt_boxoffice: true
-    summary: Top of the weekly Box Office according to Trakt.
+  # NOT ENOUGH RESULTS TO BE PERTINENT
+  #  Box Office:
+  #    template:
+  #      name: Chart
+  #      num: 4
+  #      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/collections/box-office.jpg
+  #    trakt_boxoffice: true
+  #    summary: Top of the weekly Box Office according to Trakt.
   ###########################
   #      Internet Tops      #
   ###########################
@@ -83,15 +85,15 @@ collections:
     template:
       name: Chart
       num: 5
-      poster: https://theposterdb.com/api/assets/213613
-    trakt_collected_weekly: 10
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/collections/most-pirated.jpg
+    #trakt_collected_weekly: 10
     trakt_list: https://trakt.tv/users/hdlists/lists/top-ten-pirated-movies-of-the-week-torrent-freak-com
-    schedule: weekly(monday)
+    schedule: weekly(thursday)
   IMDb Top 250:
     template:
       name: Chart
       num: 61
-      poster: https://github.com/kayhos/kayhos-plex-metadata/raw/main/assets/common/imdb.jpg
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/imdb.jpg
     imdb_list:
       url: https://www.imdb.com/search/title/?groups=top_250&count=250&sort=user_rating,desc
     schedule: weekly(monday)
@@ -99,7 +101,7 @@ collections:
     template:
       name: Collection
       num: 7
-      poster: https://github.com/kayhos/kayhos-plex-metadata/raw/main/assets/collections/best-endings.jpg
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/collections/best-endings.jpg
     letterboxd_list: "https://letterboxd.com/brianformo/list/vultures-101-best-movie-endings/"
     letterboxd_list_details: "https://letterboxd.com/brianformo/list/vultures-101-best-movie-endings/"
     schedule: weekly(monday)
@@ -107,15 +109,17 @@ collections:
     template:
       name: Collection
       num: 8
-      poster: https://github.com/kayhos/kayhos-plex-metadata/raw/main/assets/collections/before-you-die.jpg
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/collections/before-you-die.jpg
     letterboxd_list: https://letterboxd.com/peterstanley/list/1001-movies-you-must-see-before-you-die/
     letterboxd_list_details: https://letterboxd.com/peterstanley/list/1001-movies-you-must-see-before-you-die/
     smart_label: release.asc
     sync_mode: append
+    schedule: weekly(monday)
   Criterion Collection:
     template:
       name: Collection
       num: 669
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/poster_noty_found.png
     imdb_list: https://www.imdb.com/list/ls024106029/
     letterboxd_list: https://letterboxd.com/jbutts15/list/the-complete-criterion-collection/
     smart_label: title.asc

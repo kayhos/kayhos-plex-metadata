@@ -37,12 +37,12 @@ collections:
     template:
       name: Collection
     tvdb_list: https://www.thetvdb.com/lists/arrowverse
-    url_poster: https://theposterdb.com/api/assets/32030/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/32030
   Marvel Television:
     template:
       name: Collection
     tvdb_list: https://thetvdb.com/lists/marvel-cinematic-universe
-    url_poster: https://theposterdb.com/api/assets/201425/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/201425
   Stargate:
     template:
       name: Collection
@@ -64,4 +64,4 @@ collections:
       name: Collection
     tvdb_list: https://thetvdb.com/lists/the-walking-dead
     collection_order: custom
-    url_poster: https://theposterdb.com/api/assets/176383/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/176383
