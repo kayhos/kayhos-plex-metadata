@@ -62,36 +62,41 @@ templates:
 dynamic_collections:
   # Create a genre collection for each and every genre mapping in Plex
   # We'll need to create more collections for themes to supplement the genres
-  Genres: # mapping name does not matter, just needs to be unique
+  Dynamic_Genres: # mapping name does not matter, just needs to be unique
     type: genre
     title_format: "Genre: <<key_name>>" #<<library_type>>s
     template: genre_collection
     remove_suffix: "Collection"
     template_variables:
       genre_collection_poster:
-        Action: https://theposterdb.com/api/assets/221846/download?performed_by=kayhos
-        Adventure: https://theposterdb.com/api/assets/52218
-        Animation: https://theposterdb.com/api/assets/120090
-        Anime: https://theposterdb.com/api/assets/126743
-        Biography: https://theposterdb.com/api/assets/60369
-        Comedy: https://theposterdb.com/api/assets/51397
-        Crime: https://theposterdb.com/api/assets/53057
-        Documentary: https://theposterdb.com/api/assets/51430
-        Drama: https://theposterdb.com/api/assets/52016
-        Family: https://theposterdb.com/api/assets/53059
-        Fantasy: https://theposterdb.com/api/assets/51476
-        History: https://theposterdb.com/api/assets/58022
-        Horror: https://theposterdb.com/api/assets/51475
-        Music: https://theposterdb.com/api/assets/51398
-        Musical: https://theposterdb.com/api/assets/51427
-        Mystery: https://theposterdb.com/api/assets/53060
-        Romance: https://theposterdb.com/api/assets/53062
-        Science Fiction: https://theposterdb.com/api/assets/51772
-        Short: https://theposterdb.com/api/assets/53063
-        Sports: https://theposterdb.com/api/assets/60371
-        Thriller: https://theposterdb.com/api/assets/52019
-        War: https://theposterdb.com/api/assets/51477
-        Western: https://theposterdb.com/api/assets/51774
+        Action: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/action.jpg
+        Adventure: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/adventure.jpg
+        Animation: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/animation.jpg
+        Anime: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/anime.jpg
+        Biography: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/biopic.jpg
+        Children: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/children.jpg
+        Comedy: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/comedy.jpg
+        Crime: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/crime.jpg
+        Documentary: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/documentary.jpg
+        Drama: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/drama.jpg
+        Family: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/family.jpg
+        Fantasy: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/fantasy.jpg
+        History: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/history.jpg
+        Horror: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/horror.jpg
+        Music: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/music.jpg
+        Musical: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/musical.jpg
+        Mystery: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/mystery.jpg
+        Politics: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/politics.jpg
+        Reality: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/reality.jpg
+        Romance: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/romance.jpg
+        Science Fiction: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/sci-fi.jpg
+        Short: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/short.jpg
+        Soap: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/soap-opera.jpg
+        Sports: http://kayhos.hoard.ca/poster_not_found.png # https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/sports.jpg
+        Talk: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/talk-show.jpg
+        Thriller: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/thriller.jpg
+        War: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/war.jpg
+        Western: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/western.jpg
       imdb_supplement_list:
         Fantasy: https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=fantasy
         Music: https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=music

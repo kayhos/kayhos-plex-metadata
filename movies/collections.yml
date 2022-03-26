@@ -28,9 +28,105 @@ templates:
   Collection:
     sort_title: "!!02_<<collection_name>>"
 collections:
+  ###########################
+  #   Special Collections   #
+  ###########################
+  Tarantino Collection:
+    template:
+      name: Collection
+    tmdb_director: 138
+    url_poster: https://theposterdb.com/api/assets/49975
+    collection_order: release.desc
+    summary: Movies directed by Quentin Tarantino
+  LEGO:
+    template:
+      name: Collection
+    smart_filter:
+      sort_by: title.asc
+      any:
+        title: Lego
+    url_poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/lego.jpg
+    url_background: https://unsplash.com/photos/kn-UmDZQDjM/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjQ4MjMwMDAz&force=true&w=1920 # https://unsplash.com/photos/kn-UmDZQDjM
+  Manly Men Movies:
+    template:
+      name: Collection
+    url_poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/manly-men.jpg
+    url_background: https://unsplash.com/photos/Oi31uKsnM1Q/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MXx8ZXhwbG9zaW9ufGVufDB8fHx8MTY0ODIxMDcxMg&force=true&w=1920 # https://unsplash.com/photos/Oi31uKsnM1Q
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: Action
+        any:
+          decade:
+            - 1980
+            - 1990
+        all:
+          any:
+            actor:
+              - Bruce Willis
+              - Chuck Norris
+              - Arnold Schwarzenegger
+              - Steven Seagal
+              - Wesley Snipes
+              - Jet Li
+              - Sylvester Stallone
+              - Dolph Lundgren
+              - Jean-Claude Van Damme
+              - Vin Diesel
+              - Danny Trejo
+              - Tony Jaa
+  Monster Mash:
+    template:
+      name: Collection
+    url_poster: http://kayhos.hoard.ca/poster_not_found.png
+    url_background: https://unsplash.com/photos/gtxFe9ytF5k/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8OHx8Z29kemlsbGF8ZW58MHx8fHwxNjQ4MjE4NDAw&force=true&w=1920 # https://unsplash.com/photos/gtxFe9ytF5k
+    smart_filter:
+      sort_by: title.asc
+      any:
+        title:
+          - godzilla # Kaiju
+          - mothra # Kaiju
+          - ebirah # kaiju
+          - gamera # kaiju
+          - ghidorah # kaiju
+          - king kong # kaiju
+          - tremors # kaiju
+          - jurassic park # kaiju
+          - vampire # classic
+          - dracula # classic
+          - werewolf # classic
+          - frankenstein # classic
+          - mummy # classic
+          - zombie # classic
+          - starship troopers # aliens
+          - alien # aliens
+  "Good & 90 minutes or Less":
+    template:
+      name: Collection
+    summary: Films with a duration of 90 minutes or less with Critics rating of 50%+ and Audience rating of 70%+
+    url_poster: http://kayhos.hoard.ca/poster_not_found.png
+    smart_filter:
+      limit: 100
+      sort_by: title.asc
+      all:
+        duration.lte: 90
+        critic_rating.gte: 5
+        audience_rating.gte: 7
+
 ###########################
-#   Special Collections   #
+#   French available      #
 ###########################
+"Films en français":
+  template:
+    name: Collection
+  smart_filter:
+    any:
+      label:
+        - Audio_fr
+      audio_language:
+        - fr
+  collection_order: title.desc
+  url_poster: http://kayhos.hoard.ca/poster_not_found.png
 #  Collectionless:
 #    plex_collectionless:
 #      exclude_prefix:
@@ -40,72 +136,3 @@ collections:
 #    sort_title: 末_Collectionless
 #    collection_order: alpha
 #    sync_mode: append
-# Other Collections
-  Tarantino Collection:
-    template:
-      name: Collection
-    tmdb_director: 138
-    url_poster: https://theposterdb.com/api/assets/49975
-    collection_order: release.desc
-    summary: Movies directed by Quentin Tarantino
-  Manly Men Movies:
-    template:
-      name: Collection
-    smart_filter:
-      sort_by: title.asc
-      and:
-        any:
-          actor:
-            - Bruce Willis
-            - Chuck Norris
-            - Arnold Schwarzenegger
-            - Steven Seagal
-            - Wesley Snipes
-            - Jet Li
-            - Sylvester Stallone
-            - Dolph Lundgren
-            - Jean-Claude Van Damme
-            - Vin Diesel
-            - Danny Trejo
-            - Tony Jaa
-        any:
-          decade:
-            - 1980s
-            - 1990s
-        Genre: Action
-    url_poster: http://kayhos.hoard.ca/poster_not_found.png
-  Legos:
-    template:
-      name: Collection
-    smart_filter:
-      any:
-        title: Lego
-      sort_by: title.asc
-    url_poster: http://kayhos.hoard.ca/poster_not_found.png
-  Quick Fixes:
-    template:
-      name: Collection
-    sort_title: '+04_Good Films, 90 minutes or Less'
-    summary: Films with a duration of 90 minutes or less with Critics rating of 50%+ and Audience rating of 70%+
-    url_poster: http://kayhos.hoard.ca/poster_not_found.png
-    plex_search:
-      all:
-        duration.lte: 90
-        critic_rating.gte: 5
-        audience_rating.gte: 7
-      limit: 100
-      sort_by: title.asc
-###########################
-#   French available      #
-###########################
-    "Films en français":
-        sort_title: +04_999_Films en francais
-        plex_search:
-            any:
-                label: 
-                    - Audio_fr
-                audio_language: 
-                    - fr
-        collection_order: title.desc
-        url_poster: http://kayhos.hoard.ca/poster_not_found.png
-        

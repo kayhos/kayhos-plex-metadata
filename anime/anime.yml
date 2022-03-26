@@ -31,6 +31,8 @@ templates:
   Collection:
     optional:
       - poster_id
+      - anidb
+      - anilist
     url_poster: <<poster_id>>
     sort_title: <<collection_name>>
     collection_order: release.asc

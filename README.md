@@ -46,7 +46,7 @@ Inspiration was heavily taken from these people, I am very tankful to them for s
 - [Siege36](https://github.com/meisnate12/Plex-Meta-Manager-Configs/tree/master/Siege36) for his metadata.yml files.
 - [SiskoUrso](https://github.com/meisnate12/Plex-Meta-Manager-Configs/tree/master/SiskoUrso) for his metadata.yml file.
 - [bullmoose20](https://github.com/meisnate12/Plex-Meta-Manager-Configs/tree/master/bullmoose20) for his playlist file.
-- [Lucky](https://github.com/zluckytraveler/Plex-Meta-Manager-Configs/tree/master/zluckytraveler)
+- [Lucky](https://github.com/zluckytraveler/Plex-Meta-Manager-Configs/tree/master/zluckytraveler) for his awards collections.
 
 ### Images
 

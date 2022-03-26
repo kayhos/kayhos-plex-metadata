@@ -1,107 +1,106 @@
-
 ######################################################
 #                  Movie Metadata                    #
 ######################################################
 
 metadata:
-
- # Marvel Cinematic Universe (https://theposterdb.com/set/4475)
+  # Marvel Cinematic Universe (https://theposterdb.com/set/4475)
   Ant-Man and the Wasp:
-    url_poster: https://theposterdb.com/api/assets/200928/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/200928
   Ant-Man:
-    url_poster: https://theposterdb.com/api/assets/200898/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/200898
   Black Panther:
-    url_poster: https://theposterdb.com/api/assets/201586/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/201586
   Black Widow:
-    url_poster: https://theposterdb.com/api/assets/200877/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/200877
   Captain Marvel:
-    url_poster: https://theposterdb.com/api/assets/200886/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/200886
   The Avengers:
-    url_poster: https://theposterdb.com/api/assets/201583/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/201583
   "Avengers: Age of Ultron":
-    url_poster: https://theposterdb.com/api/assets/201584/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/201584
   "Avengers: Endgame":
-    url_poster: https://theposterdb.com/api/assets/202255/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202255
   "Avengers: Infinity War":
-    url_poster: https://theposterdb.com/api/assets/202254/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202254
   Blade:
-    url_poster: https://theposterdb.com/api/assets/202291/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202291
   Blade II:
     alt_title: Blade 2
-    url_poster: https://theposterdb.com/api/assets/202292/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202292
   Blade III:
     alt_title: Blade 3
-    url_poster: https://theposterdb.com/api/assets/202294/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202294
   "Captain America: The First Avenger":
-    url_poster: https://theposterdb.com/api/assets/202263/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202263
   "Captain America: The Winter Soldier":
-    url_poster: https://theposterdb.com/api/assets/202264/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202264
   "Captain America: Civil War":
-    url_poster: https://theposterdb.com/api/assets/202265/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202265
   Daredevil:
-    url_poster: https://theposterdb.com/api/assets/202299/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202299
   Doctor Strange:
-    url_poster: https://theposterdb.com/api/assets/200883/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/200883
   Doctor Strange in the Multiverse of Madness:
-    url_poster: https://theposterdb.com/api/assets/201599/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/201599
   Elektra:
-    url_poster: https://theposterdb.com/api/assets/202440/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202440
   Eternals:
-    url_poster: https://theposterdb.com/api/assets/200870/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/200870
   Guardians of the Galaxy:
-    url_poster: https://theposterdb.com/api/assets/202021/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202021
   Guardians of the Galaxy Vol. 2:
-    url_poster: https://theposterdb.com/api/assets/202022/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202022
   Howard the Duck:
-    url_poster: https://theposterdb.com/api/assets/202290/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202290
   Hulk:
-    url_poster: https://theposterdb.com/api/assets/202341/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202341
   The Incredible Hulk:
-    url_poster: https://theposterdb.com/api/assets/202157/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202157
   Iron Man:
-    url_poster: https://theposterdb.com/api/assets/202159/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202159
   Iron Man 2:
-    url_poster: https://theposterdb.com/api/assets/202166/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202166
   Iron Man 3:
-    url_poster: https://theposterdb.com/api/assets/202161/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202161
   Morbius:
-    url_poster: https://theposterdb.com/api/assets/202295/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202295
   The Punisher:
-    url_poster: https://theposterdb.com/api/assets/202342/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202342
   Shang-Chi and the Legend of the Ten Rings:
-    url_poster: https://theposterdb.com/api/assets/200944/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/200944
   "Spider-Man: Homecoming":
-    url_poster: https://theposterdb.com/api/assets/201616/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/219702
   "Spider-Man: Far from Home":
-    url_poster: https://theposterdb.com/api/assets/201617/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/219704
   "Spider-Man: No Way Home":
-    url_poster: https://theposterdb.com/api/assets/201618/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/219703
   Thor:
-    url_poster: https://theposterdb.com/api/assets/202010/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202010
   "Thor: The Dark World":
-    url_poster: https://theposterdb.com/api/assets/202011/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202011
   "Thor: Ragnarok":
-    url_poster: https://theposterdb.com/api/assets/202012/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202012
 
   #Sony/Marvel
   Spider-Man:
-    url_poster: https://theposterdb.com/api/assets/202571/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202571
   Spider-Man 2:
-    url_poster: https://theposterdb.com/api/assets/202572/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202572
   Spider-Man 3:
-    url_poster: https://theposterdb.com/api/assets/202573/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202573
   The Amazing Spider-Man:
-    url_poster: https://theposterdb.com/api/assets/202957/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/164391
   The Amazing Spider-Man 2:
-    url_poster: https://theposterdb.com/api/assets/202964/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/164392
   "Spider-Man: Into the Spider-Verse":
-    url_poster: https://theposterdb.com/api/assets/202581/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/194418
+  "Spider-Man: Across the Spider-Verse":
+    url_poster: https://theposterdb.com/api/assets/194419
   Venom:
-    url_poster: https://theposterdb.com/api/assets/202452/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/206344
   "Venom: Let There Be Carnage":
-    url_poster: https://theposterdb.com/api/assets/202453/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/206345
 
-    
   # 28 Days/Weeks/Months
   28 Days Later:
     alt_title: 28 Days Later...
@@ -196,16 +195,16 @@ metadata:
 
   # American Ninja
   American Ninja:
-    url_poster: https://theposterdb.com/api/assets/205836/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/205836
   "American Ninja 2: The Confrontation":
-    url_poster: https://theposterdb.com/api/assets/205837/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/205837
   "American Ninja 3: Blood Hunt":
-    url_poster: https://theposterdb.com/api/assets/205838/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/205838
   "American Ninja 4: The Annihilation":
-    url_poster: https://theposterdb.com/api/assets/205839/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/205839
   American Ninja 5:
-    url_poster: https://theposterdb.com/api/assets/205840/download?performed_by=kayhos
-    
+    url_poster: https://theposterdb.com/api/assets/205840
+
   # American Psycho
   American Psycho:
     year: 2000
@@ -314,6 +313,51 @@ metadata:
     alt_title: "Aliens vs. Predator: Requiem"
     url_poster: https://theposterdb.com/api/assets/43457
 
+  # Astérix & Obélix (Animation)
+  Astérix le Gaulois:
+    alt_title: Asterix the Gaul
+    url_poster: https://theposterdb.com/api/assets/72090
+  Astérix et Cléopâtre:
+    alt_title: Asterix and Cleopatra
+    url_poster: https://theposterdb.com/api/assets/72091
+  "Les 12 travaux d'Astérix":
+    alt_title: The Twelve Task of Asterix
+    url_poster: https://theposterdb.com/api/assets/72092
+  Astérix et la Suprise de César:
+    alt_title: Asterix vs Caesar
+    url_poster: https://theposterdb.com/api/assets/72093
+  Astérix chez les Bretons:
+    alt_title: Asterix in Britain
+    url_poster: https://theposterdb.com/api/assets/72094
+  Astérix et le Coup du Menhir:
+    alt_title: Asterix and the Big Fight
+    url_poster: https://theposterdb.com/api/assets/72095
+  Astérix et les Indiens:
+    alt_title: Asterix Conquers America
+    url_poster: https://theposterdb.com/api/assets/72096
+  Astérix et les Vikings:
+    alt_title: Asterix and the Vikings
+    url_poster: https://theposterdb.com/api/assets/72097
+  "Astérix: Le Domaine des Dieux":
+    alt_title: "Asterix: The Mansions of the Gods"
+    url_poster: https://theposterdb.com/api/assets/72098
+  "Astérix: Le Secret de la Potion Magique":
+    alt_title: "Asterix: The Secret of the Magic Potion"
+    url_poster: https://theposterdb.com/api/assets/72099
+  # Astérix & Obélix Live-Action
+  Astérix & Obélix contre César:
+    alt_title: "Asterix & Obelix Take on Caesar"
+    url_poster: https://theposterdb.com/api/assets/50524
+  Astérix & Obélix Mission Cléopâtre:
+    alt_title: "Asterix & Obelix: Mission Cleopatra"
+    url_poster: https://theposterdb.com/api/assets/50525
+  Astérix aux Jeux Olympiques:
+    alt_title: "Astérix at the Olympic Games"
+    url_poster: https://theposterdb.com/api/assets/50526
+  Astérix & Obélix - Au service de Sa Majesté:
+    alt_title: "Asterix & Obelix: God Save Britannia"
+    url_poster: https://theposterdb.com/api/assets/50527
+
   # Dark Knight
   Batman Begins:
     url_poster: https://theposterdb.com/api/assets/141712
@@ -398,7 +442,7 @@ metadata:
     url_poster: https://theposterdb.com/api/assets/45079
   "Bienvenue chez les Ch'tis":
     alt_title: Welcome to the Sticks
-    url_poster: https://theposterdb.com/api/assets/62096/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/62096
     metadata_language: fr-FR
   # Bill & Ted
   Bill & Ted Face the Music:
@@ -449,10 +493,10 @@ metadata:
   The Brice Man:
     alt_title: Brice de Nice
     metadata_language: FR-fr
-    url_poster: https://theposterdb.com/api/assets/54717/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/54717
   Brice 3:
     metadata_language: FR-fr
-    url_poster: https://theposterdb.com/api/assets/54716/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/54716
 
   # Bring It On
   Bring It On:
@@ -493,9 +537,9 @@ metadata:
   # Candyman
   Candyman:
     year: 1992
-    url_poster: https://theposterdb.com/api/assets/8024/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/8024
   "Candyman: Farewell to the Flesh":
-    url_poster: https://theposterdb.com/api/assets/8025/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/8025
   "Candyman: Day of the Dead":
     url_poster: https://theposterdb.com/api/assets/79964
   Candyman (Reboot):
@@ -662,11 +706,11 @@ metadata:
 
   # Cornetto Trilogy
   Shaun of the Dead:
-    url_poster: https://theposterdb.com/api/assets/7935/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/7935
   Hot Fuzz:
-    url_poster: https://theposterdb.com/api/assets/7936/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/7936
   The World's End:
-    url_poster: https://theposterdb.com/api/assets/7937/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/7937
 
   # Creed
   Creed:
@@ -834,15 +878,15 @@ metadata:
 
   # Dirty Harry
   Dirty Harry:
-    url_poster: https://theposterdb.com/api/assets/852/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/852
   Magnum Force:
-    url_poster: https://theposterdb.com/api/assets/854/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/854
   The Enforcer:
-    url_poster: https://theposterdb.com/api/assets/855/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/855
   Sudden Impact:
-    url_poster: https://theposterdb.com/api/assets/856/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/856
   The Dead Pool:
-    url_poster: https://theposterdb.com/api/assets/857/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/857
 
   # Disney Live Action
   Alice in Wonderland:
@@ -952,11 +996,11 @@ metadata:
 
   # The Expendables
   The Expendables 2:
-    url_poster: https://theposterdb.com/api/assets/4833/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/4833
   The Expendables 3:
-    url_poster: https://theposterdb.com/api/assets/4834/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/4834
   The Expendables:
-    url_poster: https://theposterdb.com/api/assets/4835/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/4835
 
   # Fantasia
   Fantasia:
@@ -972,22 +1016,22 @@ metadata:
 
   # Fantastic Beasts
   Fantastic Beasts and Where to Find Them:
-    url_poster: https://theposterdb.com/api/assets/217953/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/217953
   "Fantastic Beasts: The Crimes of Grindelwald":
-    url_poster: https://theposterdb.com/api/assets/218203/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/218203
   "Fantastic Beasts: The Secrets of Dumbledore":
-    url_poster: https://theposterdb.com/api/assets/218495/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/218495
 
   # Fantastic Four
   Fantastic Four:
     year: 2005
-    url_poster: https://theposterdb.com/api/assets/202617/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202617
   "Fantastic Four: Rise of the Silver Surfer":
-    url_poster: https://theposterdb.com/api/assets/202618/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202618
   Fantastic Four (Reboot):
     title: Fantastic Four
     year: 2015
-    url_poster: https://theposterdb.com/api/assets/202619/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202619
 
   # The Fast and the Furious
   The Fast and the Furious:
@@ -1190,9 +1234,9 @@ metadata:
   # Ghost Rider
   Ghost Rider:
     year: 2007
-    url_poster: https://theposterdb.com/api/assets/202632/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202632
   "Ghost Rider: Spirit of Vengeance":
-    url_poster: https://theposterdb.com/api/assets/202985/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202985
 
   # The Girl - Millennium
   The Girl with the Dragon Tattoo:
@@ -1392,7 +1436,7 @@ metadata:
   Halloween (Alt reality):
     title: Halloween
     year: 2018
-    url_poster: https://theposterdb.com/api/assets/8216/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/8216
   Halloween Kills:
     url_poster: https://theposterdb.com/api/assets/188984
   Halloween Ends:
@@ -1401,11 +1445,11 @@ metadata:
   "Rob Zombie's Halloween":
     title: Halloween
     year: 2007
-    url_poster: https://theposterdb.com/api/assets/8222/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/8222
   Halloween II (Rob Zombie):
     title: Halloween II
     year: 2009
-    url_poster: https://theposterdb.com/api/assets/8220/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/8220
 
   # The Hangover
   The Hangover:
@@ -1483,13 +1527,13 @@ metadata:
   # ... Has Fallen
   Olympus Has Fallen:
     year: 2013
-    url_poster: https://theposterdb.com/api/assets/130397
+    url_poster: https://theposterdb.com/api/assets/71931
   London Has Fallen:
     year: 2016
-    url_poster: https://theposterdb.com/api/assets/130398
+    url_poster: https://theposterdb.com/api/assets/71932
   Angel Has Fallen:
     year: 2019
-    url_poster: https://theposterdb.com/api/assets/130399
+    url_poster: https://theposterdb.com/api/assets/71933
 
   # Hellboy
   Hellboy:
@@ -1711,7 +1755,7 @@ metadata:
   "I Spit on Your Grave III: Vengeance is Mine":
     year: 2015
     url_poster: https://theposterdb.com/api/assets/8283
-    
+
   # Ice Age
   Ice Age:
     year: 2002
@@ -1871,7 +1915,7 @@ metadata:
     year: 1999
     url_poster: https://theposterdb.com/api/assets/126261
   Die Another Day:
-    alt_title : Meurs un autre jour
+    alt_title: Meurs un autre jour
     year: 2002
     url_poster: https://theposterdb.com/api/assets/126262
   Casino Royale (Remake):
@@ -1961,15 +2005,15 @@ metadata:
 
   # Jurassic Park
   Jurassic Park:
-    url_poster: https://theposterdb.com/api/assets/13235
+    url_poster: https://theposterdb.com/api/assets/7003
   "The Lost World: Jurassic Park":
-    url_poster: https://theposterdb.com/api/assets/13236
+    url_poster: https://theposterdb.com/api/assets/7004
   Jurassic Park III:
-    url_poster: https://theposterdb.com/api/assets/13237
+    url_poster: https://theposterdb.com/api/assets/7005
   Jurassic World:
-    url_poster: https://theposterdb.com/api/assets/13238
+    url_poster: https://theposterdb.com/api/assets/7006
   "Jurassic World: Fallen Kingdom":
-    url_poster: https://theposterdb.com/api/assets/13239
+    url_poster: https://theposterdb.com/api/assets/7007
 
   # The Karate Kid
   The Karate Kid:
@@ -2095,7 +2139,7 @@ metadata:
   Legally Blondes:
     year: 2009
     url_poster: https://theposterdb.com/api/assets/14289
-  
+
   Legend:
     url_poster: https://theposterdb.com/api/assets/9045
   # The Lego Movie
@@ -2146,10 +2190,10 @@ metadata:
     url_poster: https://theposterdb.com/api/assets/60044
   Dawn of the Dead:
     year: 1978
-    url_poster: https://theposterdb.com/api/assets/8030/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/8030
   Day of the Dead:
     year: 1985
-    url_poster: https://theposterdb.com/api/assets/8031/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/8031
   Land of the Dead:
     year: 2005
     url_poster: https://theposterdb.com/api/assets/60047
@@ -2355,22 +2399,22 @@ metadata:
   # Middle Earth
   "The Hobbit: An Unexpected Journey":
     year: 2012
-    url_poster: https://theposterdb.com/api/assets/191457/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/191457
   "The Hobbit: The Desolation of Smaug":
     year: 2013
-    url_poster: https://theposterdb.com/api/assets/191458/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/191458
   "The Hobbit: The Battle of the Five Armies":
     year: 2014
-    url_poster: https://theposterdb.com/api/assets/191459/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/191459
   "The Lord of the Rings: The Fellowship of the Ring":
     year: 2001
-    url_poster: https://theposterdb.com/api/assets/191454/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/191454
   "The Lord of the Rings: The Two Towers":
     year: 2002
-    url_poster: https://theposterdb.com/api/assets/191455/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/191455
   "The Lord of the Rings: The Return of the King":
     year: 2003
-    url_poster: https://theposterdb.com/api/assets/191456/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/191456
 
   # Mission: Impossible
   "Mission: Impossible":
@@ -2556,20 +2600,20 @@ metadata:
     title: Ocean's Eleven
     year: 1960
     sort_title: Ocean's 11
-    url_poster: https://theposterdb.com/api/assets/118459/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/118459
   Ocean's Eleven:
     year: 2001
     sort_title: Ocean's 11
-    url_poster: https://theposterdb.com/api/assets/19154/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/19154
   Ocean's Twelve:
     sort_title: Ocean's 12
-    url_poster: https://theposterdb.com/api/assets/19155/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/19155
   Ocean's Thirteen:
     sort_title: Ocean's 13
-    url_poster: https://theposterdb.com/api/assets/19156/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/19156
   Ocean's Eight:
     sort_title: Ocean's 8
-    url_poster: https://theposterdb.com/api/assets/19157/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/19157
 
   # Ong Bak
   "Ong Bak: Muay Thai Warrior":
@@ -2757,40 +2801,40 @@ metadata:
     year: 2018
     url_poster: https://theposterdb.com/api/assets/8519
 
-  # Puppet Master https://theposterdb.com/set/3481 https://www.themoviedb.org/collection/107949-puppet-master-collection 
+  # Puppet Master https://theposterdb.com/set/3481 https://www.themoviedb.org/collection/107949-puppet-master-collection
   Puppet Master:
-    url_poster: https://theposterdb.com/api/assets/8394/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/8394
   Puppet Master 2:
-    url_poster: https://theposterdb.com/api/assets/8395/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/8395
   Puppet Master 3:
     alt_title: "Puppet Master III: Toulon's Revenge"
-    url_poster: https://theposterdb.com/api/assets/8396/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/8396
   Puppet Master 4:
-    url_poster: https://theposterdb.com/api/assets/8397/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/8397
   Puppet Master 5:
     alt_title: "Puppet Master 5: The Final Chapter"
-    url_poster: https://theposterdb.com/api/assets/8398/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/8398
   Curse of the Puppet Master:
-    url_poster: https://theposterdb.com/api/assets/8399/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/8399
   Retro Puppet Master:
-    url_poster: https://theposterdb.com/api/assets/8400/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/8400
   "Puppet Master: The Legacy":
-    url_poster: https://theposterdb.com/api/assets/8401/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/8401
   "Puppet Master: Axis of Evil":
-    url_poster: https://theposterdb.com/api/assets/8402/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/8402
   "Puppet Master X: Axis Rising":
-    url_poster: https://theposterdb.com/api/assets/8403/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/8403
   "Puppet Master: Axis Termination":
-    url_poster: https://theposterdb.com/api/assets/8404/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/8404
   "Puppet Master: The Littlest Reich":
-    url_poster: https://theposterdb.com/api/assets/8405/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/8405
   "Blade: The Iron Cross":
     year: 2020
-    url_poster: https://theposterdb.com/api/assets/118021/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/118021
   "Doktor Death":
     year: 2022
- #   url_poster:
-    
+  #   url_poster:
+
   # Quarantine
   Quarantine:
     year: 2008
@@ -2817,8 +2861,8 @@ metadata:
     url_poster: https://theposterdb.com/api/assets/2620
 
   Re-Animator:
-    url_poster: https://theposterdb.com/api/assets/8070/download?performed_by=kayhos
-  
+    url_poster: https://theposterdb.com/api/assets/8070
+
   # Red
   Red:
     year: 2010
@@ -2826,7 +2870,7 @@ metadata:
   Red 2:
     year: 2013
     url_poster: https://theposterdb.com/api/assets/7156
-    
+
   # Red Cliff
   Red Cliff:
     year: 2008
@@ -2940,7 +2984,7 @@ metadata:
   "Rurouni Kenshin Part I: Origins":
     year: 2012
     url_poster: https://theposterdb.com/api/assets/166494
-  'Rurouni Kenshin Part II: Kyoto Inferno':
+  "Rurouni Kenshin Part II: Kyoto Inferno":
     year: 2014
     url_poster: https://theposterdb.com/api/assets/166495
   "Rurouni Kenshin Part III: The Legend Ends":
@@ -3143,7 +3187,7 @@ metadata:
   # Silent Hill
   Silent Hill:
     year: 2006
-    url_poster: https://theposterdb.com/api/assets/8074/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/8074
   "Silent Hill: Revelation 3D":
     year: 2012
     url_poster: https://theposterdb.com/api/assets/11693
@@ -3187,16 +3231,16 @@ metadata:
   # Species
   Species:
     sort_title: Species 1
-    url_poster: https://theposterdb.com/api/assets/6940/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/6940
   Species II:
     sort_title: Species 2
-    url_poster: https://theposterdb.com/api/assets/6941/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/6941
   Species III:
     sort_title: Species 3
-    url_poster: https://theposterdb.com/api/assets/6942/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/6942
   "Species: The Awakening":
     sort_title: Species 4
-    url_poster: https://theposterdb.com/api/assets/6943/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/6943
 
   # Spy Kids
   Spy Kids:
@@ -3286,15 +3330,15 @@ metadata:
     url_poster: https://theposterdb.com/api/assets/14798
   # Starship Troopers
   Starship Troopers:
-    url_poster: https://theposterdb.com/api/assets/5526/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/5526
   "Starship Troopers 2: Hero of the Federation":
-    url_poster: https://theposterdb.com/api/assets/5527/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/5527
   "Starship Troopers 3: Marauder":
-    url_poster: https://theposterdb.com/api/assets/5528/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/5528
   "Starship Troopers: Invasion (2012)":
-    url_poster: https://theposterdb.com/api/assets/5529/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/5529
   "Starship Troopers: Traitor of Mars":
-    url_poster: https://theposterdb.com/api/assets/5530/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/5530
   # Step Up
   Step Up:
     year: 2006
@@ -3504,43 +3548,43 @@ metadata:
   # Tremors  https://theposterdb.com/set/3521
   Tremors:
     year: 1990
-    url_poster: https://theposterdb.com/api/assets/107248/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/107248
   "Tremors 2: Aftershocks":
     alt_title: "Tremors II: Aftershocks"
     year: 1996
-    url_poster: https://theposterdb.com/api/assets/107249/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/107249
   "Tremors 3: Back to Perfection":
     alt_title: "Tremors III: Back to Perfection"
     year: 2001
-    url_poster: https://theposterdb.com/api/assets/107250/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/107250
   "Tremors 4: The Legend Begins":
     year: 2004
-    url_poster: https://theposterdb.com/api/assets/107251/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/107251
   "Tremors 5: Bloodlines":
     year: 2015
-    url_poster: https://theposterdb.com/api/assets/107252/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/107252
   "Tremors: A Cold Day in Hell":
     year: 2018
-    url_poster: https://theposterdb.com/api/assets/107253/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/107253
   "Tremors: Shrieker Island":
     year: 2020
-    url_poster: https://theposterdb.com/api/assets/107254/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/107254
 
   # Trois Couleurs
   "Trois Couleurs: Bleu":
     year: 1993
     alt_title: "Three Colors: Blue"
-    poster: https://theposterdb.com/api/assets/32074/download?performed_by=kayhos
+    poster: https://theposterdb.com/api/assets/32074
     metadata_language: fr-FR
   "Trois Couleurs: Blanc":
     year: 1994
     alt_title: "Three Colors: White"
-    poster: https://theposterdb.com/api/assets/32075/download?performed_by=kayhos
+    poster: https://theposterdb.com/api/assets/32075
     metadata_language: fr-FR
   "Trois Couleurs: Rouge":
     year: 1994
     alt_title: "Three Colors: Red"
-    poster: https://theposterdb.com/api/assets/32076/download?performed_by=kayhos
+    poster: https://theposterdb.com/api/assets/32076
     metadata_language: fr-FR
 
   # Trolls
@@ -3564,10 +3608,10 @@ metadata:
   "TRON: Uprising":
     year: 2012
     url_poster: https://theposterdb.com/api/assets/84594
-  
+
   Turning Red:
     year: 2022
-    url_poster: https://theposterdb.com/api/assets/219060/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/219060
 
   # Underworld
   Underworld:
@@ -3634,35 +3678,35 @@ metadata:
 
   # X-Men
   X-Men:
-    url_poster: https://theposterdb.com/api/assets/202320/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202320
   X2:
     alt_title: X-Men 2
-    url_poster: https://theposterdb.com/api/assets/202321/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202321
   "X-Men: The Last Stand":
-    url_poster: https://theposterdb.com/api/assets/202978/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202978
   "X-Men Origins: Wolverine":
-    url_poster: https://theposterdb.com/api/assets/202971/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202971
   "X-Men: First Class":
-    url_poster: https://theposterdb.com/api/assets/202979/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202979
   The Wolverine:
-    url_poster: https://theposterdb.com/api/assets/202963/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202963
   "X-Men: Days of Future Past":
-    url_poster: https://theposterdb.com/api/assets/203020/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/203020
   Deadpool:
-    url_poster: https://theposterdb.com/api/assets/201147/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/201147
   "X-Men: Apocalypse":
-    url_poster: https://theposterdb.com/api/assets/203022/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/203022
   Logan:
-    url_poster: https://theposterdb.com/api/assets/202441/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202441
   Deadpool 2:
-    url_poster: https://theposterdb.com/api/assets/201148/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/201148
   Dark Phoenix:
     alt_title: "X-Men: Dark Phoenix"
-    url_poster: https://theposterdb.com/api/assets/202442/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202442
   The New Mutants:
-    url_poster: https://theposterdb.com/api/assets/202639/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202639
   Once Upon a Deadpool:
-    url_poster: https://theposterdb.com/api/assets/202973/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/202973
 
   # xXx
   xXx:
@@ -3701,7 +3745,7 @@ metadata:
 
   # unsorted
   Big Hero 6:
-    url_poster: https://theposterdb.com/api/assets/203021/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/203021
   Chinatown:
     url_poster: https://theposterdb.com/api/assets/110518
   Fight Club:
@@ -3709,9 +3753,6 @@ metadata:
   Titanic:
     url_poster: https://theposterdb.com/api/assets/48395
   Uncharted:
-    url_poster: https://theposterdb.com/api/assets/205426/download?performed_by=kayhos
+    url_poster: https://theposterdb.com/api/assets/205426
   Who Framed Roger Rabbit:
     url_poster: https://theposterdb.com/api/assets/115828
-
-    
-
