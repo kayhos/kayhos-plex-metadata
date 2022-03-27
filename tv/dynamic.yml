@@ -99,10 +99,8 @@ dynamic_collections:
         TV Movie: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/tv-movie.jpg
         War: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/war.jpg
         Western: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/western.jpg
-      imdb_supplement_list:
-        Fantasy: https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=fantasy
-        Music: https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=music
-        Sports: https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=sport
+#      imdb_supplement_list:
+#        Fantasy: https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=fantasy
 #      trakt_supplement_list:
 
 #collections:

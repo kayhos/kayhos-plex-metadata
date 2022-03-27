@@ -148,25 +148,25 @@ dynamic_collections:
         Sports: https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=sport
 #      trakt_supplement_list:
 collections:
-  "Genre: Apocalypse":
+  "Theme: Apocalypse":
     template:
       name: theme_collection
       genre: Apocalypse
       poster: http://kayhos.hoard.ca/poster_not_found.png
       trakt_supplement_list: https://trakt.tv/users/crims7392/lists/apocalyptic-dystopian-films?sort=rank,asc
-  "Genre: Cyberpunk":
+  "Theme: Cyberpunk":
     template:
       name: theme_collection
       genre: Cyberpunk
       poster: http://kayhos.hoard.ca/poster_not_found.png
       trakt_supplement_list: https://trakt.tv/users/wintermute2517/lists/cyberpunk-movies?sort=rank,asc
-  "Genre: Heist":
+  "Theme: Heist":
     template:
       name: theme_collection
       genre: Heist
       poster: http://kayhos.hoard.ca/poster_not_found.png
       trakt_supplement_list: https://trakt.tv/users/hdlists/lists/best-heist-movies-of-all-time?sort=rank,asc
-  "Genre: Martial Arts":
+  "Theme: Martial Arts":
     template:
       name: theme_collection
       genre: Martial Arts
@@ -178,13 +178,13 @@ collections:
         - "https://www.imdb.com/list/ls090404120/"
     tmdb_keyword: 779
     summary: Martial Arts film is a sub-genre of action films that feature numerous martial arts combat between characters. These combats are usually the films' primary appeal and entertainment value, and often are a method of storytelling and character expression and development. Martial Arts are frequently featured in training scenes and other sequences in addition to fights. Martial Arts films commonly include other types of action, such as hand-to-hand combat, stuntwork, chases, and gunfights.
-  "Genre: Mindfuck":
+  "Theme: Mindfuck":
     template:
       name: theme_collection
       genre: Mindfuck
       poster: http://kayhos.hoard.ca/poster_not_found.png
     mdblist_list: https://mdblist.com/lists/hdlists/mindfuck-movies
-  "Genre: Stand Up Comedy":
+  "Theme: Stand Up Comedy":
     template:
       name: theme_collection
       genre: Stand Up
@@ -196,7 +196,7 @@ collections:
         - https://www.imdb.com/list/ls049792208/
     tmdb_keyword: 9716
     summary: Stand-up comedy is a comedic style in which a comedian performs in front of a live audience, speaking directly to them through a microphone. Comedians give the illusion that they are dialoguing, but in actuality, they are monologuing a grouping of humorous stories, jokes and one-liners, typically called a shtick, routine, act, or set. Some stand-up comedians use props, music or magic tricks to enhance their acts. Stand-up comedians perform quasi-autobiographical and fictionalized extensions of their offstage selves.
-  "Genre: Sword & Sorcery":
+  "Theme: Sword & Sorcery":
     template:
       name: theme_collection
       genre: Sword & Sorcery
@@ -204,7 +204,7 @@ collections:
       imdb_supplement_list: https://www.imdb.com/list/ls022909805
     tmdb_keyword: 234213
     summary: Sword and Sorcery film is a sub-genre of Fantasy that tend to be more plot-driven. These films rely on heavy action and battle scenes. Common themes in Sword and Sorcery films include a rescue mission, saving a princess, and battling a fantastical monster. The worlds and characters in these films are often much less developed than in other fantasy sub-genres. Of all the Fantasy sub-genres, Sword and Sorcery is most likely to be geared towards a younger audience, as many of these films are animated.
-  "Genre: Zombie":
+  "Theme: Zombie":
     template:
       name: theme_collection
       genre: Zombie

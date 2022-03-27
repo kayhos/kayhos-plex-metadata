@@ -59,7 +59,8 @@ templates:
       - anidb
     sort_title: "!!03_<<collection_name>>"
     smart_label: title.asc
-    anidb_tags: <<anidb>>
+    anidb_tag:
+      tag: <<anidb>>
     trakt_list: <<trakt_supplement_list>>
     imdb_list: <<imdb_supplement_list>>
     url_poster: <<theme_collection_poster>>
@@ -82,197 +83,192 @@ collections:
     template:
       name: genre_collection
       genre_id: 1
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Action.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Action.png
   "Genre: Adventure":
     template:
       name: genre_collection
       genre_id: 2
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Adventure.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Adventure.png
   "Genre: Boys Love":
     template:
       name: genre_collection
       genre_id: 28
-      genre_collection_poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/Boys%20Love.jpg
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Boys%20Love.jpg
   "Genre: Cars":
     template:
       name: genre_collection
       genre_id: 3
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Cars.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Cars.png
   "Genre: Comedy":
     template:
       name: genre_collection
       genre_id: 4
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Comedy.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Comedy.png
   "Genre: Demons":
     template:
       name: genre_collection
       genre_id: 6
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Demons.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Demons.png
   "Genre: Drama":
     template:
       name: genre_collection
       genre_id: 8
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Drama.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Drama.png
   "Genre: Ecchi":
     template:
       name: genre_collection
       genre_id: 9
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Ecchi.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Ecchi.png
   "Genre: Erotica":
     template:
       name: genre_collection
       genre_id: 49
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Erotica.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Erotica.png
   "Genre: Fantasy":
     template:
       name: genre_collection
       genre_id: 10
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Fantasy.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Fantasy.png
   "Genre: Game":
     template:
       name: genre_collection
       genre_id: 11
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Game.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Game.png
   "Genre: Girls Love":
     template:
       name: genre_collection
       genre_id: 26
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Girls%20Love.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Girls%20Love.png
   "Genre: Gourmet":
     template:
       name: genre_collection
       genre_id: 47
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Gourmet.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Gourmet.png
   "Genre: Harem":
     template:
       name: genre_collection
       genre_id: 35
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Harem.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Harem.png
   "Genre: Hentai":
     template:
       name: genre_collection
       genre_id: 12
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Hentai.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Hentai.png
   "Genre: Historical":
     template:
       name: genre_collection
       genre_id: 13
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Historical.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Historical.png
   "Genre: Horror":
     template:
       name: genre_collection
       genre_id: 14
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Horror.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Horror.png
   "Genre: Martial Arts":
     template:
       name: genre_collection
       genre_id: 17
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Martial%20Arts.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Martial%20Arts.png
   "Genre: Mecha":
     template:
       name: genre_collection
       genre_id: 18
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Mecha.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Mecha.png
   "Genre: Military":
     template:
       name: genre_collection
       genre_id: 38
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Military.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Military.png
   "Genre: Music":
     template:
       name: genre_collection
       genre_id: 19
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Music.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Music.png
   "Genre: Mystery":
     template:
       name: genre_collection
       genre_id: 7
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Mystery.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Mystery.png
   "Genre: Parody":
     template:
       name: genre_collection
       genre_id: 20
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Parody.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Parody.png
   "Genre: Police":
     template:
       name: genre_collection
       genre_id: 39
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Police.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Police.png
   "Genre: Psychological":
     template:
       name: genre_collection
       genre_id: 40
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Psychological.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Psychological.png
   "Genre: Romance":
     template:
       name: genre_collection
       genre_id: 22
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Romance.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Romance.png
   "Genre: Samurai":
     template:
       name: genre_collection
       genre_id: 21
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Samurai.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Samurai.png
   "Genre: School":
     template:
       name: genre_collection
       genre_id: 23
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/School.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/School.png
   "Genre: Sci-Fi":
     template:
       name: genre_collection
       genre_id: 24
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Sci-Fi.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Sci-Fi.png
   "Genre: Shoujo":
     template:
       name: genre_collection
       genre_id: 25
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Shoujo.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Shoujo.png
   "Genre: Shounen":
     template:
       name: genre_collection
       genre_id: 27
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Shounen.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Shounen.png
   "Genre: Slice of Life":
     template:
       name: genre_collection
       genre_id: 36
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Slice%20of%20Life.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Slice%20of%20Life.png
   "Genre: Space":
     template:
       name: genre_collection
       genre_id: 29
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Space.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Space.png
   "Genre: Sports":
     template:
       name: genre_collection
       genre_id: 30
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Sports.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Sports.png
   "Genre: Super Power":
     template:
       name: genre_collection
       genre_id: 31
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Super%20Power.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Super%20Power.png
   "Genre: Supernatural":
     template:
       name: genre_collection
       genre_id: 37
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Supernatural.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Supernatural.png
   "Genre: Thriller":
     template:
       name: genre_collection
       genre_id: 41
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Thriller.png
-  "Genre: Unmatched":
-    template:
-      name: genre_collection
-      genre_id:
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Unmatched.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Thriller.png
   "Genre: Vampire":
     template:
       name: genre_collection
       genre_id: 32
-      genre_collection_poster: https://github.com/EvilTactician/Anime-Collections-PMM/blob/main/Assets/Vampire.png
+      genre_collection_poster: https://raw.githubusercontent.com/EvilTactician/Anime-Collections-PMM/main/Assets/Vampire.png
 
   ######################################################
   #              Theme   Collections                   #

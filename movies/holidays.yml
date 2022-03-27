@@ -44,6 +44,7 @@ collections:
     template:
       name: Holiday
       holiday: Valentine's Day
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/holidays/valentine.jpg
     imdb_list:
       - "https://www.imdb.com/list/ls000094398/"
       - "https://www.imdb.com/list/ls057783436/"
@@ -54,6 +55,7 @@ collections:
     template:
       name: Holiday
       holiday: St. Patrick's Day
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/holidays/st-patrick.jpg
     imdb_list:
       - https://www.imdb.com/list/ls063934595/
       - https://www.imdb.com/list/ls062229912/
@@ -63,7 +65,7 @@ collections:
     template:
       name: Holiday
       holiday: Easter
-      poster: https://theposterdb.com/api/assets/223113
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/holidays/easter.jpg
     imdb_list:
       - "https://www.imdb.com/list/ls062665509/"
       - "https://www.imdb.com/list/ls051733651/"
@@ -72,7 +74,7 @@ collections:
     visible_home: range(10/01-10/31)
     template:
       name: Holiday
-      poster: https://theposterdb.com/api/assets/111218
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/holidays/halloween.jpg
     trakt_list:
       - "https://trakt.tv/users/kairbear08/lists/halloween"
       - "https://trakt.tv/users/mybicycle/lists/halloween"
@@ -91,7 +93,7 @@ collections:
     template:
       name: Holiday
       holiday: Thanksgiving
-      poster: https://theposterdb.com/api/assets/112251
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/holidays/thanksgiving.jpg
     imdb_list:
       - "https://www.imdb.com/list/ls000835734/"
       - "https://www.imdb.com/list/ls091597850/"
@@ -100,7 +102,7 @@ collections:
     visible_home: range(12/01-12-31)
     template:
       name: Holiday
-      poster: https://theposterdb.com/api/assets/69443
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/holidays/christmas.jpg
     url_background: https://wallpapercave.com/wp/wp4972414.jpg
     trakt_list:
       - "https://trakt.tv/users/movistapp/lists/christmas-movies"
@@ -119,4 +121,5 @@ collections:
     template:
       name: Holiday
       holiday: New Year's Eve
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/holidays/new-year.jpg
     imdb_list: https://www.imdb.com/list/ls066838460/

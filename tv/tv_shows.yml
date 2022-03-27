@@ -31,7 +31,7 @@ templates:
     smart_label: release.desc
 collections:
   ######################################################
-  #                Chart Collections                   #
+  #                Chart Collections                  #
   ######################################################
   Trending Shows:
     template:
@@ -41,7 +41,7 @@ collections:
     tmdb_trending_daily: 10
     summary: Shows Trending today across the internet on TheMovieDB and Trakt
     collection_order: audience_rating.desc
-    url_poster: https://theposterdb.com/api/assets/213570
+    url_poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/trending.jpg
   Popular Shows:
     template:
       name: Chart
