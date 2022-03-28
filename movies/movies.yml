@@ -34,7 +34,7 @@ templates:
     tmdb_movie: <<collection_movies>>
     collection_order: release.asc
     url_poster: <<collection_poster>>
-    sync_mode: sync
+    sync_mode: append
   extra_collections:
     optional:
       - extra_collection_poster
@@ -46,7 +46,7 @@ templates:
     tmdb_collection_details: <<collections>>
     collection_order: release.asc
     url_poster: <<extra_collection_poster>>
-    sync_mode: sync
+    sync_mode: append
 dynamic_collections:
   # Create movie linked collections as TMDB links Movies with
   # only 1 collection at a time (the correct way to do in Plex)
@@ -67,6 +67,7 @@ dynamic_collections:
         11716: https://theposterdb.com/api/assets/53152 # Addams Family
         86027: https://theposterdb.com/api/assets/39575 # Aladdin
         261307: https://theposterdb.com/api/assets/36454 # Alice in Wonderland
+        8091: https://theposterdb.com/api/assets/43458 # Alien
         115762: https://theposterdb.com/api/assets/43455 # Alien vs Predator
         124949: https://theposterdb.com/api/assets/80998 # Almighty
         397842: https://theposterdb.com/api/assets/7890 # Amityville

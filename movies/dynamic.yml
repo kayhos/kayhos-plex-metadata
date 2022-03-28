@@ -44,6 +44,7 @@ templates:
         genre: <<genre>>
     trakt_list: <<trakt_supplement_list>>
     imdb_list: <<imdb_supplement_list>>
+    sync_mode: append
   ## THEME TEMPLATE
   ## For fake genres
   theme_collection:
@@ -56,6 +57,7 @@ templates:
     trakt_list: <<trakt_supplement_list>>
     imdb_list: <<imdb_supplement_list>>
     url_poster: <<theme_collection_poster>>
+    sync_mode: append
   decade_collection:
     optional:
       - decade_collection_poster
@@ -65,6 +67,7 @@ templates:
       any:
         decade: <<decade>>
       sort_by: title.asc
+    sync_mode: append
 dynamic_collections:
   # Create movie linked collections as TMDB links Movies with
   # only 1 collection at a time (the correct way to do in Plex)

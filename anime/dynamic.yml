@@ -46,6 +46,7 @@ templates:
         genre: <<genre>>
     trakt_list: <<trakt_supplement_list>>
     imdb_list: <<imdb_supplement_list>>
+    sync_mode: append
   ## THEME TEMPLATE
   ## For fake genres
   theme_collection:
@@ -60,15 +61,15 @@ templates:
     trakt_list: <<trakt_supplement_list>>
     imdb_list: <<imdb_supplement_list>>
     url_poster: <<theme_collection_poster>>
+    sync_mode: append
   ## MAL GENRES
   MAL_Genre:
     sort_title: +06_<<collection_name>>
     mal_genre:
       genre_id: <<id>>
-    sync_mode: sync
-    collection_order: alpha
+    sync_mode: append
     url_poster: <<poster>>
-
+    smart_label: title.asc
   # Create a genre collection for each and every genre mapping in Plex
   # We'll need to create more collections for themes to supplement the genres
 dynamic_collections:

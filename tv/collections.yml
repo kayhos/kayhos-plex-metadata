@@ -28,7 +28,7 @@ templates:
   Collection:
     sort_title: "!!02_<<collection_name>>"
     collection_order: custom
-    sync_mode: sync
+    sync_mode: append
 ####################################
 #     Universes    Collections     #
 ####################################

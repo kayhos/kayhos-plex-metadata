@@ -33,6 +33,7 @@ templates:
     sort_title: "!!03_<<collection_name>>"
     smart_label: title.asc
     url_poster: <<genre_collection_poster>>
+    sync_mode: append
     plex_search:
       all:
         genre: <<genre>>
@@ -47,6 +48,7 @@ templates:
       - trakt_supplement_list
     sort_title: "!!03_<<collection_name>>"
     smart_label: title.asc
+    sync_mode: append
     trakt_list: <<trakt_supplement_list>>
     imdb_list: <<imdb_supplement_list>>
     url_poster: <<theme_collection_poster>>
@@ -59,6 +61,7 @@ templates:
         decade: <<decade>>
       sort_by: title.asc
     url_poster: <<decade_collection_poster>>
+    sync_mode: append
 dynamic_collections:
   # Create a genre collection for each and every genre mapping in Plex
   # We'll need to create more collections for themes to supplement the genres

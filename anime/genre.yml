@@ -41,6 +41,7 @@ templates:
       - genre_id
     sort_title: "!!03_<<collection_name>>"
     smart_label: title.asc
+    sync_mode: append
     url_poster: <<genre_collection_poster>>
     mal_genre:
       genre_id: <<genre_id>>
@@ -59,6 +60,7 @@ templates:
       - anidb
     sort_title: "!!03_<<collection_name>>"
     smart_label: title.asc
+    sync_mode: append
     anidb_tag:
       tag: <<anidb>>
     trakt_list: <<trakt_supplement_list>>

@@ -101,3 +101,4 @@ collections:
     sort_title: "!!02_Unseen Pilots"
     plex_pilots: true
     url_poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/tv-pilots.jpg
+    sync_mode: append

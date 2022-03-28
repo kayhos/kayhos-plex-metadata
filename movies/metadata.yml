@@ -308,10 +308,10 @@ metadata:
   # AVP
   Alien vs. Predator:
     alt_title: Alien vs Predator
-    url_poster: https://theposterdb.com/api/assets/43456
+    url_poster: https://theposterdb.com/api/assets/43463
   "Aliens vs Predator: Requiem":
     alt_title: "Aliens vs. Predator: Requiem"
-    url_poster: https://theposterdb.com/api/assets/43457
+    url_poster: https://theposterdb.com/api/assets/43464
 
   # Astérix & Obélix (Animation)
   Astérix le Gaulois:
@@ -1500,6 +1500,7 @@ metadata:
 
   # Harry Potter
   "Harry Potter and the Philosopher's Stone":
+    alt_title: "Harry Potter and the Sorcerer's Stone"
     year: 2001
     url_poster: https://theposterdb.com/api/assets/15700
   Harry Potter and the Chamber of Secrets:

@@ -31,7 +31,7 @@ templates:
     tmdb_network: <<network>>
     url_poster: <<poster>>
     sort_title: 终终02_<<collection_name>>
-    sync_mode: sync
+    sync_mode: append
     smart_label: title.asc
 ######################################################
 #                Network Collections                 #
