@@ -28,7 +28,7 @@ templates:
   Chart:
     sort_title: "!!01_<<num>><<collection_name>>"
     sync_mode: sync
-    smart_label: release.desc
+    smart_label: title.asc
 collections:
   ######################################################
   #                Chart Collections                  #

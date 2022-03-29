@@ -72,7 +72,7 @@ dynamic_collections:
     remove_suffix: "Collection"
     template_variables:
       genre_collection_poster:
-        Action: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/action.jpg
+        Action: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/action-2.jpg
         Adventure: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/adventure.jpg
         Animation: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/animation.jpg
         Anime: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/anime.jpg
@@ -81,11 +81,12 @@ dynamic_collections:
         Comedy: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/comedy.jpg
         Crime: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/crime.jpg
         Documentary: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/documentary.jpg
-        Drama: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/drama.jpg
-        Family: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/family.jpg
+        Drama: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/drama-2.jpg
+        Family: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/family-2.jpg
         Fantasy: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/fantasy.jpg
+        Film-Noir: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/film-noir.jpg
         History: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/history.jpg
-        Horror: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/horror.jpg
+        Horror: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/horror-2.jpg
         Mini-Series: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/mini-serie.jpg
         Music: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/music.jpg
         Musical: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/musical.jpg
@@ -96,9 +97,9 @@ dynamic_collections:
         Science Fiction: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/sci-fi.jpg
         Short: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/short.jpg
         Soap: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/soap-opera.jpg
-        Sports: http://kayhos.hoard.ca/poster_not_found.png # https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/sports.jpg
+        Sport: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/sport.jpg # https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/sports.jpg
         Talk: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/talk-show.jpg
-        Thriller: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/thriller.jpg
+        Thriller: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/thriller-2.jpg
         TV Movie: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/tv-movie.jpg
         War: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/war.jpg
         Western: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/western.jpg
