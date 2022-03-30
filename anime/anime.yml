@@ -36,7 +36,7 @@ templates:
       - anilist
     url_poster: <<poster_id>>
     sort_title: <<collection_name>>
-    smart_label: release.asc
+    collection_order: release.asc
     anidb_relation: <<anidb>>
     anilist_relations: <<anilist>>
   Theme:

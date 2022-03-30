@@ -45,12 +45,12 @@ collections:
       sort_by: title.asc
       any:
         title: Lego
-    url_poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/lego.jpg
+    url_poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/collections/lego.jpg
     url_background: https://unsplash.com/photos/kn-UmDZQDjM/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjQ4MjMwMDAz&force=true&w=1920 # https://unsplash.com/photos/kn-UmDZQDjM
   Manly Men Movies:
     template:
       name: Collection
-    url_poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/manly-men.jpg
+    url_poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/collections/manly-men.jpg
     url_background: https://unsplash.com/photos/Oi31uKsnM1Q/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MXx8ZXhwbG9zaW9ufGVufDB8fHx8MTY0ODIxMDcxMg&force=true&w=1920 # https://unsplash.com/photos/Oi31uKsnM1Q
     smart_filter:
       sort_by: title.asc
@@ -78,7 +78,7 @@ collections:
   Monster Mash:
     template:
       name: Collection
-    url_poster: http://kayhos.hoard.ca/poster_not_found.png
+    url_poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/collections/monster-mash.jpg
     url_background: https://unsplash.com/photos/gtxFe9ytF5k/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8OHx8Z29kemlsbGF8ZW58MHx8fHwxNjQ4MjE4NDAw&force=true&w=1920 # https://unsplash.com/photos/gtxFe9ytF5k
     smart_filter:
       sort_by: title.asc
@@ -100,11 +100,11 @@ collections:
           - zombie # classic
           - starship troopers # aliens
           - alien # aliens
-  "Good & 90 minutes or Less":
+  "90 minutes or Less":
     template:
       name: Collection
     summary: Films with a duration of 90 minutes or less with Critics rating of 50%+ and Audience rating of 70%+
-    url_poster: http://kayhos.hoard.ca/poster_not_found.png
+    url_poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/collections/90min.jpg
     smart_filter:
       limit: 100
       sort_by: title.asc
@@ -125,8 +125,8 @@ collections:
         - Audio_fr
       audio_language:
         - fr
-  collection_order: title.desc
-  url_poster: http://kayhos.hoard.ca/poster_not_found.png
+    sort_by: title.desc
+  url_poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/collections/francais.jpg
 #  Collectionless:
 #    plex_collectionless:
 #      exclude_prefix:

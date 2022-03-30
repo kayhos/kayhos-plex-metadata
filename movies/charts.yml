@@ -56,7 +56,7 @@ collections:
     template:
       name: Chart
       num: 2
-      poster: https://theposterdb.com/api/assets/213603
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/new.jpg
     tmdb_now_playing: 15
     trakt_watched_daily: 15
     imdb_chart: box_office
@@ -85,10 +85,10 @@ collections:
     template:
       name: Chart
       num: 5
-      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/collections/most-pirated.jpg
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/collections/most-pirated-2.jpg
     #trakt_collected_weekly: 10
     trakt_list: https://trakt.tv/users/hdlists/lists/top-ten-pirated-movies-of-the-week-torrent-freak-com
-    schedule: weekly(thursday)
+    schedule: weekly(thursday),weekly(tuesdayday)
   IMDb Top 250:
     template:
       name: Chart
@@ -119,7 +119,7 @@ collections:
     template:
       name: Collection
       num: 669
-      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/poster_noty_found.png
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/collections/criterion.jpg
     imdb_list: https://www.imdb.com/list/ls024106029/
     letterboxd_list: https://letterboxd.com/jbutts15/list/the-complete-criterion-collection/
     smart_label: title.asc

@@ -323,7 +323,10 @@ collections:
       - https://trakt.tv/users/grendelcrusher/lists/godzilla-franchise
       - https://trakt.tv/users/corruptednoobie/lists/godzilla-films-ranked
     tmdb_keyword: 257384
-  # Manly men
+  Halloween (Alt reality):
+    template: extra_collection
+    movies: 948, 424139, 610253, 616820
+    extra_collection_poster: https://theposterdb.com/api/assets/187134
   The Man with No Name:
     template:
       name: extra_collections

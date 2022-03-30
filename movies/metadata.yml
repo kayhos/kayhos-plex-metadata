@@ -1413,10 +1413,11 @@ metadata:
     url_poster: https://theposterdb.com/api/assets/13948
 
   # Halloween
-  Halloween:
+  Halloween (Original):
     year: 1978
+    title: Halloween
     url_poster: https://theposterdb.com/api/assets/8203
-  Halloween II (original):
+  Halloween II (Original):
     title: Halloween II
     alt_title: Halloween 2
     year: 1981
@@ -1434,8 +1435,8 @@ metadata:
   "Halloween: Resurrection":
     url_poster: https://theposterdb.com/api/assets/8210
   Halloween (Alt reality):
-    title: Halloween
     year: 2018
+    title: Halloween
     url_poster: https://theposterdb.com/api/assets/8216
   Halloween Kills:
     url_poster: https://theposterdb.com/api/assets/188984

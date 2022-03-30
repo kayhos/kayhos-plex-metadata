@@ -65,7 +65,7 @@ collections:
     template:
       name: Holiday
       holiday: Easter
-      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/holidays/easter.jpg
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/holidays/easter-2.jpg
     imdb_list:
       - "https://www.imdb.com/list/ls062665509/"
       - "https://www.imdb.com/list/ls051733651/"

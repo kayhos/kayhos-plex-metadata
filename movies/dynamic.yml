@@ -93,9 +93,9 @@ dynamic_collections:
         - "1920"
     template_variables:
       decade_collection_poster:
-        "1900": http://kayhos.hoard.ca/poster_not_found.png
-        "1910": http://kayhos.hoard.ca/poster_not_found.png
-        "1920": http://kayhos.hoard.ca/poster_not_found.png
+        "1900": https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/collections/early-cinema.jpg
+        "1910": https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/poster_not_found.png
+        "1920": https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/poster_not_found.png
         "1930": https://theposterdb.com/api/assets/105675 #Poster from agon024 (https://theposterdb.com/user/agon024)
         "1940": https://theposterdb.com/api/assets/105676 #Poster from agon024 (https://theposterdb.com/user/agon024)
         "1950": https://theposterdb.com/api/assets/105677 #Poster from agon024 (https://theposterdb.com/user/agon024)
@@ -103,9 +103,9 @@ dynamic_collections:
         "1970": https://theposterdb.com/api/assets/105332 #Poster from agon024 (https://theposterdb.com/user/agon024)
         "1980": https://theposterdb.com/api/assets/105333 #Poster from agon024 (https://theposterdb.com/user/agon024)
         "1990": https://theposterdb.com/api/assets/105334 #Poster from agon024 (https://theposterdb.com/user/agon024)
-        "2000": http://kayhos.hoard.ca/00s.jpg
-        "2010": http://kayhos.hoard.ca/10s.jpg
-        "2020": http://kayhos.hoard.ca/poster_not_found.png
+        "2000": https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/collections/00s.jpg
+        "2010": https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/collections/10s.jpg
+        "2020": https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/poster_not_found.png
 
   # Create a genre collection for each and every genre mapping in Plex
   # We'll need to create more collections for themes to supplement the genres
@@ -157,25 +157,40 @@ collections:
     template:
       name: theme_collection
       genre: Apocalypse
-      poster: http://kayhos.hoard.ca/poster_not_found.png
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/poster_not_found.png
       trakt_supplement_list: https://trakt.tv/users/crims7392/lists/apocalyptic-dystopian-films?sort=rank,asc
+  "Theme: Aliens":
+    template:
+      name: theme_collection
+      genre: Aliens
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/poster_not_found.png
+    tmdb_keyword: 9951
   "Theme: Cyberpunk":
     template:
       name: theme_collection
       genre: Cyberpunk
-      poster: http://kayhos.hoard.ca/poster_not_found.png
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/poster_not_found.png
       trakt_supplement_list: https://trakt.tv/users/wintermute2517/lists/cyberpunk-movies?sort=rank,asc
+    tmdb_keyword: 12190
   "Theme: Heist":
     template:
       name: theme_collection
       genre: Heist
-      poster: http://kayhos.hoard.ca/poster_not_found.png
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/poster_not_found.png
       trakt_supplement_list: https://trakt.tv/users/hdlists/lists/best-heist-movies-of-all-time?sort=rank,asc
+  "Theme: Kaijus":
+    template:
+      name: theme_collection
+      genre: Kaiju
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/poster_not_found.png
+      trakt_supplement_list: https://trakt.tv/lists/19521206
+    letterboxd_list: https://letterboxd.com/dalki/list/kaijus/
+    tmdb_keyword: 161791, 11100
   "Theme: Martial Arts":
     template:
       name: theme_collection
       genre: Martial Arts
-      poster: http://kayhos.hoard.ca/poster_not_found.png
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/poster_not_found.png
       imdb_supplement_list:
         - "https://www.imdb.com/list/ls000099643/"
         - "https://www.imdb.com/list/ls068611186/"
@@ -187,13 +202,20 @@ collections:
     template:
       name: theme_collection
       genre: Mindfuck
-      poster: http://kayhos.hoard.ca/poster_not_found.png
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/poster_not_found.png
     mdblist_list: https://mdblist.com/lists/hdlists/mindfuck-movies
+  "Theme: Ninjas":
+    template:
+      name: theme_collection
+      genre: Ninja
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/poster_not_found.png
+    letterboxd_list: https://letterboxd.com/kultgestalt/list/ninjas/
+    tmdb_keyword: 10278, 3075
   "Theme: Stand Up Comedy":
     template:
       name: theme_collection
       genre: Stand Up
-      poster: http://kayhos.hoard.ca/poster_not_found.png
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/poster_not_found.png
       imdb_supplement_list:
         - https://www.imdb.com/list/ls070221411/
         - https://www.imdb.com/list/ls086584751/
@@ -205,14 +227,22 @@ collections:
     template:
       name: theme_collection
       genre: Sword & Sorcery
-      poster: http://kayhos.hoard.ca/poster_not_found.png
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/poster_not_found.png
       imdb_supplement_list: https://www.imdb.com/list/ls022909805
     tmdb_keyword: 234213
     summary: Sword and Sorcery film is a sub-genre of Fantasy that tend to be more plot-driven. These films rely on heavy action and battle scenes. Common themes in Sword and Sorcery films include a rescue mission, saving a princess, and battling a fantastical monster. The worlds and characters in these films are often much less developed than in other fantasy sub-genres. Of all the Fantasy sub-genres, Sword and Sorcery is most likely to be geared towards a younger audience, as many of these films are animated.
+  "Theme: Vampire":
+    template:
+      name: theme_collection
+      genre: Vampire
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/poster_not_found.png
+      trakt_supplement_list: https://trakt.tv/users/kier/lists/vampires-vampires-vampires?sort=rank,asc
+    letterboxd_list: https://letterboxd.com/doubleaw/list/vampire-movies/
+    tmdb_keyword: 3133
   "Theme: Zombie":
     template:
       name: theme_collection
       genre: Zombie
-      poster: http://kayhos.hoard.ca/poster_not_found.png
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/poster_not_found.png
       trakt_supplement_list: https://trakt.tv/users/simiansays/lists/zombies?sort=rank,asc
     tmdb_keyword: 12377
