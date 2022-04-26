@@ -39,9 +39,8 @@ collections:
     template:
       name: Award
       num: 5
-      poster: https://theposterdb.com/api/assets/214681
-    imdb_list:
-      - https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&groups=emmy_winner
+      poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Awards/Emmy.png
+    imdb_list: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&groups=emmy_winner
     summary: Emmy Winning Shows
   BAFTA Winners:
     template:

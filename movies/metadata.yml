@@ -560,7 +560,7 @@ metadata:
   Cars 2:
     url_poster: https://theposterdb.com/api/assets/134
   Cars 3:
-    url_poster: https://theposterdb.com/api/assets/134
+    url_poster: https://theposterdb.com/api/assets/135
 
   # Charlie Brown
   A Charlie Brown Christmas:
@@ -864,17 +864,17 @@ metadata:
   # Die Hard
   Die Hard:
     alt_title: Piège de crystal
-    url_poster: https://theposterdb.com/api/assets/720
+    url_poster: https://theposterdb.com/api/assets/42516/download?performed_by=kayhos
   Die Hard 2:
     alt_title: 58 minutes pour vivre
-    url_poster: https://theposterdb.com/api/assets/721
+    url_poster: https://theposterdb.com/api/assets/42517/download?performed_by=kayhos
   "Die Hard: With a Vengeance":
     alt_title: Die Hard with a Vengeance
-    url_poster: https://theposterdb.com/api/assets/722
+    url_poster: https://theposterdb.com/api/assets/42518/download?performed_by=kayhos
   Live Free or Die Hard:
-    url_poster: https://theposterdb.com/api/assets/723
+    url_poster: https://theposterdb.com/api/assets/42519/download?performed_by=kayhos
   A Good Day to Die Hard:
-    url_poster: https://theposterdb.com/api/assets/724
+    url_poster: https://theposterdb.com/api/assets/42520/download?performed_by=kayhos
 
   # Dirty Harry
   Dirty Harry:
@@ -993,6 +993,25 @@ metadata:
     url_poster: https://theposterdb.com/api/assets/63908
   "Escape Plan: The Extractors":
     url_poster: https://theposterdb.com/api/assets/63909
+
+  # Evil Dead
+  The Evil Dead:
+    alt_title: Evil Dead
+    year: 1981
+    url_poster: https://theposterdb.com/api/assets/37369/download?performed_by=kayhos
+  Evil Dead II:
+    year: 1987
+    alt_title: Evil Dead 2
+    url_poster: https://theposterdb.com/api/assets/37370/download?performed_by=kayhos
+  Army of Darkness:
+    year: 1992
+    alt_title: Evil Dead 3
+    url_poster: https://theposterdb.com/api/assets/37371/download?performed_by=kayhos
+  Evil Dead Remake:
+    title: Evil Dead
+    year: 2013
+    url_poster: https://theposterdb.com/api/assets/156063/download?performed_by=kayhos
+
 
   # The Expendables
   The Expendables 2:
@@ -1211,16 +1230,16 @@ metadata:
   Ghostbusters1984:
     title: Ghostbusters
     year: 1984
-    url_poster: https://theposterdb.com/api/assets/203164
+    url_poster: https://theposterdb.com/api/assets/203164/download?performed_by=kayhos
   Ghostbusters2016:
     title: Ghostbusters
     year: 2016
-    url_poster: https://theposterdb.com/api/assets/203166
+    url_poster: https://theposterdb.com/api/assets/203166/download?performed_by=kayhos
   Ghostbusters II:
     year: 1989
-    url_poster: https://theposterdb.com/api/assets/203165
+    url_poster: https://theposterdb.com/api/assets/203165/download?performed_by=kayhos
   "Ghostbusters: Afterlife":
-    url_poster: https://theposterdb.com/api/assets/203167
+    url_poster: https://theposterdb.com/api/assets/203167/download?performed_by=kayhos
 
   # Ghost in the Shell
   Ghost in the Shell:
@@ -1248,11 +1267,11 @@ metadata:
 
   # The Godfather Saga
   The Godfather:
-    url_poster: https://theposterdb.com/api/assets/4857
+    url_poster: https://theposterdb.com/api/assets/26383/download?performed_by=kayhos
   "The Godfather: Part II":
-    url_poster: https://theposterdb.com/api/assets/4858
+    url_poster: https://theposterdb.com/api/assets/26384/download?performed_by=kayhos
   "The Godfather: Part III":
-    url_poster: https://theposterdb.com/api/assets/4859
+    url_poster: https://theposterdb.com/api/assets/26385/download?performed_by=kayhos
 
   # Godzilla (Showa)
   Godzilla:
@@ -1397,6 +1416,13 @@ metadata:
   "Green Street Hooligans: Underground":
     year: 2013
     url_poster: https://theposterdb.com/api/assets/97154
+  
+  # Gremlins
+  Gremlins:
+    url_poster: https://theposterdb.com/api/assets/21150/download?performed_by=kayhos
+  "Gremlins 2: The New Batch":
+    alt_title: Gremlins 2
+    url_poster: https://theposterdb.com/api/assets/21151/download?performed_by=kayhos
 
   # Grown Ups
   Grown Ups:
@@ -1499,43 +1525,44 @@ metadata:
     year: 2011
     url_poster: https://theposterdb.com/api/assets/41766
 
-  # Harry Potter
+  # Harry Potter   # https://theposterdb.com/set/22525
+  # Another nice set (drawings) https://theposterdb.com/set/19383
   "Harry Potter and the Philosopher's Stone":
     alt_title: "Harry Potter and the Sorcerer's Stone"
     year: 2001
-    url_poster: https://theposterdb.com/api/assets/15700
+    url_poster: https://theposterdb.com/api/assets/36818/download?performed_by=kayhos
   Harry Potter and the Chamber of Secrets:
     year: 2002
-    url_poster: https://theposterdb.com/api/assets/15701
+    url_poster: https://theposterdb.com/api/assets/36819/download?performed_by=kayhos
   Harry Potter and the Prisoner of Azkaban:
     year: 2004
-    url_poster: https://theposterdb.com/api/assets/15702
+    url_poster: https://theposterdb.com/api/assets/36820/download?performed_by=kayhos
   Harry Potter and the Goblet of Fire:
     year: 2005
-    url_poster: https://theposterdb.com/api/assets/15703
+    url_poster: https://theposterdb.com/api/assets/36821/download?performed_by=kayhos
   Harry Potter and the Order of the Phoenix:
     year: 2007
-    url_poster: https://theposterdb.com/api/assets/15704
+    url_poster: https://theposterdb.com/api/assets/36822/download?performed_by=kayhos
   Harry Potter and the Half-Blood Prince:
     year: 2009
-    url_poster: https://theposterdb.com/api/assets/15705
+    url_poster: https://theposterdb.com/api/assets/36823/download?performed_by=kayhos
   "Harry Potter and the Deathly Hallows: Part 1":
     year: 2010
-    url_poster: https://theposterdb.com/api/assets/15706
+    url_poster: https://theposterdb.com/api/assets/36824/download?performed_by=kayhos
   "Harry Potter and the Deathly Hallows: Part 2":
     year: 2011
-    url_poster: https://theposterdb.com/api/assets/15707
+    url_poster: https://theposterdb.com/api/assets/36825/download?performed_by=kayhos
 
   # ... Has Fallen
   Olympus Has Fallen:
     year: 2013
-    url_poster: https://theposterdb.com/api/assets/71931
+    url_poster: https://theposterdb.com/api/assets/130397/download?performed_by=kayhos
   London Has Fallen:
     year: 2016
-    url_poster: https://theposterdb.com/api/assets/71932
+    url_poster: https://theposterdb.com/api/assets/130398/download?performed_by=kayhos
   Angel Has Fallen:
     year: 2019
-    url_poster: https://theposterdb.com/api/assets/71933
+    url_poster: https://theposterdb.com/api/assets/130399/download?performed_by=kayhos
 
   # Hellboy
   Hellboy:
@@ -2695,6 +2722,21 @@ metadata:
   "Pirates of the Caribbean: Dead Men Tell No Tales":
     url_poster: https://theposterdb.com/api/assets/49938
 
+  # Phantasm # https://theposterdb.com/set/78537
+  Phantasm:
+    url_poster: https://theposterdb.com/api/assets/125549/download?performed_by=kayhos
+  Phantasm 2:
+    url_poster: https://theposterdb.com/api/assets/125550/download?performed_by=kayhos
+  "Phantasm III: Lord of the Dead":
+    alt_title: "Phantasm 3"
+    url_poster: https://theposterdb.com/api/assets/125551/download?performed_by=kayhos
+  "Phantasm IV: Oblivions":
+    alt_title: "Phantasm 4"
+    url_poster: https://theposterdb.com/api/assets/125552/download?performed_by=kayhos
+  "Phantasm V: Ravager":
+    alt_title: "Phantasm 5"
+    url_poster: https://theposterdb.com/api/assets/125553/download?performed_by=kayhos
+
   # Pitch Perfect
   Pitch Perfect:
     year: 2012
@@ -3218,6 +3260,14 @@ metadata:
     alt_title: Sleepaway Camp 3
     year: 1989
     url_poster: https://theposterdb.com/api/assets/8458
+  "Sleepaway Camp IV: The Survivor":
+    year: 1992
+    alt_title: Sleepaway Camp 4
+    url_poster: https://theposterdb.com/api/assets/89066/download?performed_by=kayhos
+  "Return to Sleepaway Camp":
+    year: 2008
+    alt_title: Sleepaway Camp 5
+    url_poster: https://theposterdb.com/api/assets/89067/download?performed_by=kayhos
 
   # The Smurfs
   The Smurfs:
@@ -3301,35 +3351,48 @@ metadata:
 
   # Star Wars
   "Star Wars: Episode IV - A New Hope":
-    url_poster: https://theposterdb.com/api/assets/26626
+    sort_title: Star Wars 4
+    url_poster: https://theposterdb.com/api/assets/124622/download?performed_by=kayhos
   "Star Wars: Episode V - The Empire Strikes Back":
-    url_poster: https://theposterdb.com/api/assets/26627
+    sort_title: Star Wars 5
+    url_poster: https://theposterdb.com/api/assets/124624/download?performed_by=kayhos
   "Star Wars: Episode VI - Return of the Jedi":
-    url_poster: https://theposterdb.com/api/assets/26628
+    sort_title: Star Wars 6
+    url_poster: https://theposterdb.com/api/assets/124625/download?performed_by=kayhos
   "Star Wars: Episode I - The Phantom Menace":
-    url_poster: https://theposterdb.com/api/assets/172291
+    sort_title: Star Wars 1
+    url_poster: https://theposterdb.com/api/assets/124628/download?performed_by=kayhos
   "Star Wars: Episode II - Attack of the Clones":
-    url_poster: https://theposterdb.com/api/assets/172292
+    sort_title: Star Wars 2
+    url_poster: https://theposterdb.com/api/assets/124629/download?performed_by=kayhos
   "Star Wars: Episode III - Revenge of the Sith":
-    url_poster: https://theposterdb.com/api/assets/172293
+    sort_title: Star Wars 3
+    url_poster: https://theposterdb.com/api/assets/124630/download?performed_by=kayhos
+  "Star Wars: The Clone Wars"
+    year: 2008
+    url_poster: https://theposterdb.com/api/assets/124631/download?performed_by=kayhos
   "Star Wars: Episode VII - The Force Awakens":
-    url_poster: https://theposterdb.com/api/assets/26633
+    sort_title: Star Wars 7
+    url_poster: https://theposterdb.com/api/assets/124632/download?performed_by=kayhos
   "Rogue One: A Star Wars Story":
-    url_poster: https://theposterdb.com/api/assets/26634
+    url_poster: https://theposterdb.com/api/assets/124633/download?performed_by=kayhos
   "Star Wars: Episode VIII - The Last Jedi":
-    url_poster: https://theposterdb.com/api/assets/12518
+    sort_title: Star Wars 8
+    url_poster: https://theposterdb.com/api/assets/124634/download?performed_by=kayhos
   "Solo: A Star Wars Story":
-    url_poster: https://theposterdb.com/api/assets/26636
+    url_poster: https://theposterdb.com/api/assets/124635/download?performed_by=kayhos
   "Star Wars: Episode IX - The Rise of Skywalker":
-    url_poster: https://theposterdb.com/api/assets/26637
+    sort_title: Star Wars 9
+    url_poster: https://theposterdb.com/api/assets/124636/download?performed_by=kayhos
   "The Star Wars Holiday Special":
-    url_poster: https://theposterdb.com/api/assets/150261
-  "Star Wars: Ewoks":
-    url_poster: https://theposterdb.com/api/assets/152155
-  "Ewoks: The Battle for Andor":
-    url_poster: https://theposterdb.com/api/assets/14794
+    url_poster: https://theposterdb.com/api/assets/124623/download?performed_by=kayhos
+  "Ewoks: The Battle for Endor":
+    url_poster: https://theposterdb.com/api/assets/124627/download?performed_by=kayhos
   "The Ewok Adventure":
-    url_poster: https://theposterdb.com/api/assets/14798
+    alt_title: "Caravan of Courage"
+    url_poster: https://theposterdb.com/api/assets/124626/download?performed_by=kayhos
+  "Star Wars Lego Terrifying Tales":
+    url_poster: https://theposterdb.com/api/assets/179813/download?performed_by=kayhos
   # Starship Troopers
   Starship Troopers:
     url_poster: https://theposterdb.com/api/assets/5526

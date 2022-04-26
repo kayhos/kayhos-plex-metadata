@@ -39,6 +39,11 @@
 ### Flags for Overlays -> https://www.countries-ofthe-world.com/flags-of-the-world.html
 templates:
   dl_overlay:
+    optional:
+      - english
+      - french
+      - japanese
+      - audio_override
     default:
       overlay_name: <<collection_name>>
       meta_lang: en-US
@@ -53,33 +58,33 @@ templates:
     item_metadata_language: <<meta_lang>>
     #    sort_title: 末_<<collection_name>>
     collection_order: alpha
-    overlay:
-      optional:
-        - english
-        - french
-        - japanese
-        - audio_override
-      default:
-        english_not: en
-        french_not: fr
-        japanese_not: ja
-        overlay_name: <<collection_name>>
-        meta_lang: en-US
-      plex_search:
-        any:
-          label: <<audio_override>>
-          all:
-            audio_language:
-              - <<english>>
-              - <<french>>
-              - <<japanese>>
-            audio_language.not:
-              - <<english_not>>
-              - <<french_not>>
-              - <<japanese_not>>
-      build_collection: false
-      item_overlay: <<overlay_name>>
-      item_metadata_language: <<meta_lang>>
+  overlay:
+    optional:
+      - english
+      - french
+      - japanese
+      - audio_override
+    default:
+      english_not: en
+      french_not: fr
+      japanese_not: ja
+      overlay_name: <<collection_name>>
+      meta_lang: en-US
+    plex_search:
+      any:
+        label: <<audio_override>>
+        all:
+          audio_language:
+            - <<english>>
+            - <<french>>
+            - <<japanese>>
+          audio_language.not:
+            - <<english_not>>
+            - <<french_not>>
+            - <<japanese_not>>
+    build_collection: false
+    item_overlay: <<overlay_name>>
+    item_metadata_language: <<meta_lang>>
 collections:
   dl_english_french:
     template: { name: dl_overlay, english: en, french: fr }

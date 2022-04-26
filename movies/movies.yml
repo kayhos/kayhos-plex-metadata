@@ -29,24 +29,30 @@ templates:
     optional:
       - collection_poster
       - collection_movies
-    sort_title: "!!07_<<collection_name>>"
+      - collection_theme
+    #sort_title: "!!07_<<collection_name>>"
+    sort_title: "<<collection_name>>" # Blending collections with movies to be able to use quick navigation on rightside.
     tmdb_collection_details: <<tmdb_collection>>
     tmdb_movie: <<collection_movies>>
     collection_order: release.asc
     url_poster: <<collection_poster>>
     sync_mode: append
+    collection_mode: hide_items # Hide items contained in a collection.
+    url_theme: collection_theme
   extra_collections:
     optional:
       - extra_collection_poster
       - movies
       - collections
-    sort_title: "!!07_<<collection_name>>"
+    #sort_title: "!!07_<<collection_name>>"
+    sort_title: "<<collection_name>>" # Blending collections with movies to be able to use quick navigation on rightside.
     tmdb_collection: <<collections>>
     tmdb_movie: <<movies>>
     tmdb_collection_details: <<collections>>
     collection_order: release.asc
     url_poster: <<extra_collection_poster>>
     sync_mode: append
+    collection_mode: hide_items # Hide items contained in a collection.
 dynamic_collections:
   # Create movie linked collections as TMDB links Movies with
   # only 1 collection at a time (the correct way to do in Plex)
@@ -60,7 +66,7 @@ dynamic_collections:
     remove_prefix: "The"
     template_variables:
       collection_poster:
-        386534: https://theposterdb.com/api/assets/71930 # ... has fallen
+        386534: https://theposterdb.com/api/assets/130396/download?performed_by=kayhos # ... has fallen
         1565: https://theposterdb.com/api/assets/16165 # 28 days/weeks later
         125570: https://theposterdb.com/api/assets/82943 # 300
         3167: https://theposterdb.com/api/assets/6612 # Ace Ventura
@@ -77,48 +83,49 @@ dynamic_collections:
         93791: https://theposterdb.com/api/assets/17931 # Anchorman
         508334: https://theposterdb.com/api/assets/94121 # Angels in the ...
         531315: https://theposterdb.com/api/assets/23354 # Angry Birds
-        422834: https://theposterdb.com/api/assets/4818 # Ant-Man
+        422834: https://theposterdb.com/api/assets/162886/download?performed_by=kayhos # Ant-Man
         94039: https://theposterdb.com/api/assets/72089 # Astérix & Obélix Animation
         2396: https://image.tmdb.org/t/p/original/69TxXhLZNfJoWn8ZCKDqBKWRfRD.jpg # Astérix & Obélix Live-Action
-        1006: https://theposterdb.com/api/assets/163540 # Austin Powers
+        1006: https://theposterdb.com/api/assets/13969/download?performed_by=kayhos # Austin Powers
         531241: https://theposterdb.com/api/assets/219592 # Avenger's Spider-Man
-        86311: https://theposterdb.com/api/assets/4816 # The Avengers
-        264: https://theposterdb.com/api/assets/163128 # Back to the Future
-        14890: https://theposterdb.com/api/assets/163544 # Bad Boys
+        86311: https://theposterdb.com/api/assets/17636/download?performed_by=kayhos # The Avengers
+        264: https://theposterdb.com/api/assets/108170/download?performed_by=kayhos # Back to the Future
+        14890: https://theposterdb.com/api/assets/16797/download?performed_by=kayhos # Bad Boys
         423173: https://theposterdb.com/api/assets/32569 # Bad Santa
         120794: https://theposterdb.com/api/assets/27394 # Batman
         263: https://theposterdb.com/api/assets/8489 # Batman The Dark Knight
         153010: https://theposterdb.com/api/assets/22418 # Beauty and the Beast
         168880: https://theposterdb.com/api/assets/78599 # Beethoven
-        85861: https://theposterdb.com/api/assets/163980 # Beverly Hills Cop
-        91746: https://theposterdb.com/api/assets/163640 # Bill & Ted Most Excellent
-        735: https://theposterdb.com/api/assets/162380 # Blade
+        85861: https://theposterdb.com/api/assets/50617/download?performed_by=kayhos # Beverly Hills Cop
+        91746: https://theposterdb.com/api/assets/94519/download?performed_by=kayhos # Bill & Ted Most Excellent
+        735: https://theposterdb.com/api/assets/61562/download?performed_by=kayhos # Blade
         422837: https://theposterdb.com/api/assets/6081 # Blade Runner
         112636: https://theposterdb.com/api/assets/12496 # Blues Brothers
         87186: https://theposterdb.com/api/assets/80255 # Boondock Saints
         31562: https://theposterdb.com/api/assets/5420 # Bourne
-        747168: https://theposterdb.com/api/assets/139170 # Borat MovieFilms
-        442352: https://theposterdb.com/api/assets/195499 # Brice de Nice
+        747168: https://theposterdb.com/api/assets/110382/download?performed_by=kayhos # Borat MovieFilms
+        442352: https://theposterdb.com/api/assets/86261/download?performed_by=kayhos # Brice de Nice
         98580: https://theposterdb.com/api/assets/7921 # Candyman
-        131295: https://theposterdb.com/api/assets/4814 # Captain America
+        131295: https://theposterdb.com/api/assets/162888/download?performed_by=kayhos # Captain America
         257053: https://theposterdb.com/api/assets/160796 # Carrie
-        87118: https://theposterdb.com/api/assets/76085 # Cars
-        114783: https://theposterdb.com/api/assets/163134 # Cheaper by the dozen
+        87118: https://theposterdb.com/api/assets/132 # Cars
+        #114783: https://theposterdb.com/api/assets/163134 # Cheaper by the dozen
         10455: https://theposterdb.com/api/assets/176031 # Child's Play
-        420: https://theposterdb.com/api/assets/162017 # Chronicles of Narnia
+        420: https://theposterdb.com/api/assets/87088/download?performed_by=kayhos # Chronicles of Narnia
         2794: https://theposterdb.com/api/assets/163647 # Chronicles of Riddick
         86780: https://theposterdb.com/api/assets/34933 # Clash of titans
         177467: https://theposterdb.com/api/assets/37354 # Cloudy with a chane of meatballs
         165369: https://theposterdb.com/api/assets/7925 # The Collector
+        64751: https://theposterdb.com/api/assets/120345/download?performed_by=kayhos # Crank
         10893: https://theposterdb.com/api/assets/8102 # Critters
         9332: https://theposterdb.com/api/assets/908 # Crocodile Dundee
         9436: https://theposterdb.com/api/assets/111879 # The Crow
         448150: https://theposterdb.com/api/assets/6464 # Deadpool
-        86116: https://theposterdb.com/api/assets/160936 # Death Race
-        1570: https://theposterdb.com/api/assets/164773 # Die Hard
+        #86116: https://theposterdb.com/api/assets/160936 # Death Race
+        1570: https://theposterdb.com/api/assets/42514/download?performed_by=kayhos # Die Hard
         10456: https://theposterdb.com/api/assets/850 # Dirty Harry
         315595: https://theposterdb.com/api/assets/167996 # Disney Fairies
-        283579: https://theposterdb.com/api/assets/163697 # Divergent
+        283579: https://theposterdb.com/api/assets/102110/download?performed_by=kayhos # Divergent
         748919: https://theposterdb.com/api/assets/173568 # Don'T breathe
         123724: https://theposterdb.com/api/assets/80247 # Dracula (Hammer)
         221539: https://theposterdb.com/api/assets/106847 # Dracula (Universal)
@@ -126,49 +133,50 @@ dynamic_collections:
         96665: https://theposterdb.com/api/assets/12114 # Dumb and dumber
         726871: https://theposterdb.com/api/assets/197348 # Dune
         106498: https://theposterdb.com/api/assets/73505 # Dungeons and Dragons
-        330555: https://theposterdb.com/api/assets/163384 # Ernest ...
+        330555: https://theposterdb.com/api/assets/14508/download?performed_by=kayhos # Ernest ...
         525891: https://theposterdb.com/api/assets/164779 # Escape Plan
         115838: https://theposterdb.com/api/assets/185259 # Escape from ...
-        1960: https://theposterdb.com/api/assets/160866 # Evil Dead
-        126125: https://theposterdb.com/api/assets/164780 # The Expandables
+        1960: https://theposterdb.com/api/assets/7075/download?performed_by=kayhos # Evil Dead
+        126125: https://theposterdb.com/api/assets/4832/download?performed_by=kayhos # The Expandables
         38358: https://theposterdb.com/api/assets/8508 # Last Exorcism
         8864: https://theposterdb.com/api/assets/160873 # Final Destination
         435259: https://theposterdb.com/api/assets/27620 # Frantastic Beasts
         9485: https://theposterdb.com/api/assets/10036 # Fast & Furious
         137697: https://theposterdb.com/api/assets/22630 # Finding Nemo
+        105625: https://theposterdb.com/api/assets/19176/download?performed_by=kayhos # Firefly Family
         43563: https://theposterdb.com/api/assets/166239 # Friday
         9735: https://theposterdb.com/api/assets/8169 # Friday the 13th
-        2980: https://theposterdb.com/api/assets/174560 # Ghostbusters
+        2980: https://theposterdb.com/api/assets/203163/download?performed_by=kayhos # Ghostbusters
         44913: https://theposterdb.com/api/assets/8197 # Ghoulies
         23026: https://theposterdb.com/api/assets/69316 # Ghost in the Shell
         135468: https://theposterdb.com/api/assets/42723 # GI Joe
         575987: https://theposterdb.com/api/assets/87828 # The Girl - Millenium
-        230: https://theposterdb.com/api/assets/164789 # The Godfather
+        230: https://theposterdb.com/api/assets/26382/download?performed_by=kayhos # The Godfather
         374509: https://theposterdb.com/api/assets/125926 # Godzilla Showa
         374511: https://theposterdb.com/api/assets/171334 # Godzilla Heisei
         374512: https://theposterdb.com/api/assets/136302 # Godzilla Millenium
-        535313: https://theposterdb.com/api/assets/160971 # Godzilla // Monsterverse
-        89151: https://theposterdb.com/api/assets/161052 # Gremlins
-        284433: https://theposterdb.com/api/assets/4815 # Guardians of the galaxy
+        535313: https://theposterdb.com/api/assets/116534/download?performed_by=kayhos # Godzilla // Monsterverse
+        89151: https://theposterdb.com/api/assets/21149/download?performed_by=kayhos # Gremlins
+        284433: https://theposterdb.com/api/assets/162891/download?performed_by=kayhos # Guardians of the galaxy
         91361: https://theposterdb.com/api/assets/8202 # Halloween
         126209: https://theposterdb.com/api/assets/8219 # Halloween by Rob Zombie
-        9743: https://theposterdb.com/api/assets/164790 # Hannibal Lecter
-        1241: https://theposterdb.com/api/assets/162216 # Harry Potter
+        9743: https://theposterdb.com/api/assets/82925/download?performed_by=kayhos # Hannibal Lecter
+        1241: https://theposterdb.com/api/assets/36817/download?performed_by=kayhos # Harry Potter
         17235: https://theposterdb.com/api/assets/5160 # Hellboy
         8917: https://theposterdb.com/api/assets/8229 # Hellraiser
         8050: https://theposterdb.com/api/assets/63711 # Highlander
         121938: https://theposterdb.com/api/assets/191452 # The Hobbit
         9888: https://theposterdb.com/api/assets/68729 # Home Alone
         185103: https://theposterdb.com/api/assets/64833 # Hotel Transilvania
-        105625: https://theposterdb.com/api/assets/161041 # House of a 1000 Corpse
         89137: https://theposterdb.com/api/assets/57147 # How to train your dragon
-        131635: https://theposterdb.com/api/assets/163851 # Hunger Games
+        131635: https://theposterdb.com/api/assets/18154/download?performed_by=kayhos # Hunger Games
         393379: https://theposterdb.com/api/assets/54033 # the huntsman
         8354: https://theposterdb.com/api/assets/42959 # Ice Age
         468222: https://theposterdb.com/api/assets/28557 # Incredibles
-        84: https://theposterdb.com/api/assets/163391 # Indiana Jones
-        3601: https://theposterdb.com/api/assets/161060 # I know what you did last summer
+        84: https://theposterdb.com/api/assets/12872/download?performed_by=kayhos # Indiana Jones
+        3601: https://theposterdb.com/api/assets/58934/download?performed_by=kayhos # I know what you did last summer
         70068: https://theposterdb.com/api/assets/52647 # Ip Man
+        131292: https://theposterdb.com/api/assets/162892/download?performed_by=kayhos # Iron Man
         296429: https://theposterdb.com/api/assets/8052 # I spit on your grave original
         219691: https://theposterdb.com/api/assets/8054 # I Spit on your grave
         17178: https://image.tmdb.org/t/p/w1280/tLga6buvaRSBcFJT03WgSBZ1wAa.jpg # Jackass
@@ -187,21 +195,23 @@ dynamic_collections:
         295130: https://theposterdb.com/api/assets/8511 # Maze Runner
         51509: https://theposterdb.com/api/assets/166252 # Meet the parents
         86055: https://theposterdb.com/api/assets/103970 # Men in Black
-        87359: https://theposterdb.com/api/assets/2705 # Mission Impossible
+        87359: https://theposterdb.com/api/assets/21024/download?performed_by=kayhos # Mission Impossible
         # MonsterVerse under Godzilla
         9818: https://theposterdb.com/api/assets/160972 # Mortal Kombat
-        171732: https://theposterdb.com/api/assets/160933 # Rebirth of Mothra
         1733: https://theposterdb.com/api/assets/69966 # The Mummy
-        108693: https://theposterdb.com/api/assets/165424 # National Lampoon
+        108693: https://theposterdb.com/api/assets/60423/download?performed_by=kayhos # National Lampoon Vacation
         52984: https://theposterdb.com/api/assets/71196 # National Tresure
         8581: https://theposterdb.com/api/assets/115952 # Nightmare on Elm Street, add movies 6466, 23437
         382685: https://theposterdb.com/api/assets/10165 # Now you see me
         304: https://theposterdb.com/api/assets/102581 # Ocean's
-        94589: https://theposterdb.com/api/assets/77089 # Ong Bak
-        488924: https://theposterdb.com/api/assets/1231 # Paddington
+        94589: https://theposterdb.com/api/assets/47924/download?performed_by=kayhos # Ong Bak
+        488924: https://image.tmdb.org/t/p/original/fn8nOJd72KmhSOWm1E12EiC3JgZ.jpg # Paddington
         179919: https://theposterdb.com/api/assets/52875 # Percy Jackson
+        417481: https://theposterdb.com/api/assets/120355/download?performed_by=kayhos # Pere en flic
         55422: https://theposterdb.com/api/assets/59448 # Peter Pan
-        47770: https://theposterdb.com/api/assets/161301 # Phantasm
+        47770: https://theposterdb.com/api/assets/125548/download?performed_by=kayhos # Phantasm
+        937: https://theposterdb.com/api/assets/60458/download?performed_by=kayhos # The Original Pink Panther
+        130440: https://theposterdb.com/api/assets/53739/download?performed_by=kayhos # The Rebooted Pink Panther
         295: https://theposterdb.com/api/assets/49933 # Pirates of the Caribbean
         212279: https://theposterdb.com/api/assets/187440 # Piranha 212279, 104830
         9338: https://theposterdb.com/api/assets/5162 # Police Academy
@@ -212,6 +222,7 @@ dynamic_collections:
         256322: https://theposterdb.com/api/assets/8515 # The Purge
         5039: https://theposterdb.com/api/assets/44436 # Rambo
         98036: https://theposterdb.com/api/assets/161291 # Re-Animator
+        171732: https://image.tmdb.org/t/p/original/f0GuA4MVC0yd4xugeHw0g9kLnN3.jpg # Rebirth of Mothra
         163902: https://theposterdb.com/api/assets/7154 # RED
         17255: https://theposterdb.com/api/assets/11303 # Resident Evil
         133352: https://theposterdb.com/api/assets/8419 # Resident Evil Biohazard
@@ -224,8 +235,9 @@ dynamic_collections:
         2602: https://theposterdb.com/api/assets/804 # Scream
         427084: https://theposterdb.com/api/assets/65774 # The Secret Life of Pets
         286023: https://theposterdb.com/api/assets/9124 #Sharknado
+        86347: https://theposterdb.com/api/assets/10558/download?performed_by=kayhos # Short Circuit
         2150: https://theposterdb.com/api/assets/6997 # Shrek
-        47391: https://theposterdb.com/api/assets/161870 # Sleepaway Camp
+        47391: https://theposterdb.com/api/assets/8455/download?performed_by=kayhos # Sleepaway Camp
         9887: https://theposterdb.com/api/assets/6939 # Species
         556: https://theposterdb.com/api/assets/141787 # Spider-Man
         573436: https://theposterdb.com/api/assets/66912 # Spider-verse
@@ -239,7 +251,7 @@ dynamic_collections:
         135483: https://theposterdb.com/api/assets/112816 # Taken
         528: https://theposterdb.com/api/assets/13194 # Terminator
         111751: https://theposterdb.com/api/assets/8009 # Texas Chainsaw Massacre
-        32135: https://theposterdb.com/api/assets/160995 # Toxic Avenger
+        32135: https://image.tmdb.org/t/p/original/zoUjTU6rvZhfVK8q0sZSFb0QThO.jpg # Toxic Avenger
         # Toy Story is custom collection
         8650: https://theposterdb.com/api/assets/13251 # Transformers
         9518: https://theposterdb.com/api/assets/795 # The Transporter
@@ -268,9 +280,12 @@ dynamic_collections:
         328: 630322 # Jurassic Park
         9818: 664767, 460465 # Mortal Kombat
         8581: 6466, 23437 # Nightmare on elm street
+        304: 402900, 299 # Ocean's
         212279: 43593, 71668 # Piranha 3D
         171732: 39410, 39465, 1682, 36243 # Mothra
         111751: 9373, 10781 # Texas Chainsaw Massacre
+      collection_theme:
+        645: https://televisiontunes.com/song/download/4619 # James Bond
 
 collections:
   ######################################################

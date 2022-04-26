@@ -31,7 +31,7 @@ templates:
     sort_title: "!!01_<<num>>_<<collection_name>>"
     sync_mode: sync
     url_poster: <<poster>>
-    smart_label: release.asc
+    smart_label: title.asc
   Collection:
     optional:
       - poster
@@ -43,23 +43,33 @@ collections:
   ###########################
   #     Charts Trending      #
   ###########################
-  Trending Movies:
+  Trending now:
     template:
       name: Chart
       num: 1
       poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/trending.jpg
-    trakt_trending: 15
-    tmdb_trending_daily: 15
-    tmdb_trending_weekly: 15
-    summary: "Top trending movies from TheMovieDB, Trakt."
+    trakt_trending: 20
+    schedule: hourly(1), hourly(2), hourly(3), hourly(4), hourly(5), hourly(6), hourly(7), hourly(8), hourly(9), hourly(10), hourly(11), hourly(12), hourly(13), hourly(14), hourly(15), hourly(16), hourly(17), hourly(18), hourly(19), hourly(20), hourly(21), hourly(22), hourly(23)
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+    test: true
+    summary: Shows Trending now on Trakt.tv
   New Releases:
     template:
       name: Chart
       num: 2
       poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/new.jpg
-    tmdb_now_playing: 15
-    trakt_watched_daily: 15
+    smart_filter:
+      limit: 10
+      sort_by: release.desc
+      release: 60
+  GrabBoxOffice:
+    trakt_collected_daily: 15
     imdb_chart: box_office
+    build_collection: false
+    radarr_add: true
+    show_missing: true
   Popular Movies:
     template:
       name: Chart
@@ -69,6 +79,7 @@ collections:
     imdb_chart: popular_movies
     trakt_popular: 15
     stevenlu_popular: true
+    radarr_add: true
     summary: "Popular movies from IMDB, StevenLu, TheMovieDB and Trakt."
   # NOT ENOUGH RESULTS TO BE PERTINENT
   #  Box Office:

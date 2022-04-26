@@ -26,7 +26,8 @@
 templates:
   ## DIRECTOR TEMPLATE
   director_collection:
-    tmdb_person: <<director>>
+    tmdb_person: <<value>>
+    sort_title: "!!05_<<collection_name>>"
     smart_filter:
       all:
         director: tmdb
@@ -45,19 +46,7 @@ templates:
     trakt_list: <<trakt_supplement_list>>
     imdb_list: <<imdb_supplement_list>>
     sync_mode: append
-  ## THEME TEMPLATE
-  ## For fake genres
-  theme_collection:
-    optional:
-      - theme_collection_poster
-      - imdb_supplement_list
-      - trakt_supplement_list
-    sort_title: "!!03_<<collection_name>>"
-    smart_label: title.asc
-    trakt_list: <<trakt_supplement_list>>
-    imdb_list: <<imdb_supplement_list>>
-    url_poster: <<theme_collection_poster>>
-    sync_mode: append
+  ### DECADES
   decade_collection:
     optional:
       - decade_collection_poster
@@ -152,97 +141,3 @@ dynamic_collections:
         Music: https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=music
         Sports: https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=sport
 #      trakt_supplement_list:
-collections:
-  "Theme: Apocalypse":
-    template:
-      name: theme_collection
-      genre: Apocalypse
-      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/poster_not_found.png
-      trakt_supplement_list: https://trakt.tv/users/crims7392/lists/apocalyptic-dystopian-films?sort=rank,asc
-  "Theme: Aliens":
-    template:
-      name: theme_collection
-      genre: Aliens
-      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/poster_not_found.png
-    tmdb_keyword: 9951
-  "Theme: Cyberpunk":
-    template:
-      name: theme_collection
-      genre: Cyberpunk
-      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/poster_not_found.png
-      trakt_supplement_list: https://trakt.tv/users/wintermute2517/lists/cyberpunk-movies?sort=rank,asc
-    tmdb_keyword: 12190
-  "Theme: Heist":
-    template:
-      name: theme_collection
-      genre: Heist
-      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/poster_not_found.png
-      trakt_supplement_list: https://trakt.tv/users/hdlists/lists/best-heist-movies-of-all-time?sort=rank,asc
-  "Theme: Kaijus":
-    template:
-      name: theme_collection
-      genre: Kaiju
-      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/poster_not_found.png
-      trakt_supplement_list: https://trakt.tv/lists/19521206
-    letterboxd_list: https://letterboxd.com/dalki/list/kaijus/
-    tmdb_keyword: 161791, 11100
-  "Theme: Martial Arts":
-    template:
-      name: theme_collection
-      genre: Martial Arts
-      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/poster_not_found.png
-      imdb_supplement_list:
-        - "https://www.imdb.com/list/ls000099643/"
-        - "https://www.imdb.com/list/ls068611186/"
-        - "https://www.imdb.com/list/ls068378513/"
-        - "https://www.imdb.com/list/ls090404120/"
-    tmdb_keyword: 779
-    summary: Martial Arts film is a sub-genre of action films that feature numerous martial arts combat between characters. These combats are usually the films' primary appeal and entertainment value, and often are a method of storytelling and character expression and development. Martial Arts are frequently featured in training scenes and other sequences in addition to fights. Martial Arts films commonly include other types of action, such as hand-to-hand combat, stuntwork, chases, and gunfights.
-  "Theme: Mindfuck":
-    template:
-      name: theme_collection
-      genre: Mindfuck
-      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/poster_not_found.png
-    mdblist_list: https://mdblist.com/lists/hdlists/mindfuck-movies
-  "Theme: Ninjas":
-    template:
-      name: theme_collection
-      genre: Ninja
-      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/poster_not_found.png
-    letterboxd_list: https://letterboxd.com/kultgestalt/list/ninjas/
-    tmdb_keyword: 10278, 3075
-  "Theme: Stand Up Comedy":
-    template:
-      name: theme_collection
-      genre: Stand Up
-      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/poster_not_found.png
-      imdb_supplement_list:
-        - https://www.imdb.com/list/ls070221411/
-        - https://www.imdb.com/list/ls086584751/
-        - https://www.imdb.com/list/ls086022668/
-        - https://www.imdb.com/list/ls049792208/
-    tmdb_keyword: 9716
-    summary: Stand-up comedy is a comedic style in which a comedian performs in front of a live audience, speaking directly to them through a microphone. Comedians give the illusion that they are dialoguing, but in actuality, they are monologuing a grouping of humorous stories, jokes and one-liners, typically called a shtick, routine, act, or set. Some stand-up comedians use props, music or magic tricks to enhance their acts. Stand-up comedians perform quasi-autobiographical and fictionalized extensions of their offstage selves.
-  "Theme: Sword & Sorcery":
-    template:
-      name: theme_collection
-      genre: Sword & Sorcery
-      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/poster_not_found.png
-      imdb_supplement_list: https://www.imdb.com/list/ls022909805
-    tmdb_keyword: 234213
-    summary: Sword and Sorcery film is a sub-genre of Fantasy that tend to be more plot-driven. These films rely on heavy action and battle scenes. Common themes in Sword and Sorcery films include a rescue mission, saving a princess, and battling a fantastical monster. The worlds and characters in these films are often much less developed than in other fantasy sub-genres. Of all the Fantasy sub-genres, Sword and Sorcery is most likely to be geared towards a younger audience, as many of these films are animated.
-  "Theme: Vampire":
-    template:
-      name: theme_collection
-      genre: Vampire
-      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/poster_not_found.png
-      trakt_supplement_list: https://trakt.tv/users/kier/lists/vampires-vampires-vampires?sort=rank,asc
-    letterboxd_list: https://letterboxd.com/doubleaw/list/vampire-movies/
-    tmdb_keyword: 3133
-  "Theme: Zombie":
-    template:
-      name: theme_collection
-      genre: Zombie
-      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/poster_not_found.png
-      trakt_supplement_list: https://trakt.tv/users/simiansays/lists/zombies?sort=rank,asc
-    tmdb_keyword: 12377

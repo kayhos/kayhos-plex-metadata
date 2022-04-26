@@ -26,56 +26,70 @@
 ######################################################
 templates:
   Chart:
+    optional:
+      - poster
     sort_title: "!!01_<<num>><<collection_name>>"
     sync_mode: sync
     smart_label: title.asc
+    url_poster: <<poster>>
+  Collection:
+    optional:
+      - poster
+    sort_title: "!!02_<<num>>_<<collection_name>>"
+    sync_mode: append
+    url_poster: <<poster>>
+    smart_label: release.asc
 collections:
   ######################################################
   #                Chart Collections                  #
   ######################################################
-  Trending Shows:
+  Trending now:
     template:
       name: Chart
       num: 1
-    trakt_trending: 10
-    tmdb_trending_daily: 10
-    summary: Shows Trending today across the internet on TheMovieDB and Trakt
-    collection_order: audience_rating.desc
-    url_poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/trending.jpg
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/trending.jpg
+    trakt_trending: 20
+    schedule: hourly(1), hourly(2), hourly(3), hourly(4), hourly(5), hourly(6), hourly(7), hourly(8), hourly(9), hourly(10), hourly(11), hourly(12), hourly(13), hourly(14), hourly(15), hourly(16), hourly(17), hourly(18), hourly(19), hourly(20), hourly(21), hourly(22), hourly(23)
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+    test: true
+    summary: Shows Trending today across the internet on Trakt.tv
+    sonarr_add: true
   Popular Shows:
     template:
       name: Chart
       num: 2
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/popular.jpg
     tmdb_top_rated: 30
     trakt_popular: 30
     imdb_chart: popular_shows
     summary: The most popular tv shows of all time as reported by TheMovieDB and Trakt.
-    collection_order: audience_rating.desc
-    url_poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/popular.jpg
     schedule: daily
+    sonarr_add: true
   Top Rated Shows:
     template:
       name: Chart
       num: 4
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/top-rated.jpg
     trakt_recommended_monthly: 10
     tmdb_top_rated: 10
     summary: Top Rated Movies across the internet on IMDB, TheMovieDB and Trakt.
-    collection_order: audience_rating.desc
-    url_poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/top-rated.jpg
     schedule: daily
   IMDb Top 250:
     template:
       name: Chart
       num: 41
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/imdb.jpg
     imdb_list:
       url: https://www.imdb.com/search/title/?groups=top_250&count=250&sort=user_rating,desc
     collection_order: custom
-    url_poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/imdb.jpg
     schedule: monthly(1), monthly(15)
   Top 100 Simpsons Episodes:
     template:
       name: Chart
       num: 7
+      poster: https://theposterdb.com/api/assets/35585
     collection_level: episode
     plex_search:
       type: episodes
@@ -89,16 +103,16 @@ collections:
     template:
       name: Chart
       num: 5
-    trakt_watched_daily: 10
-    summary: Most watched TV shows today according to Trakt.
-    : custom
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/common/new.jpg
+    trakt_collected_daily: 10
+    summary: Most collected TV shows today according to Trakt.
 
   ####################################
   #     Functional   Collections     #
   ####################################
   TV Pilots:
+    template:
+      name: Collection
+      poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/collections/tv-pilots.jpg
     collection_level: episode
-    sort_title: "!!02_Unseen Pilots"
     plex_pilots: true
-    url_poster: https://raw.githubusercontent.com/kayhos/kayhos-plex-metadata/main/assets/genre/tv-pilots.jpg
-    sync_mode: append

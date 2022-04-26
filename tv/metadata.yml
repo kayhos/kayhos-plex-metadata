@@ -89,10 +89,12 @@ metadata:
                 url_poster: https://theposterdb.com/api/assets/31999
 
     "The Bad Batch":
-        url_poster: https://theposterdb.com/api/assets/150117
+        url_poster: https://theposterdb.com/api/assets/124662/download?performed_by=kayhos
         seasons:
             1:
-                url_poster: https://theposterdb.com/api/assets/169460
+                url_poster: https://theposterdb.com/api/assets/151662/download?performed_by=kayhos
+            #2: 
+            #    url_poster: 
     Batman:
         alt_title: Batman The Series
         url_poster: https://theposterdb.com/api/assets/177511
@@ -114,7 +116,24 @@ metadata:
                 url_poster: https://theposterdb.com/api/assets/123732
             3: 
                 url_poster: https://theposterdb.com/api/assets/183880
-
+    Better Call Saul:
+        year: 2015
+        url_poster: https://theposterdb.com/api/assets/18933/download?performed_by=kayhos
+        seasons:
+            0:
+                url_poster: https://theposterdb.com/api/assets/20569/download?performed_by=kayhos
+            1: 
+                url_poster: https://theposterdb.com/api/assets/18934/download?performed_by=kayhos
+            2: 
+                url_poster: https://theposterdb.com/api/assets/18935/download?performed_by=kayhos
+            3: 
+                url_poster: https://theposterdb.com/api/assets/18936/download?performed_by=kayhos
+            4: 
+                url_poster: https://theposterdb.com/api/assets/18937/download?performed_by=kayhos
+            5: 
+                url_poster: https://theposterdb.com/api/assets/40254/download?performed_by=kayhos
+            6: 
+                url_poster: https://theposterdb.com/api/assets/227568/download?performed_by=kayhos
     The Big Bang Theory:
         url_poster: https://theposterdb.com/api/assets/36303
         seasons:
@@ -236,13 +255,13 @@ metadata:
     Doom Patrol:
         alt_title: "DC's Doom Patrol"
         url_poster: https://theposterdb.com/api/assets/36138
-            seasons:
-                1:
-                    url_poster: https://theposterdb.com/api/assets/36139
-                2:
-                    url_poster: https://theposterdb.com/api/assets/84664
-                3:
-                    url_poster: https://theposterdb.com/api/assets/176773
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/36139
+            2:
+                url_poster: https://theposterdb.com/api/assets/84664
+            3:
+                url_poster: https://theposterdb.com/api/assets/176773
     "Eureka":
         url_poster: https://theposterdb.com/api/assets/90691
 
@@ -383,7 +402,8 @@ metadata:
     "Hogwarts Tournament of Houses":
         alt_title: "Harry Potter: Hogwarts Tournament of Houses"
         url_poster: https://theposterdb.com/api/assets/201229
-    Inhumans:
+    "Marvel's Inhumans":
+        alt_title: Inhumans
         url_poster: https://theposterdb.com/api/assets/201679
         seasons:
             1:
@@ -503,12 +523,12 @@ metadata:
 
     # Star Wars (https://theposterdb.com/set/15879)
     "The Mandalorian":
-        url_poster: https://theposterdb.com/api/assets/150110
+        url_poster: https://theposterdb.com/api/assets/124658/download?performed_by=kayhos
         seasons:
             1:
-                url_poster: https://theposterdb.com/api/assets/169380
+                url_poster: https://theposterdb.com/api/assets/124659/download?performed_by=kayhos
             2:
-                url_poster: https://theposterdb.com/api/assets/169381               
+                url_poster: https://theposterdb.com/api/assets/124660/download?performed_by=kayhos            
     "Marvel's Ms Marvel":
         url_poster: https://theposterdb.com/api/assets/219837
 
@@ -690,32 +710,84 @@ metadata:
 
     # Star Wars
     "Star Wars The Clone Wars (2008)":
-        url_poster: https://theposterdb.com/api/assets/150120
+        year: 2008
+        url_poster: https://theposterdb.com/api/assets/124638/download?performed_by=kayhos
+        seasons:
+            0: # 60 episodes
+                url_poster: https://theposterdb.com/api/assets/124639/download?performed_by=kayhos
+            1: # 22 episodes
+                url_poster: https://theposterdb.com/api/assets/124640/download?performed_by=kayhos
+            2: # 22 episodes
+                url_poster: https://theposterdb.com/api/assets/124641/download?performed_by=kayhos
+            3: # 22 episodes
+                url_poster: https://theposterdb.com/api/assets/124642/download?performed_by=kayhos
+            4: # 22 episodes
+                url_poster: https://theposterdb.com/api/assets/124643/download?performed_by=kayhos
+            5: # 20 episodes
+                url_poster: https://theposterdb.com/api/assets/124644/download?performed_by=kayhos
+            6: # 13 episodes
+                url_poster: https://theposterdb.com/api/assets/124645/download?performed_by=kayhos
+            7: # 12 episodes
+                url_poster: https://theposterdb.com/api/assets/124646/download?performed_by=kayhos
     "Star Wars The Clone Wars (2003)":
-        url_poster: https://theposterdb.com/api/assets/150139
+        year: 2003
+        url_poster: https://theposterdb.com/api/assets/124820/download?performed_by=kayhos
+        seasons:
+            1: # 2003 10 episodes
+                url_poster: https://theposterdb.com/api/assets/27415/download?performed_by=kayhos
+            2: # 2004 10 episodes
+                url_poster: https://theposterdb.com/api/assets/27416/download?performed_by=kayhos
+            3: 
+                url_poster: https://theposterdb.com/api/assets/27417/download?performed_by=kayhos
+    "Star Wars Resistance": 
+        url_poster: https://theposterdb.com/api/assets/124653/download?performed_by=kayhos
+        seasons:
+            0:
+                url_poster: https://theposterdb.com/api/assets/124654/download?performed_by=kayhos
+            1:
+                url_poster: https://theposterdb.com/api/assets/124655/download?performed_by=kayhos
+            2:
+                url_poster: https://theposterdb.com/api/assets/124656/download?performed_by=kayhos
+    "Star Wars Rebels":
+        url_poster: https://theposterdb.com/api/assets/124647/download?performed_by=kayhos
+        seasons:
+            0:
+                url_poster: https://theposterdb.com/api/assets/124648/download?performed_by=kayhos
+            1:
+                url_poster: https://theposterdb.com/api/assets/124649/download?performed_by=kayhos
+            2:
+                url_poster: https://theposterdb.com/api/assets/124650/download?performed_by=kayhos
+            3:
+                url_poster: https://theposterdb.com/api/assets/124651/download?performed_by=kayhos
+            4:
+                url_poster: https://theposterdb.com/api/assets/124652/download?performed_by=kayhos
+    "Star Wars Forces of Destiny":
+        url_poster: https://theposterdb.com/api/assets/124657/download?performed_by=kayhos
+    "Star Wars Droids":
+        url_poster: https://theposterdb.com/api/assets/124818/download?performed_by=kayhos
+        seasons:
+            0:
+                url_poster: https://theposterdb.com/api/assets/126112/download?performed_by=kayhos
+            1:
+                url_poster: https://theposterdb.com/api/assets/126113/download?performed_by=kayhos
+    "The Book of Boba Fett":
+        url_poster: https://theposterdb.com/api/assets/124664/download?performed_by=kayhos
         seasons:
             1:
-                url_poster: https://theposterdb.com/api/assets/169348
-            2:
-                url_poster: https://theposterdb.com/api/assets/169349
-    "Star Wars Resistance": 
-        url_poster: https://theposterdb.com/api/assets/150125 
-    "Star Wars Rebels":
-        url_poster: https://theposterdb.com/api/assets/150130 
-    "Star Wars Forces of Destiny":
-        url_poster: https://theposterdb.com/api/assets/150136 
-    "Star Wars Droids":
-        url_poster: https://theposterdb.com/api/assets/152220
-    "The Book of Boba Fett":
-        url_poster: https://theposterdb.com/api/assets/187143 
-    "Star Wars Visions":
-        url_poster: https://theposterdb.com/api/assets/177588 
-    "Star Wars Lego Terrifying Tales":
-        url_poster: https://theposterdb.com/api/assets/189029 
+                url_poster: https://theposterdb.com/api/assets/186861/download?performed_by=kayhos
+    "Star Wars: Visions":
+        url_poster: https://theposterdb.com/api/assets/179814/download?performed_by=kayhos
+        seasons:
+            1:
+                url_poster: https://theposterdb.com/api/assets/178008/download?performed_by=kayhos
+
     "Star Wars Galaxy of Adventures":
         url_poster: https://theposterdb.com/api/assets/152329 
+
     "Star Wars Lego Holiday Special":
         url_poster: https://theposterdb.com/api/assets/150282 
+    "Star Wars: Ewoks":
+      url_poster: https://theposterdb.com/api/assets/152155
  
     # Stargate (https://theposterdb.com/set/89032)
     "Stargate SG-1":

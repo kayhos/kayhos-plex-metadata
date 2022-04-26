@@ -47,7 +47,7 @@ collections:
     template:
       name: Award
       num: 5
-      poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Awards/Oscar.png
+      poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Awards/Ocar.png
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
       limit: 200
@@ -56,7 +56,7 @@ collections:
     template:
       name: Award
       num: 5
-      poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Awards/Oscar.png
+      poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Awards/Ocar.png
     summary: Best Picture Oscar winning movies.
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=best_picture_winner
@@ -65,7 +65,7 @@ collections:
     template:
       name: Award
       num: 5
-      poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Awards/Oscar.png
+      poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Awards/Ocar.png
     summary: Best Picture Oscar winning movies.
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature,tv_movie&groups=best_director_winner&sort=release_date,desc
@@ -74,7 +74,7 @@ collections:
     template:
       name: Award
       num: 5
-      poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Awards/Oscar.png
+      poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Awards/Ocar.png
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature,tv_movie&groups=oscar_nominee&sort=release_date,desc
       limit: 200
